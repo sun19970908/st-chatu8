@@ -51620,7 +51620,7 @@ function collectError(type, message, error) {
     const existing = errorEntries[i];
     if (existing.signature === signature && timestamp - (existing.lastSeen || existing.timestamp) <= ERROR_DEDUPE_WINDOW_MS) {
       mergeEntry(existing, details, timestamp);
-      console.error(`[${extensionName}] ${type}: ${message}`, error);
+      console.error(`[system] ${type}: ${message}`, error);
       return;
     }
   }
@@ -51645,7 +51645,7 @@ function collectError(type, message, error) {
   if (errorEntries.length > MAX_ERROR_ENTRIES) {
     errorEntries.shift();
   }
-  console.error(`[${extensionName}] ${type}: ${message}`, error);
+  console.error(`[system] ${type}: ${message}`, error);
 }
 function installGlobalErrorHandler() {
   if (globalErrorHandlerInstalled) return;
@@ -53415,7 +53415,7 @@ function initSendData(settingsModal) {
       if (!conet.chatMetadata) conet.chatMetadata = {};
       if (!conet.chatMetadata.variables) conet.chatMetadata.variables = {};
       conet.chatMetadata.variables.zhihuiji = settings4.scriptEnabled;
-      await saveMetadata();
+      //await saveMetadata();
       clearInterval(intervalId);
     }
   }, 2e3);
@@ -53474,7 +53474,7 @@ function initSendData(settingsModal) {
           }
         }
       }
-      await saveMetadata();
+      //await saveMetadata();
     }
   });
 }
@@ -106996,7 +106996,7 @@ function parsePrompts(text) {
   const matches = [...text.matchAll(pattern)];
   return matches.map((match) => {
     let content = match[1].trim().replaceAll("\n", "");
-    content = content.replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":");
+    content = content.replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":").replace(/🥒/g, "肉棒").replace(/🦪/g, "小穴").replace(/🐢/g, "龟头").replace(/👄/g, "阴唇").replace(/💎/g, "阴蒂").replace(/🍒/g, "乳头").replace(/🐄/g, "乳房").replace(/🌻/g, "肛门").replace(/🥛/g, "精液").replace(/👏/g, "做爱").replace(/🦌/g, "自慰").replace(/☀️/g, "操");
     return content;
   });
 }
