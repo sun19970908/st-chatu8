@@ -125,26 +125,26 @@ import { eventSource as eventSource23 } from "../../../../script.js";
 import { extension_settings as extension_settings50 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced30 } from "../../../../script.js";
 import { extension_settings as extension_settings51 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced31 } from "../../../../script.js";
-import { eventSource as eventSource24 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced31, eventSource as eventSource24 } from "../../../../script.js";
+import { eventSource as eventSource25 } from "../../../../script.js";
 import { extension_settings as extension_settings52 } from "../../../extensions.js";
 import { extension_settings as extension_settings53 } from "../../../extensions.js";
-import { eventSource as eventSource25, saveChatConditional as saveChatConditional4 } from "../../../../script.js";
+import { eventSource as eventSource26, saveChatConditional as saveChatConditional4 } from "../../../../script.js";
 import { getContext as getContext14 } from "../../../st-context.js";
 import { extension_settings as extension_settings54 } from "../../../extensions.js";
-import { eventSource as eventSource26 } from "../../../../script.js";
-import { eventSource as eventSource27, event_types as event_types4 } from "../../../../script.js";
+import { eventSource as eventSource27 } from "../../../../script.js";
+import { eventSource as eventSource28, event_types as event_types4 } from "../../../../script.js";
 import { extension_settings as extension_settings55 } from "../../../extensions.js";
 import { getContext as getContext15 } from "../../../st-context.js";
 import { extension_settings as extension_settings83 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced56 } from "../../../../script.js";
-import { eventSource as eventSource34, event_types as event_types5, saveSettingsDebounced as saveSettingsDebounced57, saveChatConditional as saveChatConditional5, saveMetadata } from "../../../../script.js";
+import { eventSource as eventSource35, event_types as event_types5, saveSettingsDebounced as saveSettingsDebounced57, saveChatConditional as saveChatConditional5, saveMetadata } from "../../../../script.js";
 import { extension_settings as extension_settings84 } from "../../../extensions.js";
 import { getContext as getContext17 } from "../../../st-context.js";
 import { extension_settings as extension_settings85 } from "../../../extensions.js";
 import { getContext as getContext18 } from "../../../st-context.js";
-import { eventSource as eventSource35 } from "../../../../script.js";
 import { eventSource as eventSource36 } from "../../../../script.js";
+import { eventSource as eventSource37 } from "../../../../script.js";
 import { getContext as getContext19 } from "../../../st-context.js";
 import { extension_settings as extension_settings86 } from "../../../extensions.js";
 import { extension_settings as extension_settings89 } from "../../../extensions.js";
@@ -156,8 +156,8 @@ import { extension_settings as extension_settings91 } from "../../../extensions.
 import { extension_settings as extension_settings92 } from "../../../extensions.js";
 import { extension_settings as extension_settings95 } from "../../../extensions.js";
 import { extension_settings as extension_settings96 } from "../../../extensions.js";
-import { eventSource as eventSource38, saveSettingsDebounced as saveSettingsDebounced63 } from "../../../../script.js";
-import { eventSource as eventSource39, saveSettingsDebounced as saveSettingsDebounced64 } from "../../../../script.js";
+import { eventSource as eventSource39, saveSettingsDebounced as saveSettingsDebounced63 } from "../../../../script.js";
+import { eventSource as eventSource40, saveSettingsDebounced as saveSettingsDebounced64 } from "../../../../script.js";
 import { extension_settings as extension_settings97 } from "../../../extensions.js";
 import { extension_settings as extension_settings98 } from "../../../extensions.js";
 import { extension_settings as extension_settings99 } from "../../../extensions.js";
@@ -166,22 +166,22 @@ import { extension_settings as extension_settings100 } from "../../../extensions
 import { saveSettingsDebounced as saveSettingsDebounced66 } from "../../../../script.js";
 import { extension_settings as extension_settings101 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced67 } from "../../../../script.js";
-import { eventSource as eventSource40 } from "../../../../script.js";
-import { extension_settings as extension_settings102 } from "../../../extensions.js";
 import { eventSource as eventSource41 } from "../../../../script.js";
+import { extension_settings as extension_settings102 } from "../../../extensions.js";
+import { eventSource as eventSource42 } from "../../../../script.js";
 import { extension_settings as extension_settings103 } from "../../../extensions.js";
 import { extension_settings as extension_settings104 } from "../../../extensions.js";
 import { extension_settings as extension_settings105 } from "../../../extensions.js";
 import { getContext as getContext21 } from "../../../st-context.js";
 import { extension_settings as extension_settings106 } from "../../../extensions.js";
 import { extension_settings as extension_settings107 } from "../../../extensions.js";
-import { eventSource as eventSource42, saveSettingsDebounced as saveSettingsDebounced68 } from "../../../../script.js";
+import { eventSource as eventSource43, saveSettingsDebounced as saveSettingsDebounced68 } from "../../../../script.js";
 import { extension_settings as extension_settings114, extensionTypes } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced71, eventSource as eventSource46, event_types as event_types8, reloadCurrentChat, saveChatConditional as saveChatConditional6, chat as chat3, messageFormatting as messageFormatting3, saveChat } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced71, eventSource as eventSource47, event_types as event_types8, reloadCurrentChat, saveChatConditional as saveChatConditional6, chat as chat3, messageFormatting as messageFormatting3, saveChat } from "../../../../script.js";
 import { extension_settings as extension_settings56 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced32, eventSource as eventSource28 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced32, eventSource as eventSource29 } from "../../../../script.js";
 import { extension_settings as extension_settings60 } from "../../../extensions.js";
-import { saveChatDebounced as saveChatDebounced2, saveSettingsDebounced as saveSettingsDebounced35, eventSource as eventSource29 } from "../../../../script.js";
+import { saveChatDebounced as saveChatDebounced2, saveSettingsDebounced as saveSettingsDebounced35, eventSource as eventSource30 } from "../../../../script.js";
 import { extension_settings as extension_settings57 } from "../../../extensions.js";
 import { extension_settings as extension_settings59 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced34 } from "../../../../script.js";
@@ -196,7 +196,7 @@ import { extension_settings as extension_settings62 } from "../../../extensions.
 import { saveSettingsDebounced as saveSettingsDebounced37 } from "../../../../script.js";
 import { extension_settings as extension_settings64 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced38 } from "../../../../script.js";
-import { eventSource as eventSource30 } from "../../../../script.js";
+import { eventSource as eventSource31 } from "../../../../script.js";
 import { extension_settings as extension_settings63 } from "../../../extensions.js";
 import { extension_settings as extension_settings66 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced40 } from "../../../../script.js";
@@ -224,16 +224,16 @@ import { saveSettingsDebounced as saveSettingsDebounced49 } from "../../../../sc
 import { saveSettingsDebounced as saveSettingsDebounced50 } from "../../../../script.js";
 import { extension_settings as extension_settings77 } from "../../../extensions.js";
 import { extension_settings as extension_settings79 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced52, eventSource as eventSource31 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced52, eventSource as eventSource32 } from "../../../../script.js";
 import { extension_settings as extension_settings78 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced51 } from "../../../../script.js";
 import { extension_settings as extension_settings80 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced53, eventSource as eventSource32 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced53, eventSource as eventSource33 } from "../../../../script.js";
 import { extension_settings as extension_settings81 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced54, eventSource as eventSource33 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced54, eventSource as eventSource34 } from "../../../../script.js";
 import { getContext as getContext16 } from "../../../st-context.js";
 import { extension_settings as extension_settings88 } from "../../../extensions.js";
-import { saveSettingsDebounced as saveSettingsDebounced58, eventSource as eventSource37 } from "../../../../script.js";
+import { saveSettingsDebounced as saveSettingsDebounced58, eventSource as eventSource38 } from "../../../../script.js";
 import { extension_settings as extension_settings82 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced55 } from "../../../../script.js";
 import { getContext as getContext20 } from "../../../st-context.js";
@@ -245,13 +245,13 @@ import { saveSettingsDebounced as saveSettingsDebounced62 } from "../../../../sc
 import { extension_settings as extension_settings108 } from "../../../extensions.js";
 import { saveSettingsDebounced as saveSettingsDebounced69 } from "../../../../script.js";
 import { extension_settings as extension_settings109 } from "../../../extensions.js";
-import { eventSource as eventSource43, event_types as event_types6 } from "../../../../script.js";
+import { eventSource as eventSource44, event_types as event_types6 } from "../../../../script.js";
 import { extension_settings as extension_settings110 } from "../../../extensions.js";
 import { getContext as getContext22 } from "../../../st-context.js";
 import { extension_settings as extension_settings113 } from "../../../extensions.js";
-import { eventSource as eventSource45, event_types as event_types7 } from "../../../../script.js";
+import { eventSource as eventSource46, event_types as event_types7 } from "../../../../script.js";
 import { extension_settings as extension_settings112 } from "../../../extensions.js";
-import { eventSource as eventSource44 } from "../../../../script.js";
+import { eventSource as eventSource45 } from "../../../../script.js";
 
 var __defProp = Object.defineProperty;
 var __getOwnPropNames = Object.getOwnPropertyNames;
@@ -3276,41 +3276,6 @@ var init_steganography = __esm({
 });
 
 // utils/database.js
-var database_exports = {};
-__export(database_exports, {
-  calculateAllImageSizes: () => calculateAllImageSizes,
-  cancelSizeCalc: () => cancelSizeCalc,
-  dbs: () => dbs,
-  deleteImage: () => deleteImage,
-  deleteImagesByUuids: () => deleteImagesByUuids,
-  deleteMultipleImages: () => deleteMultipleImages,
-  generateMissingThumbnails: () => generateMissingThumbnails,
-  getAllImageBlobs: () => getAllImageBlobs,
-  getAllImageMetadata: () => getAllImageMetadata,
-  getAllImages: () => getAllImages,
-  getImageBlobByUUID: () => getImageBlobByUUID,
-  getImageByUUID: () => getImageByUUID,
-  getImageThumbnailBlobByUUID: () => getImageThumbnailBlobByUUID,
-  getItemBlob: () => getItemBlob,
-  getItemImg: () => getItemImg,
-  getItemMeta: () => getItemMeta,
-  getSizeCalcTask: () => getSizeCalcTask,
-  initJiuguanStorage: () => initJiuguanStorage,
-  migrateDatabase: () => migrateDatabase,
-  migrateOldSettings: () => migrateOldSettings,
-  openDB: () => openDB,
-  setItemImg: () => setItemImg,
-  storeDelete: () => storeDelete,
-  storeReadOnly: () => storeReadOnly,
-  storeReadWrite: () => storeReadWrite,
-  subscribeSizeCalcProgress: () => subscribeSizeCalcProgress,
-  syncServerImagesWithStorage: () => syncServerImagesWithStorage,
-  updateImageIndex: () => updateImageIndex,
-  updateItemImgActiveMode: () => updateItemImgActiveMode,
-  updateItemImgChange: () => updateItemImgChange,
-  updateItemImgVideo: () => updateItemImgVideo,
-  updateStegoImage: () => updateStegoImage
-});
 
 
 function base64ToArrayBuffer(base64) {
@@ -6816,6 +6781,7 @@ function generateChatImageId() {
 async function _saveJsonData(storageKey, data) {
   const jsonString = JSON.stringify(data);
   const base64Data = utf8ToBase64(jsonString);
+  const imageBuffer = base64ToArrayBuffer2(base64Data);
   if (extension_settings2[extensionName].jiuguanchucun === "true") {
     try {
       const uploadBody = {
@@ -6834,20 +6800,29 @@ async function _saveJsonData(storageKey, data) {
       }
       const result = await response.json();
       const storage = ensureServerStorage();
-      const isNewPath = !storage[storageKey] || storage[storageKey].path !== result.path;
       storage[storageKey] = {
         path: result.path,
         date: Date.now()
       };
-      if (isNewPath) saveSettingsDebounced2();
+      saveSettingsDebounced2();
       console.log(`[ConfigDB] JSON \u6570\u636E\u5DF2\u4FDD\u5B58\u5230\u670D\u52A1\u5668: ${storageKey}`);
+      try {
+        await dbWriteConfigImage(storageKey, imageBuffer);
+      } catch (dbErr) {
+        console.warn(`[ConfigDB] \u672C\u5730\u53CC\u5199\u955C\u50CF\u5931\u8D25\uFF08\u975E\u81F4\u547D\uFF09(${storageKey}):`, dbErr);
+      }
     } catch (error) {
       console.error(`[ConfigDB] \u4E0A\u4F20 JSON \u6570\u636E\u5230\u670D\u52A1\u5668\u5931\u8D25 (${storageKey}):`, error);
+      try {
+        await dbWriteConfigImage(storageKey, imageBuffer);
+        console.log(`[ConfigDB] \u670D\u52A1\u5668\u4E0A\u4F20\u5931\u8D25\uFF0C\u5DF2\u56DE\u9000\u4FDD\u5B58\u81F3\u672C\u5730 IndexedDB: ${storageKey}`);
+      } catch (fallbackErr) {
+        console.error(`[ConfigDB] \u672C\u5730\u56DE\u9000\u5199\u5165\u4E5F\u5931\u8D25 (${storageKey}):`, fallbackErr);
+      }
       throw error;
     }
   } else {
     try {
-      const imageBuffer = base64ToArrayBuffer2(base64Data);
       await dbWriteConfigImage(storageKey, imageBuffer);
       console.log(`[ConfigDB] JSON \u6570\u636E\u5DF2\u4FDD\u5B58\u5230 IndexedDB: ${storageKey}`);
     } catch (e) {
@@ -6856,34 +6831,76 @@ async function _saveJsonData(storageKey, data) {
     }
   }
 }
-async function _getJsonData(storageKey) {
-  const serverStorage = extension_settings2[extensionName].configImageStorage || {};
-  const serverEntry = serverStorage[storageKey];
-  if (serverEntry && serverEntry.path) {
+async function _tryFetchJsonFromPath(url, storageKey) {
+  if (!url || typeof url !== "string") return null;
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 4e3);
+    const response = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+    if (!response.ok) return null;
+    const text = await response.text();
+    if (!text || !text.trim()) return null;
     try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 5e3);
-      const response = await fetch(serverEntry.path, { signal: controller.signal });
-      clearTimeout(timeoutId);
-      if (response.ok) {
-        const text = await response.text();
-        try {
-          return JSON.parse(text);
-        } catch (e) {
-          try {
-            const decodedStr = base64ToUtf8(text.trim());
-            return JSON.parse(decodedStr);
-          } catch (err2) {
-            console.warn(`[ConfigDB] JSON \u6570\u636E\u89E3\u6790\u5931\u8D25 (${storageKey}):`, err2);
-          }
-        }
+      return JSON.parse(text);
+    } catch (e) {
+      try {
+        const decodedStr = base64ToUtf8(text.trim());
+        return JSON.parse(decodedStr);
+      } catch (err2) {
+        console.warn(`[ConfigDB] \u8DEF\u5F84 ${url} \u5185\u5BB9\u65E0\u6CD5\u89E3\u6790\u4E3A JSON:`, err2);
       }
-    } catch (error) {
-      if (error.name === "AbortError") {
-        console.warn(`[ConfigDB] \u4ECE\u670D\u52A1\u5668\u83B7\u53D6\u6570\u636E\u8D85\u65F6 (${storageKey})\uFF0C\u56DE\u9000\u5230 IndexedDB`);
-      } else {
-        console.error(`[ConfigDB] \u4ECE\u670D\u52A1\u5668\u83B7\u53D6\u6570\u636E\u5931\u8D25 (${storageKey}):`, error);
+    }
+  } catch (_) {
+  }
+  return null;
+}
+function _getCandidateServerPaths(storageKey) {
+  const candidates = /* @__PURE__ */ new Set();
+  const serverStorage = extension_settings2[extensionName]?.configImageStorage || {};
+  const fileName = `${storageKey}.png`;
+  if (serverStorage[storageKey]?.path) {
+    candidates.add(serverStorage[storageKey].path);
+  }
+  const knownKeys = ["ai_chat_index", "ai_chat_history", "log_session_index"];
+  for (const k of knownKeys) {
+    const p = serverStorage[k]?.path;
+    if (p && typeof p === "string" && p.includes("/")) {
+      const dir = p.substring(0, p.lastIndexOf("/") + 1);
+      candidates.add(`${dir}${fileName}`);
+    }
+  }
+  for (const entry of Object.values(serverStorage)) {
+    const p = entry?.path;
+    if (p && typeof p === "string" && p.includes("chatu8_config") && p.includes("/")) {
+      const dir = p.substring(0, p.lastIndexOf("/") + 1);
+      candidates.add(`${dir}${fileName}`);
+    }
+  }
+  const defaultDirs = [
+    "/characters/chatu8_config/",
+    "characters/chatu8_config/",
+    "/user/images/chatu8_config/",
+    "user/images/chatu8_config/"
+  ];
+  defaultDirs.forEach((dir) => candidates.add(`${dir}${fileName}`));
+  return Array.from(candidates);
+}
+async function _getJsonData(storageKey) {
+  const candidatePaths = _getCandidateServerPaths(storageKey);
+  for (const path of candidatePaths) {
+    const data = await _tryFetchJsonFromPath(path, storageKey);
+    if (data) {
+      const serverStorage = ensureServerStorage();
+      if (!serverStorage[storageKey] || serverStorage[storageKey].path !== path) {
+        console.log(`[ConfigDB] \u6210\u529F\u901A\u8FC7\u63A8\u5BFC\u8DEF\u5F84\u81EA\u6108\u5B9A\u4F4D\u5E76\u6062\u590D: ${storageKey} -> ${path}`);
+        serverStorage[storageKey] = {
+          path,
+          date: Date.now()
+        };
+        saveSettingsDebounced2();
       }
+      return data;
     }
   }
   try {
@@ -6891,7 +6908,11 @@ async function _getJsonData(storageKey) {
     if (dbEntry && dbEntry.data) {
       const base64Data = arrayBufferToBase642(dbEntry.data);
       const jsonString = base64ToUtf8(base64Data);
-      return JSON.parse(jsonString);
+      const parsed = JSON.parse(jsonString);
+      if (parsed) {
+        console.log(`[ConfigDB] \u4ECE\u672C\u5730 IndexedDB \u6210\u529F\u52A0\u8F7D: ${storageKey}`);
+        return parsed;
+      }
     }
   } catch (e) {
     console.error(`[ConfigDB] \u83B7\u53D6 IndexedDB \u6570\u636E\u5931\u8D25 (${storageKey}):`, e);
@@ -6920,7 +6941,34 @@ async function saveChatData(chatId, chatData) {
 async function getChatData(chatId) {
   if (!chatId) return null;
   const storageKey = `ai_chat_data_${chatId}`;
-  return await _getJsonData(storageKey);
+  let data = await _getJsonData(storageKey);
+  if (data) return data;
+  try {
+    const oldHistory = await getAiChatHistory();
+    if (oldHistory) {
+      if (oldHistory.chats && oldHistory.chats[chatId]) {
+        const legacyChat = oldHistory.chats[chatId];
+        console.log(`[ConfigDB] \u4ECE\u65E7\u7248\u5386\u53F2\u6570\u636E\u4E2D\u6210\u529F\u81EA\u6108\u6062\u590D\u4F1A\u8BDD: ${chatId}`);
+        await saveChatData(chatId, legacyChat);
+        return legacyChat;
+      }
+      if (Array.isArray(oldHistory) && oldHistory.length > 0) {
+        const legacyChat = {
+          id: chatId,
+          title: "\u6062\u590D\u7684\u5BF9\u8BDD\u8BB0\u5F55",
+          updatedAt: Date.now(),
+          taskData: null,
+          messages: oldHistory
+        };
+        console.log(`[ConfigDB] \u4ECE\u65E7\u5355\u4F1A\u8BDD\u8BB0\u5F55\u4E2D\u81EA\u6108\u6062\u590D\u4F1A\u8BDD: ${chatId}`);
+        await saveChatData(chatId, legacyChat);
+        return legacyChat;
+      }
+    }
+  } catch (e) {
+    console.warn(`[ConfigDB] \u65E7\u6570\u636E\u6062\u590D\u515C\u5E95\u5931\u8D25 (${chatId}):`, e);
+  }
+  return null;
 }
 async function deleteChatData(chatId) {
   if (!chatId) return false;
@@ -8749,7 +8797,66 @@ function _addToStcoOffsets(data, start, end, delta) {
     pos += size;
   }
 }
+function _normalizeMp4AudioSampleEntry(moovBytes) {
+  let moovView = new DataView(moovBytes.buffer, moovBytes.byteOffset, moovBytes.byteLength);
+  let mp4aPos = -1;
+  for (let i = 0; i < moovBytes.length - 8; i++) {
+    if (moovBytes[i + 4] === 109 && moovBytes[i + 5] === 112 && moovBytes[i + 6] === 52 && moovBytes[i + 7] === 97) {
+      mp4aPos = i;
+      break;
+    }
+  }
+  if (mp4aPos === -1) return { moovBytes, delta: 0 };
+  const mp4aSize = moovView.getUint32(mp4aPos);
+  if (mp4aPos + 18 > moovBytes.length) return { moovBytes, delta: 0 };
+  const version = moovView.getUint16(mp4aPos + 16);
+  if (version !== 1) return { moovBytes, delta: 0 };
+  let esdsPos = -1;
+  let esdsSize = 0;
+  const searchEnd = Math.min(mp4aPos + mp4aSize - 8, moovBytes.length - 8);
+  for (let i = mp4aPos; i < searchEnd; i++) {
+    if (moovBytes[i + 4] === 101 && moovBytes[i + 5] === 115 && moovBytes[i + 6] === 100 && moovBytes[i + 7] === 115) {
+      esdsPos = i;
+      esdsSize = moovView.getUint32(i);
+      break;
+    }
+  }
+  if (esdsPos === -1 || esdsSize <= 0) return { moovBytes, delta: 0 };
+  const newMp4aSize = 36 + esdsSize;
+  const newMp4aBytes = new Uint8Array(newMp4aSize);
+  newMp4aBytes.set(moovBytes.subarray(mp4aPos, mp4aPos + 36), 0);
+  const newMp4aView = new DataView(newMp4aBytes.buffer);
+  newMp4aView.setUint32(0, newMp4aSize);
+  newMp4aView.setUint16(16, 0);
+  newMp4aView.setUint16(18, 0);
+  newMp4aView.setUint32(20, 0);
+  newMp4aBytes.set(moovBytes.subarray(esdsPos, esdsPos + esdsSize), 36);
+  const delta = newMp4aSize - mp4aSize;
+  const combined = new Uint8Array(moovBytes.length + delta);
+  combined.set(moovBytes.subarray(0, mp4aPos), 0);
+  combined.set(newMp4aBytes, mp4aPos);
+  combined.set(moovBytes.subarray(mp4aPos + mp4aSize), mp4aPos + newMp4aSize);
+  const updatedMoovBytes = combined;
+  const updatedView = new DataView(updatedMoovBytes.buffer, updatedMoovBytes.byteOffset, updatedMoovBytes.byteLength);
+  const parentTags = ["stsd", "stbl", "minf", "mdia", "trak"];
+  for (let i = 0; i < mp4aPos; i++) {
+    const tag = String.fromCharCode(updatedMoovBytes[i + 4], updatedMoovBytes[i + 5], updatedMoovBytes[i + 6], updatedMoovBytes[i + 7]);
+    if (parentTags.includes(tag)) {
+      const curBoxSize = updatedView.getUint32(i);
+      if (i + curBoxSize > mp4aPos) {
+        updatedView.setUint32(i, curBoxSize + delta);
+      }
+    }
+  }
+  updatedView.setUint32(0, updatedMoovBytes.length);
+  console.log("[mp4fix] \u5DF2\u6210\u529F\u5C06 QuickTime mp4a version 1 \u89C4\u8303\u5316\u4E3A ISO \u6807\u51C6 version 0\uFF0C\u91CA\u653E\u6DF1\u5C42 esds");
+  return { moovBytes: updatedMoovBytes, delta };
+}
 async function fixMp4Faststart(blob) {
+  if (!blob) return blob;
+  if (blob.type && !blob.type.includes("mp4") && !blob.type.includes("quicktime") && blob.type.includes("video/")) {
+    return blob;
+  }
   try {
     const buffer = await blob.arrayBuffer();
     const bytes = new Uint8Array(buffer);
@@ -8763,31 +8870,87 @@ async function fixMp4Faststart(blob) {
         size = bytes.length - pos;
       }
       if (size < 8) break;
-      boxes.push({ type, size, data: bytes.slice(pos, pos + size) });
+      boxes.push({ type, pos, size, data: bytes.slice(pos, pos + size) });
       pos += size;
     }
     const moovIdx = boxes.findIndex((b) => b.type === "moov");
     const mdatIdx = boxes.findIndex((b) => b.type === "mdat");
-    if (moovIdx === -1 || mdatIdx === -1 || moovIdx < mdatIdx) {
+    if (moovIdx === -1 || mdatIdx === -1) {
       return blob;
     }
-    console.log("[mp4fix] moov \u5728 mdat \u4E4B\u540E\uFF0C\u6267\u884C faststart \u4FEE\u590D...");
-    const moovBox = boxes[moovIdx];
-    const moovSize = moovBox.size;
-    const moovData = moovBox.data.slice();
-    _addToStcoOffsets(moovData, 8, moovSize, moovSize);
+    const originalMoov = boxes[moovIdx].data.slice();
+    const normResult = _normalizeMp4AudioSampleEntry(originalMoov);
+    let moovData = normResult.moovBytes;
+    const delta = normResult.delta;
+    const isFaststartNeeded = moovIdx > mdatIdx;
+    if (!isFaststartNeeded && delta === 0) {
+      return blob;
+    }
+    if (isFaststartNeeded) {
+      console.log("[mp4fix] moov \u5728 mdat \u4E4B\u540E\uFF0C\u6267\u884C faststart \u91CD\u6392\u7F6E\u9876...");
+      _addToStcoOffsets(moovData, 8, moovData.length, moovData.length);
+    } else if (delta !== 0) {
+      console.log("[mp4fix] moov \u89C4\u8303\u5316\u5FAE\u8C03 stco \u504F\u79FB...");
+      _addToStcoOffsets(moovData, 8, moovData.length, delta);
+    }
     const parts = [];
     for (let i = 0; i < boxes.length; i++) {
-      if (i === moovIdx) continue;
-      if (i === mdatIdx) parts.push(moovData);
+      if (i === moovIdx) {
+        if (!isFaststartNeeded) {
+          parts.push(moovData);
+        }
+        continue;
+      }
+      if (i === mdatIdx && isFaststartNeeded) {
+        parts.push(moovData);
+      }
       parts.push(boxes[i].data);
     }
-    console.log("[mp4fix] faststart \u4FEE\u590D\u5B8C\u6210\uFF0Cmoov \u5DF2\u79FB\u81F3\u6587\u4EF6\u5934\u90E8");
+    console.log("[mp4fix] MP4 \u89C4\u8303\u5316\u4E0E faststart \u4F18\u5316\u5B8C\u6210");
     return new Blob(parts, { type: "video/mp4" });
   } catch (e) {
-    console.warn("[mp4fix] faststart \u4FEE\u590D\u5931\u8D25\uFF0C\u4F7F\u7528\u539F\u59CB Blob:", e);
+    console.warn("[mp4fix] MP4 \u89C4\u8303\u5316\u4FEE\u590D\u5F02\u5E38\uFF0C\u56DE\u9000\u4F7F\u7528\u539F\u59CB Blob:", e);
     return blob;
   }
+}
+async function safeDataUrlToBlob(dataUrl) {
+  if (!dataUrl || typeof dataUrl !== "string") {
+    throw new Error("safeDataUrlToBlob: \u65E0\u6548\u7684 dataUrl \u8F93\u5165");
+  }
+  if (!dataUrl.startsWith("data:")) {
+    const res = await fetch(dataUrl);
+    return await res.blob();
+  }
+  try {
+    const response = await fetch(dataUrl);
+    if (response.ok) {
+      return await response.blob();
+    }
+  } catch (_) {
+  }
+  const commaIdx = dataUrl.indexOf(",");
+  if (commaIdx === -1) {
+    throw new Error("safeDataUrlToBlob: \u975E\u6CD5\u7684 DataURL \u7ED3\u6784");
+  }
+  const meta = dataUrl.slice(0, commaIdx);
+  const mimeMatch = meta.match(/data:([^;]+)/);
+  const mimeType = mimeMatch ? mimeMatch[1] : "video/mp4";
+  const cleanBase64 = dataUrl.slice(commaIdx + 1).replace(/\s+/g, "");
+  const CHUNK = 512 * 1024;
+  const parts = [];
+  for (let i = 0; i < cleanBase64.length; i += CHUNK) {
+    const chunk = cleanBase64.slice(i, i + CHUNK);
+    const binaryStr = atob(chunk);
+    const bytes = new Uint8Array(binaryStr.length);
+    for (let j = 0; j < binaryStr.length; j++) {
+      bytes[j] = binaryStr.charCodeAt(j);
+    }
+    parts.push(bytes);
+    if (parts.length % 5 === 0) {
+      await new Promise((r) => setTimeout(r, 0));
+    }
+  }
+  return new Blob(parts, { type: mimeType });
 }
 var REFERENCE_PIXEL_COUNT, SIGMA_MAGIC_NUMBER, SIGMA_MAGIC_NUMBER_V4_5, LOG_RETENTION_MS, MAX_PERSISTED_LOG_SESSIONS, logPersistenceStatePromise, logWriteQueue, _logInitialized, _pendingLogBuffer, _persistDebounceTimer, LOG_PERSIST_DEBOUNCE_MS;
 var init_utils = __esm({
@@ -18013,61 +18176,6 @@ function processStringVariables(str, context, replacedVariables) {
     return value;
   });
   return result;
-}
-async function buildPromptWithTrigger(options) {
-  const { requestType, contextData } = options;
-  const configs = extension_settings14[extensionName]?.llm_request_type_configs || {};
-  const typeConfig = configs[requestType] || { context_profile: "\u9ED8\u8BA4" };
-  const contextProfileName = typeConfig.context_profile || "\u9ED8\u8BA4";
-  const apiProfileName = typeConfig.api_profile || "\u9ED8\u8BA4";
-  const contextProfiles = extension_settings14[extensionName]?.test_context_profiles || {};
-  const contextProfile = contextProfiles[contextProfileName] || contextProfiles[Object.keys(contextProfiles)[0]] || {};
-  const llmProfiles = extension_settings14[extensionName]?.llm_profiles || {};
-  const apiProfile = llmProfiles[apiProfileName] || llmProfiles[Object.keys(llmProfiles)[0]] || {};
-  const mergeOptions = { mergeSystemUser: apiProfile.merge_system_user ?? false };
-  const {
-    context = "",
-    body = "",
-    worldBookContent = "",
-    userDemand = ""
-  } = contextData;
-  const triggerText = [userDemand, body].filter(Boolean).join("\n");
-  const messages = [];
-  if (contextProfile.entries && Array.isArray(contextProfile.entries)) {
-    for (const entry of contextProfile.entries) {
-      if (!entry.enabled) continue;
-      if (!entry.content || entry.content.trim() === "") continue;
-      if (entry.triggerMode === "trigger") {
-        if (!checkTriggerWords(entry.triggerWords, triggerText)) {
-          continue;
-        }
-        if (entry.andTriggerWords && entry.andTriggerWords.trim() !== "") {
-          if (!checkTriggerWords(entry.andTriggerWords, triggerText)) {
-            continue;
-          }
-        }
-      }
-      messages.push({
-        role: entry.role || "user",
-        content: entry.content
-      });
-    }
-  } else if (contextProfile.history && Array.isArray(contextProfile.history)) {
-    for (const h of contextProfile.history) {
-      if (h.user && h.user.trim() !== "") {
-        messages.push({ role: "user", content: h.user });
-      }
-      if (h.assistant && h.assistant.trim() !== "") {
-        messages.push({ role: "assistant", content: h.assistant });
-      }
-    }
-  }
-  const mergedMessages = mergeAdjacentMessages(messages, mergeOptions);
-  const { messages: finalMessages, replacedVariables } = await replaceAllPlaceholders(mergedMessages, contextData);
-  return finalMessages;
-}
-async function getProcessedPrompt(requestType, contextData) {
-  return await buildPromptWithTrigger({ requestType, contextData });
 }
 var init_promptProcessor = __esm({
   "utils/promptProcessor.js"() {
@@ -35902,184 +36010,36 @@ var init_llmRequest = __esm({
 
 // utils/videoInserter.js
 
-function convertXmlToYaml(xmlStr, indent = 0) {
-  const tagRegex = /<([a-zA-Z0-9_:-]+)\b([^>]*)>([\s\S]*?)<\/\1>/gi;
-  let yaml = "";
-  let match;
-  const indentStr = "  ".repeat(indent);
-  let found = false;
-  const regex = new RegExp(tagRegex);
-  while ((match = regex.exec(xmlStr)) !== null) {
-    found = true;
-    const tagName = match[1].trim();
-    if (indent === 0 && tagName.toLowerCase() === "sourceanchor") continue;
-    const attrStr = match[2].trim();
-    const innerXml = match[3].trim();
-    let hasChildren = /<([a-zA-Z0-9_:-]+)\b[^>]*>[\s\S]*?<\/\1>/i.test(innerXml);
-    let hasAttributes = false;
-    let attrYaml = "";
-    if (attrStr) {
-      const attrRegex = /([a-zA-Z0-9_:-]+)=["']([^"']*)["']/g;
-      let attrMatch;
-      while ((attrMatch = attrRegex.exec(attrStr)) !== null) {
-        hasAttributes = true;
-        attrYaml += `${indentStr}  ${attrMatch[1]}: ${attrMatch[2]}
-`;
-      }
-    }
-    if (hasChildren) {
-      yaml += `${indentStr}${tagName}:
-`;
-      if (hasAttributes) yaml += attrYaml;
-      yaml += convertXmlToYaml(innerXml, indent + 1);
-    } else {
-      let text = innerXml.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, "").trim();
-      if (hasAttributes) {
-        yaml += `${indentStr}${tagName}:
-`;
-        yaml += attrYaml;
-        if (text) {
-          if (text.includes("\n")) {
-            yaml += text.split("\n").map((l) => `${indentStr}  ${l.trim()}`).join("\n") + "\n";
-          } else {
-            yaml += `${indentStr}  ${text}
-`;
-          }
-        }
-      } else {
-        if (text.includes("\n")) {
-          yaml += `${indentStr}${tagName}:
-`;
-          yaml += text.split("\n").map((l) => `${indentStr}  ${l.trim()}`).join("\n") + "\n";
-        } else {
-          yaml += `${indentStr}${tagName}: ${text}
-`;
-        }
-      }
-    }
-  }
-  if (!found && xmlStr.trim()) {
-    let text = xmlStr.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, "").trim();
-    if (text) {
-      yaml += text.split("\n").map((l) => `${indentStr}${l.trim()}`).join("\n") + "\n";
-    }
-  }
-  return yaml;
-}
-function extractYamlClips(text) {
+function parseVideosFromDirectManifest(text, startTag = "image###", endTag = "###") {
   if (!text || typeof text !== "string") return [];
-  let yamlContent = text;
-  const allCodeBlocks = [...text.matchAll(/```(?:yaml)?\s*([\s\S]*?)```/gi)];
-  if (allCodeBlocks.length > 0) {
-    const videoBlocks = allCodeBlocks.filter((b) => /(?:videos|clip_|source_anchor|sourceAnchor)/i.test(b[1]));
-    if (videoBlocks.length > 0) {
-      yamlContent = videoBlocks[videoBlocks.length - 1][1];
-      if (videoBlocks.length > 1) {
-        console.log(`[extractYamlClips] \u68C0\u6D4B\u5230 ${videoBlocks.length} \u4E2A\u89C6\u9891 YAML \u4EE3\u7801\u5757\uFF0C\u5DF2\u63D0\u53D6\u6700\u540E\u4E00\u7EC4`);
-      }
-    } else {
-      yamlContent = allCodeBlocks[allCodeBlocks.length - 1][1];
+  let cleanText = text;
+  const codeBlockMatch = cleanText.match(/```(?:yaml|json)?\s*([\s\S]*?)```/i);
+  if (codeBlockMatch) {
+    cleanText = codeBlockMatch[1];
+  }
+  if (!/asset_manifest\s*:/i.test(cleanText)) {
+    return [];
+  }
+  let regexText = "";
+  const anchorMatch = cleanText.match(/^\s*(?:source_anchor|sourceAnchor|source-anchor|定位锚点|锚点)\s*[:：]\s*(.+)$/im);
+  if (anchorMatch && anchorMatch[1]) {
+    regexText = anchorMatch[1].trim().replace(/^["']|["']$/g, "").replace(/[（(](?:从原文|原文提取|定位).*?[)）]$/g, "").trim();
+  }
+  if (!regexText) {
+    const descMatch = cleanText.match(/^\s*(?:大致描述|描述|description|summary)\s*[:：]\s*(.+)$/im);
+    if (descMatch && descMatch[1]) {
+      regexText = descMatch[1].trim().replace(/^["']|["']$/g, "");
     }
   }
-  const videosMatches = [...yamlContent.matchAll(/(?:^|\n)\s*videos\s*:/gi)];
-  if (videosMatches.length > 0) {
-    const lastVideosMatch = videosMatches[videosMatches.length - 1];
-    yamlContent = yamlContent.substring(lastVideosMatch.index);
-    if (videosMatches.length > 1) {
-      console.log(`[extractYamlClips] \u68C0\u6D4B\u5230 ${videosMatches.length} \u4E2A videos: \u8282\u70B9\uFF0C\u5DF2\u63D0\u53D6\u6700\u540E\u4E00\u7EC4`);
-    }
-  }
-  const lines = yamlContent.split(/\r?\n/);
-  const clips = [];
-  let currentClipLines = [];
-  let inVideos = false;
-  let baseIndent = -1;
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const trimmed = line.trim();
-    if (!trimmed) {
-      if (currentClipLines.length > 0) {
-        currentClipLines.push(line);
-      }
-      continue;
-    }
-    if (/^videos\s*:/i.test(trimmed)) {
-      inVideos = true;
-      continue;
-    }
-    const itemMatch = line.match(/^(\s*)-\s+(.*)$/);
-    if (itemMatch) {
-      const indent = itemMatch[1].length;
-      const rest = itemMatch[2];
-      if (inVideos || /^id\s*:/i.test(rest) || baseIndent !== -1 && baseIndent === indent) {
-        if (baseIndent === -1) {
-          baseIndent = indent;
-        }
-        if (indent === baseIndent) {
-          if (currentClipLines.length > 0) {
-            clips.push(currentClipLines.join("\n"));
-            currentClipLines = [];
-          }
-          currentClipLines.push(line);
-          continue;
-        }
-      }
-    }
-    if (currentClipLines.length > 0) {
-      currentClipLines.push(line);
-    }
-  }
-  if (currentClipLines.length > 0) {
-    clips.push(currentClipLines.join("\n"));
-  }
-  return clips;
-}
-function parseVideosFromYaml(text, startTag = "image###", endTag = "###") {
-  const clips = extractYamlClips(text);
-  const results = [];
-  for (let i = 0; i < clips.length; i++) {
-    const clipRaw = clips[i];
-    const anchorMatch = clipRaw.match(/^\s*(?:source_anchor|sourceAnchor|source-anchor)\s*:\s*(?:["']?)(.*?)(?:["']?)\s*$/im);
-    let regexText = "";
-    if (anchorMatch && anchorMatch[1]) {
-      regexText = anchorMatch[1].trim().replace(/^["']|["']$/g, "");
-    }
-    if (regexText) {
-      let formattedContent = clipRaw.trim();
-      const firstLineMatch = formattedContent.match(/^(\s*)-\s+/);
-      if (firstLineMatch) {
-        const listIndent = firstLineMatch[1].length;
-        const lines = formattedContent.split("\n");
-        const contentLines = [];
-        for (let j = 0; j < lines.length; j++) {
-          let l = lines[j];
-          if (j === 0) {
-            l = l.replace(/^\s*-\s+/, "");
-          } else {
-            const prefix = " ".repeat(listIndent + 2);
-            if (l.startsWith(prefix)) {
-              l = l.substring(prefix.length);
-            } else if (l.startsWith(" ".repeat(listIndent))) {
-              l = l.substring(listIndent);
-            }
-          }
-          contentLines.push(l);
-        }
-        formattedContent = contentLines.join("\n").trim();
-      }
-      formattedContent = formattedContent.replace(/</g, "\u300A").replace(/>/g, "\u300B");
-      formattedContent = formattedContent.replace(/\n/g, "\\n");
-      const tag = `${startTag}${formattedContent}${endTag}`;
-      results.push({
-        regex: regexText,
-        tag
-      });
-      console.log(`[parseVideosFromPrompt/YAML] \u7B2C ${i + 1} \u4E2A clip \u89E3\u6790\u6210\u529F, regex: ${regexText}`);
-    } else {
-      console.warn(`[parseVideosFromPrompt/YAML] \u7B2C ${i + 1} \u4E2A clip \u7F3A\u5C11 source_anchor\uFF0C\u5DF2\u8DF3\u8FC7\u3002`);
-    }
-  }
-  return results;
+  if (!regexText) return [];
+  let promptContent = cleanText.replace(/```[a-zA-Z0-9_-]*/g, "").replace(/```/g, "").trim();
+  promptContent = promptContent.replace(/</g, "\u300A").replace(/>/g, "\u300B");
+  const formattedContent = promptContent.replace(/\r?\n/g, "\\n");
+  const tag = `${startTag}${formattedContent}${endTag}`;
+  return [{
+    regex: regexText,
+    tag
+  }];
 }
 function parseVideosFromNewXml(text, startTag = "image###", endTag = "###") {
   if (!text || typeof text !== "string") return [];
@@ -36115,12 +36075,6 @@ function parseVideosFromNewXml(text, startTag = "image###", endTag = "###") {
         }
       }
     }
-    if (!regexText) {
-      const fallbackAnchor = innerVideo.match(/<SourceAnchor>([\s\S]*?)<\/SourceAnchor>/i) || innerVideo.match(/^\s*(?:source_anchor|sourceAnchor|source-anchor)\s*[:：]\s*(.+)$/im);
-      if (fallbackAnchor && fallbackAnchor[1]) {
-        regexText = fallbackAnchor[1].trim().replace(/^["']|["']$/g, "");
-      }
-    }
     let promptContent = innerVideo.replace(/<video_think\b[^>]*>[\s\S]*?<\/video_think>/gi, "").trim();
     promptContent = promptContent.replace(/```[a-zA-Z0-9_-]*/g, "").replace(/```/g, "").trim();
     promptContent = promptContent.replace(/</g, "\u300A").replace(/>/g, "\u300B");
@@ -36139,7 +36093,7 @@ function parseVideosFromNewXml(text, startTag = "image###", endTag = "###") {
   return results;
 }
 function parseVideosFromPrompt(text) {
-  const timer = debugTimer("videoInserter.parseVideosFromPrompt", "\u89E3\u6790 LLM \u8F93\u51FA\u4E2D\u7684\u89C6\u9891\u6807\u7B7E");
+  const timer = debugTimer("videoInserter.parseVideosFromPrompt", "\u89E3\u6790 LLM \u8F93\u51FA\u4E2D\u7684\u89C6\u9891\u89C6\u6750\u6807\u7B7E");
   const videosData = [];
   if (!text || typeof text !== "string") {
     debugBranch("parseVideosFromPrompt", "\u8F93\u5165\u65E0\u6548 - \u8DF3\u8FC7", true, {
@@ -36159,100 +36113,29 @@ function parseVideosFromPrompt(text) {
   const settings4 = extension_settings38[extensionName];
   const startTag = settings4?.startTag || "image###";
   const endTag = settings4?.endTag || "###";
-  const isLikelyNewXml = /<video\b/i.test(text) && (/<video_think/i.test(text) || /asset_manifest/i.test(text));
-  if (isLikelyNewXml) {
-    debugBranch("parseVideosFromPrompt", "\u68C0\u6D4B\u5230\u65B0\u7248 XML \u89C6\u9891\u914D\u7F6E", true);
-    const newXmlResults = parseVideosFromNewXml(text, startTag, endTag);
-    if (newXmlResults.length > 0) {
-      debugLog("videoInserter.parseVideosFromPrompt", "\u65B0\u7248 XML \u89E3\u6790\u5B8C\u6210", {
-        \u89E3\u6790\u6570\u91CF: newXmlResults.length
-      });
-      timer.end("\u65B0\u7248 XML \u89E3\u6790\u5B8C\u6210");
-      return newXmlResults;
-    }
-    debugBranch("parseVideosFromPrompt", "\u65B0\u7248 XML \u89E3\u6790\u672A\u5339\u914D\u5230\u6709\u6548\u9879\uFF0C\u5C1D\u8BD5\u56DE\u9000\u5176\u4ED6\u683C\u5F0F", true);
-  }
-  const isLikelyYaml = /(?:^|\n)\s*videos\s*:/i.test(text) || /```(?:yaml)?\s*[\s\S]*?(?:videos|clip_)/i.test(text) || /(?:^|\n)\s*-\s+id:\s*clip_/i.test(text);
-  if (isLikelyYaml) {
-    debugBranch("parseVideosFromPrompt", "\u68C0\u6D4B\u5230 YAML \u683C\u5F0F\u89C6\u9891\u914D\u7F6E", true);
-    const yamlResults = parseVideosFromYaml(text, startTag, endTag);
-    if (yamlResults.length > 0) {
-      debugLog("videoInserter.parseVideosFromPrompt", "YAML \u89E3\u6790\u5B8C\u6210", {
-        \u89E3\u6790\u6570\u91CF: yamlResults.length
-      });
-      timer.end("YAML \u89E3\u6790\u5B8C\u6210");
-      return yamlResults;
-    }
-    debugBranch("parseVideosFromPrompt", "YAML \u672A\u80FD\u63D0\u53D6\u51FA\u6709\u6548\u9879\uFF0C\u5C1D\u8BD5\u56DE\u9000 XML \u68C0\u67E5", true);
-  }
   if (/<video\b/i.test(text)) {
-    const fallbackNewXmlResults = parseVideosFromNewXml(text, startTag, endTag);
-    if (fallbackNewXmlResults.length > 0) {
-      debugLog("videoInserter.parseVideosFromPrompt", "\u901A\u7528\u65B0\u7248 XML \u5339\u914D\u6210\u529F", {
-        \u89E3\u6790\u6570\u91CF: fallbackNewXmlResults.length
+    debugBranch("parseVideosFromPrompt", "\u68C0\u6D4B\u5230 XML \u7ED3\u6784\u5316\u89C6\u9891\u914D\u7F6E", true);
+    const xmlResults = parseVideosFromNewXml(text, startTag, endTag);
+    if (xmlResults.length > 0) {
+      debugLog("videoInserter.parseVideosFromPrompt", "XML \u7ED3\u6784\u5316\u89C6\u6750\u89E3\u6790\u5B8C\u6210", {
+        \u89E3\u6790\u6570\u91CF: xmlResults.length
       });
-      timer.end("\u65B0\u7248 XML \u89E3\u6790\u5B8C\u6210");
-      return fallbackNewXmlResults;
+      timer.end("XML \u7ED3\u6784\u5316\u89C6\u6750\u89E3\u6790\u5B8C\u6210");
+      return xmlResults;
     }
   }
-  let searchText = text;
-  const videosContainerRegex = /<Videos\b[^>]*>([\s\S]*?)<\/Videos>/gi;
-  const allVideosMatches = [...text.matchAll(videosContainerRegex)];
-  if (allVideosMatches.length > 0) {
-    const lastMatch = allVideosMatches[allVideosMatches.length - 1];
-    searchText = lastMatch[1];
-    debugBranch("parseVideosFromPrompt", "\u627E\u5230 <Videos> \u5BB9\u5668 (\u63D0\u53D6\u6700\u540E\u4E00\u7EC4)", true, {
-      \u603B\u5BB9\u5668\u6570\u91CF: allVideosMatches.length,
-      \u9009\u5B9A\u5BB9\u5668\u5185\u5BB9\u957F\u5EA6: searchText.length
-    });
-    if (allVideosMatches.length > 1) {
-      console.log(`[parseVideosFromPrompt] \u68C0\u6D4B\u5230 ${allVideosMatches.length} \u4E2A\u8001\u7248 <Videos> \u5BB9\u5668\uFF0C\u5DF2\u63D0\u53D6\u6700\u540E\u4E00\u7EC4`);
-    }
-  } else {
-    debugBranch("parseVideosFromPrompt", "\u672A\u627E\u5230 <Videos> \u5BB9\u5668 - \u5C1D\u8BD5\u4ECE\u5168\u6587\u68C0\u7D22 <Video>", true);
-  }
-  const videoRegex = /<Video\b[^>]*>[\s\S]*?<\/Video>/gi;
-  const videoBlocks = [];
-  let videoMatch;
-  while ((videoMatch = videoRegex.exec(searchText)) !== null) {
-    videoBlocks.push({
-      fullMatch: videoMatch[0],
-      startIndex: videoMatch.index
-    });
-  }
-  debugLog("videoInserter.parseVideosFromPrompt", "\u627E\u5230 <Video> \u5757", {
-    \u5757\u6570\u91CF: videoBlocks.length
-  });
-  console.log("[parseVideosFromPrompt] \u627E\u5230", videoBlocks.length, "\u4E2A <Video> \u5757");
-  for (let i = 0; i < videoBlocks.length; i++) {
-    const fullXml = videoBlocks[i].fullMatch;
-    const sourceAnchorRegex = /<SourceAnchor>([\s\S]*?)<\/SourceAnchor>/i;
-    const sourceAnchorMatch = fullXml.match(sourceAnchorRegex);
-    let regexText = "";
-    if (sourceAnchorMatch && sourceAnchorMatch[1]) {
-      regexText = sourceAnchorMatch[1].trim();
-    }
-    if (regexText) {
-      let innerContent = fullXml.replace(/<Video\b[^>]*>([\s\S]*?)<\/Video>/i, "$1");
-      let formattedContent = convertXmlToYaml(innerContent);
-      formattedContent = formattedContent.trim();
-      if (!formattedContent) {
-        formattedContent = innerContent.replace(/<[^>]+>/g, "").trim();
-        if (!formattedContent) formattedContent = innerContent.trim();
-      }
-      formattedContent = formattedContent.replace(/</g, "\u300A").replace(/>/g, "\u300B");
-      formattedContent = formattedContent.replace(/\n/g, "\\n");
-      const tag = `${startTag}${formattedContent}${endTag}`;
-      videosData.push({
-        regex: regexText,
-        tag
+  if (/asset_manifest\s*:/i.test(text)) {
+    debugBranch("parseVideosFromPrompt", "\u68C0\u6D4B\u5230\u76F4\u63A5 asset_manifest \u89C6\u6750\u914D\u7F6E", true);
+    const directResults = parseVideosFromDirectManifest(text, startTag, endTag);
+    if (directResults.length > 0) {
+      debugLog("videoInserter.parseVideosFromPrompt", "\u76F4\u63A5 asset_manifest \u89C6\u6750\u89E3\u6790\u5B8C\u6210", {
+        \u89E3\u6790\u6570\u91CF: directResults.length
       });
-      console.log(`[parseVideosFromPrompt/XML] \u7B2C ${i + 1} \u4E2A <Video> \u89E3\u6790\u6210\u529F, regex: ${regexText}`);
-    } else {
-      console.warn(`[parseVideosFromPrompt/XML] \u7B2C ${i + 1} \u4E2A <Video> \u7F3A\u5C11 <SourceAnchor>\uFF0C\u5DF2\u8DF3\u8FC7\u3002`);
+      timer.end("\u76F4\u63A5 asset_manifest \u89C6\u6750\u89E3\u6790\u5B8C\u6210");
+      return directResults;
     }
   }
-  timer.end("\u89E3\u6790\u5B8C\u6210");
+  timer.end("\u89E3\u6790\u5B8C\u6210(\u672A\u5339\u914D\u5230 asset_manifest \u89C6\u6750)");
   return videosData;
 }
 var init_videoInserter = __esm({
@@ -37209,84 +37092,53 @@ async function processImageLikeRequest(el, gestureId, requestType, title, llmFun
     const autoClickEnabled = extension_settings39[extensionName]?.zidongdianji === "true";
     if (autoClickEnabled) {
       const { taskQueue: taskQueue2, TaskType: TaskType2, TaskStatus: TaskStatus3 } = await Promise.resolve().then(() => (init_taskQueue(), taskQueue_exports));
-      const { eventSource: eventSource47 } = await import("../../../../script.js");
+      const { eventSource: eventSource48 } = await import("../../../../script.js");
+      const { activateAutoClickWindow: activateAutoClickWindow2, deactivateAutoClickWindow: deactivateAutoClickWindow2 } = await Promise.resolve().then(() => (init_iframe(), iframe_exports));
       const autoClickTaskId = taskQueue2.addTask({
         name: `\u81EA\u52A8\u6279\u91CF\u751F\u6210 (${images.length} \u9879)`,
         type: TaskType2.AUTO_CLICK,
         prompt: `\u5171 ${images.length} \u4E2A\u751F\u6210\u6807\u7B7E\u5F85\u81EA\u52A8\u89E6\u53D1`
       });
       taskQueue2.updateStatus(autoClickTaskId, TaskStatus3.RUNNING);
-      window.zidongdianji = true;
-      window.zidongdianjiStartTime = Date.now();
       window.autoClickTaskId = autoClickTaskId;
-      let autoClickTimeoutTimer = null;
       const completeHandler = (data) => {
         if (data.taskId === autoClickTaskId) {
-          if (autoClickTimeoutTimer) {
-            clearTimeout(autoClickTimeoutTimer);
-            autoClickTimeoutTimer = null;
-          }
           taskQueue2.completeTask(autoClickTaskId, data.success !== false);
-          eventSource47.removeListener("st_chatu8_auto_click_complete", completeHandler);
+          eventSource48.removeListener("st_chatu8_auto_click_complete", completeHandler);
           window.autoClickTaskId = null;
           if (extension_settings39[extensionName]?.zidongdianji2 !== "true") {
-            setTimeout(() => {
-              window.zidongdianji = false;
-              window.zidongdianjiStartTime = 0;
-            }, 1800);
+            deactivateAutoClickWindow2();
           }
         }
       };
-      eventSource47.on("st_chatu8_auto_click_complete", completeHandler);
-      autoClickTimeoutTimer = setTimeout(() => {
-        if (taskQueue2.isTaskInQueue(autoClickTaskId)) {
-          console.warn("[promptReq] \u81EA\u52A8\u70B9\u51FB\u4EFB\u52A1\u8D85\u65F6(10s)\uFF0C\u6267\u884C\u5F3A\u5236\u6536\u5C3E\u5B8C\u6210");
-          eventSource47.removeListener("st_chatu8_auto_click_complete", completeHandler);
-          taskQueue2.completeTask(autoClickTaskId, true);
-          if (window.autoClickTaskId === autoClickTaskId) {
-            window.autoClickTaskId = null;
-          }
-        }
-      }, 1e4);
+      eventSource48.on("st_chatu8_auto_click_complete", completeHandler);
       setTimeout(() => {
         if (!taskQueue2.isTaskInQueue(autoClickTaskId)) {
           console.log("[promptReq] \u81EA\u52A8\u70B9\u51FB\u4EFB\u52A1\u5DF2\u88AB\u53D6\u6D88");
-          if (autoClickTimeoutTimer) {
-            clearTimeout(autoClickTimeoutTimer);
-            autoClickTimeoutTimer = null;
-          }
-          window.zidongdianji = false;
-          window.zidongdianjiStartTime = 0;
+          deactivateAutoClickWindow2();
           window.autoClickTaskId = null;
-          eventSource47.removeListener("st_chatu8_auto_click_complete", completeHandler);
+          eventSource48.removeListener("st_chatu8_auto_click_complete", completeHandler);
           return;
         }
         Promise.resolve().then(() => (init_iframe(), iframe_exports)).then(({ processImagePlaceholdersForElement: processImagePlaceholdersForElement2 }) => {
           if (!taskQueue2.isTaskInQueue(autoClickTaskId)) {
             console.log("[promptReq] \u81EA\u52A8\u70B9\u51FB\u4EFB\u52A1\u5DF2\u88AB\u53D6\u6D88");
-            if (autoClickTimeoutTimer) {
-              clearTimeout(autoClickTimeoutTimer);
-              autoClickTimeoutTimer = null;
-            }
-            window.zidongdianji = false;
-            window.zidongdianjiStartTime = 0;
+            deactivateAutoClickWindow2();
             window.autoClickTaskId = null;
-            eventSource47.removeListener("st_chatu8_auto_click_complete", completeHandler);
+            eventSource48.removeListener("st_chatu8_auto_click_complete", completeHandler);
             return;
           }
+          activateAutoClickWindow2();
           processImagePlaceholdersForElement2(el);
         }).catch((err) => {
           debugError(requestType, "\u52A0\u8F7D iframe \u6A21\u5757\u5931\u8D25", err);
           console.error(`[promptReq] \u52A0\u8F7D iframe \u6A21\u5757\u5931\u8D25:`, err);
-          if (autoClickTimeoutTimer) {
-            clearTimeout(autoClickTimeoutTimer);
-            autoClickTimeoutTimer = null;
-          }
+          deactivateAutoClickWindow2();
           taskQueue2.completeTask(autoClickTaskId, false);
           window.autoClickTaskId = null;
-          eventSource47.removeListener("st_chatu8_auto_click_complete", completeHandler);
+          eventSource48.removeListener("st_chatu8_auto_click_complete", completeHandler);
         });
-      }, 100);
+      }, 80);
     }
   } else if (images.length > 0 && !el) {
     toastr.warning("\u56FE\u7247\u6807\u7B7E\u5DF2\u7ECF\u89E3\u6790\u6210\u529F\uFF0C\u4F46\u5F53\u524D\u672A\u627E\u5230\u53EF\u63D2\u5165\u7684\u6D88\u606F\u5143\u7D20\uFF0C\u56E0\u6B64\u65E0\u6CD5\u663E\u793A\u5230\u754C\u9762\u4E0A\u3002\u8BF7\u5237\u65B0\u6D88\u606F\u533A\u57DF\u540E\u91CD\u8BD5\u3002", "\u56FE\u7247\u6807\u7B7E\u65E0\u6CD5\u663E\u793A");
@@ -39481,60 +39333,6 @@ var init_gorkVideo = __esm({
   }
 });
 
-// utils/overviewVideoProcessor.js
-var overviewVideoProcessor_exports = {};
-__export(overviewVideoProcessor_exports, {
-  processOverviewVideoGen: () => processOverviewVideoGen
-});
-async function processOverviewVideoGen(inputValue, button, inputElement) {
-  const mesText = button.closest(".mes_text") || button.closest(".mes");
-  const contextStr = getElContext(mesText) || "";
-  const bodyStr = mesText ? mesText.textContent || "" : "";
-  const triggeredWorldBook = await processWorldBooksWithTrigger([contextStr, bodyStr]);
-  const contextData = {
-    context: contextStr,
-    body: bodyStr,
-    worldBookContent: triggeredWorldBook || "",
-    videoMaterial: inputValue
-  };
-  const processed = await getProcessedPrompt("video_gen", contextData);
-  updateCombinedPrompt(processed, "[\u751F\u6210\u89C6\u9891] ");
-  const response = await LLM_VIDEO_GEN(processed);
-  let finalResult = "";
-  if (response && response.result) {
-    finalResult = response.result;
-  } else if (typeof response === "string") {
-    finalResult = response;
-  }
-  const thinkingIndex = finalResult.lastIndexOf("</thinking>");
-  if (thinkingIndex !== -1) {
-    finalResult = finalResult.substring(thinkingIndex + "</thinking>".length);
-  }
-  finalResult = removeThinkingTags(finalResult);
-  finalResult = applyWordReplacement(finalResult, "ai");
-  finalResult = applyReverseWordReplacement(finalResult, "text");
-  const endMatch = finalResult.match(/(<end>|end>)/i);
-  if (endMatch) {
-    finalResult = finalResult.substring(0, endMatch.index);
-  }
-  finalResult = finalResult.trim();
-  if (!finalResult) {
-    throw new Error("LLM \u8FD4\u56DE\u5185\u5BB9\u4E3A\u7A7A");
-  }
-  return finalResult;
-}
-var init_overviewVideoProcessor = __esm({
-  "utils/overviewVideoProcessor.js"() {
-    init_llmRequest();
-    init_llm();
-    init_chatDataUtils();
-    init_worldbookProcessor();
-    init_promptProcessor();
-    init_utils();
-    init_wordReplacement();
-  }
-});
-
 // utils/iframe/dialogs.js
 
 
@@ -39803,7 +39601,7 @@ function showEditDialog(img, button) {
   let currentMode2 = button.dataset.activeMode || (videoTag && !button.dataset.change ? "video" : "image");
   let imageText = imageTag.replace(/\\n/g, "\n");
   let videoText = videoTag ? videoTag.replace(/\\n/g, "\n") : "";
-  if (currentMode2 === "video" && !videoText && (imageText.split("\n")[0].includes("id:") || imageText.split("\n")[0].includes("Overview") || /asset_manifest\s*:/i.test(imageText))) {
+  if (currentMode2 === "video" && !videoText && /asset_manifest\s*:/i.test(imageText)) {
     videoText = imageText;
   }
   const styleId = "st-chatu8-autocomplete-styles";
@@ -40199,7 +39997,7 @@ function showEditDialog(img, button) {
           updateItemImgChange(button.dataset.link, formatted);
         }
       }
-    } else if (targetMode === "video" && !videoText && (imageText.split("\n")[0].includes("id:") || imageText.split("\n")[0].includes("Overview") || /asset_manifest\s*:/i.test(imageText))) {
+    } else if (targetMode === "video" && !videoText && /asset_manifest\s*:/i.test(imageText)) {
       videoText = imageText;
       const formatted = videoText.trim().replace(/\n/g, "\\n");
       button.dataset.video = formatted;
@@ -40708,31 +40506,6 @@ ${keyword}`);
       button.dataset.video = formattedVideo;
       button.dataset.activeMode = "video";
       button.textContent = "\u751F\u6210\u89C6\u9891";
-      if (firstLine.includes("id:") || firstLine.includes("Overview")) {
-        sendButton.disabled = true;
-        toastr.info("\u6B63\u5728\u5904\u7406\u89C6\u9891\u914D\u7F6E...");
-        processOverviewVideoGen(input.value, button, input).then(async (finalResult) => {
-          if (finalResult && finalResult.trim() !== "") {
-            button.dataset.video = finalResult;
-            button.dataset.activeMode = "video";
-            input.value = finalResult;
-            videoText = finalResult;
-            updateBackdrop();
-            updateTabIndicators();
-            if (button.dataset.link) {
-              await updateItemImgVideo(button.dataset.link, finalResult);
-              await updateItemImgActiveMode(button.dataset.link, "video");
-            }
-            toastr.success("\u89C6\u9891\u914D\u7F6E\u5904\u7406\u5B8C\u6210\u5E76\u4FDD\u5B58\u5230\u89C6\u9891\u5C5E\u6027");
-          }
-        }).catch((err) => {
-          console.error("[OverviewVideoGen]", err);
-          toastr.error("\u5904\u7406\u5931\u8D25: " + err.message);
-        }).finally(() => {
-          sendButton.disabled = false;
-        });
-        return;
-      }
       if (button.dataset.link) {
         updateItemImgVideo(button.dataset.link, formattedVideo);
         updateItemImgActiveMode(button.dataset.link, "video");
@@ -41351,7 +41124,6 @@ var init_dialogs = __esm({
     init_novelaiInpaint();
     init_gorkVideo();
     init_novelaiTokenCalculator();
-    init_overviewVideoProcessor();
     init_database();
     init_promptReq();
     _triggerGeneration2 = null;
@@ -43619,21 +43391,33 @@ async function replacepro(payload, json4) {
 }
 async function generateComfyUIImage({ prompt: link, width: Xwidth, height: Xheight, change, extraNegativePrompt }) {
   clearLog();
+  let taskType = TaskType.COMFYUI_IMG;
+  let taskTypeName = "ComfyUI \u666E\u901A\u751F\u56FE";
+  let isVideoTask = false;
+  if (change && (change.includes("{ComfyUI\u53C2\u8003\u751F\u89C6\u9891}") || change.includes("{\u53C2\u8003\u751F\u89C6\u9891}"))) {
+    taskType = TaskType.COMFYUI_REF2VID;
+    taskTypeName = "ComfyUI \u53C2\u8003\u751F\u89C6\u9891";
+    isVideoTask = true;
+  } else if (change && (change.includes("{ComfyUI\u56FE\u751F\u89C6\u9891}") || change.includes("{\u56FE\u751F\u89C6\u9891}") || change.includes("{ComfyUI\u89C6\u9891}"))) {
+    taskType = TaskType.COMFYUI_IMG2VID;
+    taskTypeName = "ComfyUI \u56FE\u751F\u89C6\u9891";
+    isVideoTask = true;
+  }
   const taskId = taskQueue.addTask({
     name: (link || "").substring(0, 30) + (link && link.length > 30 ? "..." : ""),
-    type: TaskType.COMFYUI_IMG,
+    type: taskType,
     prompt: link
   });
   currentTaskId = taskId;
   taskQueue.updateStatus(taskId, TaskStatus.RUNNING);
   const startTime = Date.now();
-  toastr.info("\u{1F3A8} \u5DF2\u53D1\u8D77 ComfyUI \u666E\u901A\u751F\u56FE\u8BF7\u6C42...");
+  toastr.info(`\u{1F3A8} \u5DF2\u53D1\u8D77 ${taskTypeName} \u8BF7\u6C42...`);
   link = typeof link === "string" ? link : "";
   change = typeof change === "string" ? change : "";
   console.log("link", link);
   let change_ = "";
   if (change) {
-    change_ = change.replaceAll("{ComfyUI\u5C40\u90E8\u91CD\u7ED8}", "").replaceAll("{\u5C40\u90E8\u91CD\u7ED8}", "");
+    change_ = change.replaceAll("{ComfyUI\u53C2\u8003\u751F\u89C6\u9891}", "").replaceAll("{\u53C2\u8003\u751F\u89C6\u9891}", "").replaceAll("{ComfyUI\u56FE\u751F\u89C6\u9891}", "").replaceAll("{\u56FE\u751F\u89C6\u9891}", "").replaceAll("{ComfyUI\u89C6\u9891}", "").replaceAll("{ComfyUI\u5C40\u90E8\u91CD\u7ED8}", "").replaceAll("{\u5C40\u90E8\u91CD\u7ED8}", "");
   } else {
     change_ = link;
   }
@@ -44054,6 +43838,14 @@ Scheduler: ${payload.scheduler}
               const arrayBuffer = await blob.arrayBuffer();
               blob = new Blob([arrayBuffer], { type: correctedMimeType });
               console.log(`[ComfyUI] \u89C6\u9891 MIME \u7C7B\u578B\u4FEE\u6B63: ${imageInfo.format} -> ${correctedMimeType}`);
+              if (correctedMimeType === "video/mp4") {
+                try {
+                  blob = await fixMp4Faststart(blob);
+                  console.log("[ComfyUI] MP4 faststart \u5904\u7406\u5B8C\u6210");
+                } catch (err) {
+                  console.warn("[ComfyUI] faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", err);
+                }
+              }
               window._lastMediaInfo.format = correctedMimeType;
             }
             imageUrl = await new Promise((resolve, reject) => {
@@ -44092,7 +43884,7 @@ Scheduler: ${payload.scheduler}
       const duration = ((Date.now() - startTime) / 1e3).toFixed(1);
       addLog(`\u5A92\u4F53 (${isVideo ? "\u89C6\u9891" : "\u56FE\u7247"}) \u5DF2\u6210\u529F\u83B7\u53D6\u5E76\u683C\u5F0F\u5316\u4E3A data URL (\u8017\u65F6 ${duration} \u79D2)\u3002`);
       taskQueue.completeTask(taskId, true);
-      toastr.success(`\u2705 ComfyUI \u666E\u901A\u751F\u56FE\u5B8C\u6210\uFF0C\u8017\u65F6 ${duration} \u79D2`);
+      toastr.success(`\u2705 ${taskTypeName}\u5B8C\u6210\uFF0C\u8017\u65F6 ${duration} \u79D2`);
       currentTaskId = null;
       return { image: imageUrl, change: change_ || "", isVideo, format: mediaFormat, genParams: _comfy_gen_params };
     }
@@ -44103,12 +43895,14 @@ Scheduler: ${payload.scheduler}
     const rawMessage = error instanceof Error ? error.message : String(error);
     const propagatedMessage = rawMessage === "Failed to fetch" || rawMessage === "Load failed" ? `ComfyUI \u8BF7\u6C42\u5931\u8D25\uFF0C\u53EF\u80FD\u662F\u670D\u52A1\u4E0D\u53EF\u8FBE\u3001\u8DE8\u57DF\u3001\u4EE3\u7406\u5F02\u5E38\u6216\u8FD4\u56DE\u4E86\u65E0\u6548\u54CD\u5E94: ${rawMessage}` : rawMessage;
     if (rawMessage === "\u4EFB\u52A1\u5DF2\u53D6\u6D88") {
+      toastr.info(`\u5DF2\u53D6\u6D88 ${taskTypeName}`);
     } else {
       taskQueue.completeTask(taskId, false);
+      toastr.error(`${taskTypeName}\u5931\u8D25: ${propagatedMessage}`);
     }
     currentTaskId = null;
-    addLog(`\u56FE\u7247\u751F\u6210\u8FC7\u7A0B\u4E2D\u53D1\u751F\u9519\u8BEF: ${propagatedMessage}`);
-    console.error("Error generating image:", error);
+    addLog(`[ComfyUI \u9519\u8BEF] ${propagatedMessage}`);
+    console.error("Error generating media in ComfyUI:", error);
     throw new Error(propagatedMessage);
   }
 }
@@ -44159,6 +43953,8 @@ async function comfyuigenerate(requestData) {
 }
 function initializeComfyuiListener() {
   eventSource21.on(EventType.GENERATE_IMAGE_REQUEST, comfyuigenerate);
+  eventSource21.on("st_chatu8_cancel_task", handleComfyuiCancel);
+  eventSource21.on("st_chatu8_cancel_comfyui_task", handleComfyuiCancel);
   addLog("comfyui \u751F\u56FE\u4E8B\u4EF6\u76D1\u542C\u5668\u5DF2\u521D\u59CB\u5316\uFF08\u542B\u65E7\u7248\u517C\u5BB9\uFF09\u3002");
 }
 async function replaceWithcomfyui() {
@@ -44176,7 +43972,7 @@ async function replaceWithcomfyui() {
     }
   }
 }
-var currentTaskId;
+var currentTaskId, handleComfyuiCancel;
 var init_comfyui = __esm({
   "utils/comfyui.js"() {
     init_utils();
@@ -44190,6 +43986,18 @@ var init_comfyui = __esm({
     init_imageGenStats();
     init_worker();
     currentTaskId = null;
+    handleComfyuiCancel = async ({ taskId } = {}) => {
+      if (taskId && taskId === currentTaskId) {
+        console.log("[ComfyUI] \u6536\u5230\u53D6\u6D88\u4E8B\u4EF6\uFF0C\u6B63\u5728\u5411\u670D\u52A1\u5668\u53D1\u9001\u4E2D\u65AD\u8BF7\u6C42:", taskId);
+        const url = (extension_settings47[extensionName]?.comfyuiUrl || "http://localhost:8188").trim();
+        if (url) {
+          try {
+            await fetch(`${url}/api/interrupt`, { method: "POST" });
+          } catch (_) {
+          }
+        }
+      }
+    };
   }
 });
 
@@ -45176,6 +44984,26 @@ async function extractLargestMediaFromZip(arrayBuffer) {
     mimeType = "image/gif";
   }
   addLog(`[RunningHub] \u63D0\u53D6\u6700\u5927\u4E3B\u6587\u4EF6: ${largestEntry.name} (${mimeType}, ${(maxSizeBytes / 1024 / 1024).toFixed(2)} MB)`);
+  if (isVideo && mimeType === "video/mp4") {
+    try {
+      const u8 = await largestEntry.async("uint8array");
+      const rawBlob = new Blob([u8], { type: "video/mp4" });
+      const fixedBlob = await fixMp4Faststart(rawBlob);
+      largestBase64 = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          const result = reader.result || "";
+          const comma = result.indexOf(",");
+          resolve(comma !== -1 ? result.slice(comma + 1) : result);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(fixedBlob);
+      });
+      addLog("[RunningHub] MP4 faststart \u5904\u7406\u5B8C\u6210");
+    } catch (faststartErr) {
+      console.warn("[RunningHub] faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", faststartErr);
+    }
+  }
   const dataUrl = `data:${mimeType};base64,${largestBase64}`;
   return { dataUrl, isVideo, fileName: largestEntry.name, mimeType };
 }
@@ -45633,13 +45461,23 @@ async function generateRunningHubImage({ prompt: link, width: Xwidth, height: Xh
       isVideo = extracted.isVideo;
       mediaFormat = extracted.mimeType || (isVideo ? "video/mp4" : "image/png");
     } else {
+      let processedBlob = fileBlob;
+      const isMp4 = outputUrl.match(/\.mp4($|\?)/i) || fileBlob.type.includes("mp4");
+      if (isMp4) {
+        try {
+          processedBlob = await fixMp4Faststart(fileBlob);
+          addLog("[RunningHub] \u76F4\u8FDE MP4 faststart \u5904\u7406\u5B8C\u6210");
+        } catch (faststartErr) {
+          console.warn("[RunningHub] \u76F4\u8FDE MP4 faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", faststartErr);
+        }
+      }
       finalImageData = await new Promise((resolve, reject) => {
         const reader = new FileReader();
         reader.onloadend = () => resolve(reader.result);
         reader.onerror = reject;
-        reader.readAsDataURL(fileBlob);
+        reader.readAsDataURL(processedBlob);
       });
-      if (outputUrl.match(/\.(mp4|webm|avi|mov)$/i)) {
+      if (outputUrl.match(/\.(mp4|webm|avi|mov)$/i) || fileBlob.type.includes("video/")) {
         isVideo = true;
         mediaFormat = "video/mp4";
       }
@@ -45889,6 +45727,26 @@ async function extractLargestMediaFromZip2(arrayBuffer) {
     isVideo = false;
   }
   addLog(`[RunningHubRefVideo] \u63D0\u53D6\u4E3B\u6587\u4EF6: ${largestEntry.name} (${mimeType}, ${(maxSizeBytes / 1024 / 1024).toFixed(2)} MB)`);
+  if (isVideo && mimeType === "video/mp4") {
+    try {
+      const u8 = await largestEntry.async("uint8array");
+      const rawBlob = new Blob([u8], { type: "video/mp4" });
+      const fixedBlob = await fixMp4Faststart(rawBlob);
+      largestBase64 = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          const result = reader.result || "";
+          const comma = result.indexOf(",");
+          resolve(comma !== -1 ? result.slice(comma + 1) : result);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(fixedBlob);
+      });
+      addLog("[RunningHubRefVideo] MP4 faststart \u5904\u7406\u5B8C\u6210");
+    } catch (faststartErr) {
+      console.warn("[RunningHubRefVideo] faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", faststartErr);
+    }
+  }
   return {
     dataUrl: `data:${mimeType};base64,${largestBase64}`,
     isVideo,
@@ -46660,11 +46518,20 @@ async function generateRunningHubRefVideo({ prompt: rawPrompt, width: Xwidth, he
       isVideo = extracted.isVideo;
       mediaFormat = extracted.mimeType || "video/mp4";
     } else {
+      let processedBlob = fileBlob;
+      if (mediaFormat === "video/mp4" || outputUrl.match(/\.mp4($|\?)/i)) {
+        try {
+          processedBlob = await fixMp4Faststart(fileBlob);
+          addLog("[RunningHubVideo] \u76F4\u8FDE MP4 faststart \u5904\u7406\u5B8C\u6210");
+        } catch (faststartErr) {
+          console.warn("[RunningHubVideo] \u76F4\u8FDE MP4 faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", faststartErr);
+        }
+      }
       finalMediaData = await new Promise((resolve, reject) => {
         const reader = new FileReader();
         reader.onloadend = () => resolve(reader.result);
         reader.onerror = reject;
-        reader.readAsDataURL(fileBlob);
+        reader.readAsDataURL(processedBlob);
       });
     }
     const duration = ((Date.now() - startTime) / 1e3).toFixed(1);
@@ -46847,7 +46714,15 @@ async function executeRunningHubVideoDirectTest({
       isVideo = extracted.isVideo;
       mediaFormat = extracted.mimeType || "video/mp4";
     } else {
-      finalMediaData = URL.createObjectURL(fileBlob);
+      let processedBlob = fileBlob;
+      if (mediaFormat === "video/mp4" || outputUrl.match(/\.mp4($|\?)/i)) {
+        try {
+          processedBlob = await fixMp4Faststart(fileBlob);
+        } catch (faststartErr) {
+          console.warn("[RunningHubVideo] \u6D4B\u8BD5\u76F4\u8FDE MP4 faststart \u5904\u7406\u8DF3\u8FC7/\u5931\u8D25:", faststartErr);
+        }
+      }
+      finalMediaData = URL.createObjectURL(processedBlob);
     }
     const rhSuccessParts = [];
     if (rhTaskCostTime != null) rhSuccessParts.push(`RH\u8017\u65F6: ${rhTaskCostTime}s`);
@@ -46895,15 +46770,19 @@ var init_runninghubVideo = __esm({
 // utils/comfyuiVideo.js
 var comfyuiVideo_exports = {};
 __export(comfyuiVideo_exports, {
+  abortComfyUIVideoTask: () => abortComfyUIVideoTask,
   buildComfyUIRefVideoWorkflow: () => buildComfyUIRefVideoWorkflow,
   createBlankPngBlob: () => createBlankPngBlob2,
   createSilentWavBlob: () => createSilentWavBlob2,
   executeComfyUIVideoDirectTest: () => executeComfyUIVideoDirectTest,
+  formatComfyUIApiError: () => formatComfyUIApiError,
   generateComfyUIRefVideo: () => generateComfyUIRefVideo,
   generateComfyUIVideo: () => generateComfyUIVideo,
   isAssetManifestPrompt: () => isAssetManifestPrompt2,
   isValidMediaFileId: () => isValidMediaFileId2,
   parseAssetManifest: () => parseAssetManifest2,
+  registerActiveComfyUIVideoTask: () => registerActiveComfyUIVideoTask,
+  unregisterActiveComfyUIVideoTask: () => unregisterActiveComfyUIVideoTask,
   uploadBlankAudioToComfyUIWithCache: () => uploadBlankAudioToComfyUIWithCache,
   uploadBlankPngToComfyUIWithCache: () => uploadBlankPngToComfyUIWithCache,
   uploadImageBlobToComfyUIWithCache: () => uploadImageBlobToComfyUIWithCache,
@@ -46911,6 +46790,82 @@ __export(comfyuiVideo_exports, {
 });
 
 
+function registerActiveComfyUIVideoTask(taskId, context) {
+  if (!taskId) return;
+  activeComfyUIVideoTasks.set(taskId, context);
+}
+function unregisterActiveComfyUIVideoTask(taskId) {
+  if (!taskId) return;
+  activeComfyUIVideoTasks.delete(taskId);
+}
+async function abortComfyUIVideoTask(taskId) {
+  const taskCtx = activeComfyUIVideoTasks.get(taskId);
+  if (!taskCtx) return;
+  console.log(`[ComfyUIVideo] \u89E6\u53D1\u4EFB\u52A1\u4E2D\u65AD: ${taskId}`);
+  if (taskCtx.abortController && !taskCtx.abortController.signal.aborted) {
+    try {
+      taskCtx.abortController.abort();
+    } catch (e) {
+      console.warn("[ComfyUIVideo] abortController.abort \u5931\u8D25:", e);
+    }
+  }
+  if (taskCtx.url) {
+    try {
+      await fetch(`${taskCtx.url}/api/interrupt`, { method: "POST" });
+      console.log("[ComfyUIVideo] \u5DF2\u5411 ComfyUI \u53D1\u9001 /api/interrupt");
+    } catch (e) {
+      console.warn("[ComfyUIVideo] \u53D1\u9001 /api/interrupt \u5931\u8D25:", e);
+    }
+  }
+  activeComfyUIVideoTasks.delete(taskId);
+}
+function formatComfyUIApiError(errorObj, defaultMsg = "ComfyUI \u8BF7\u6C42\u5931\u8D25") {
+  if (!errorObj) return defaultMsg;
+  if (typeof errorObj === "string") {
+    try {
+      errorObj = JSON.parse(errorObj);
+    } catch (_) {
+      return errorObj;
+    }
+  }
+  if (typeof errorObj !== "object") return String(errorObj);
+  if (errorObj.error) {
+    const err = errorObj.error;
+    const errType = err.type || "";
+    const errMsg = err.message || err.details || "";
+    const nodeErrors = errorObj.node_errors;
+    let nodeErrSummary = "";
+    if (nodeErrors && typeof nodeErrors === "object") {
+      const parts = [];
+      for (const [nodeId, nErr] of Object.entries(nodeErrors)) {
+        const nodeType = nErr.class_type || "";
+        const nodeMessages = Array.isArray(nErr.errors) ? nErr.errors.map((e) => e.message || e.details).filter(Boolean).join("; ") : "";
+        parts.push(`\u8282\u70B9 #${nodeId}${nodeType ? ` (${nodeType})` : ""}: ${nodeMessages || "\u53C2\u6570\u65E0\u6548"}`);
+      }
+      if (parts.length > 0) {
+        nodeErrSummary = `
+\u3010\u8282\u70B9\u8BE6\u60C5\u3011${parts.join(" | ")}`;
+      }
+    }
+    return `ComfyUI \u6821\u9A8C\u5931\u8D25 [${errType || "Prompt Error"}]: ${errMsg}${nodeErrSummary}`;
+  }
+  if (errorObj.messages && Array.isArray(errorObj.messages)) {
+    for (const msgItem of errorObj.messages) {
+      if (Array.isArray(msgItem) && msgItem[0] === "execution_error") {
+        const info = msgItem[1] || {};
+        const nodeId = info.node_id ? `\u8282\u70B9 #${info.node_id}` : "";
+        const nodeType = info.node_type ? ` [${info.node_type}]` : "";
+        const exType = info.exception_type ? ` (${info.exception_type})` : "";
+        const exMsg = info.exception_message || "";
+        return `ComfyUI \u8282\u70B9\u6267\u884C\u51FA\u9519: ${nodeId}${nodeType}${exType} - ${exMsg}`.trim();
+      }
+    }
+  }
+  if (errorObj.status_str === "error" && errorObj.exception_message) {
+    return `ComfyUI \u4EFB\u52A1\u6267\u884C\u51FA\u9519: ${errorObj.exception_message}`;
+  }
+  return errorObj.message || errorObj.errorMessage || defaultMsg;
+}
 function extractJsonBlock2(text) {
   if (!text) return null;
   const startIdx = text.indexOf("{");
@@ -47441,138 +47396,139 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
   toastr.info(`\u{1F3AC} \u5DF2\u53D1\u8D77 ${taskTypeName} \u8BF7\u6C42...`);
   const settings4 = extension_settings51[extensionName];
   const url = (settings4.comfyuiUrl || "http://localhost:8188").trim();
-  if (!url) {
-    taskQueue.completeTask(taskId, false);
-    throw new Error("\u8BF7\u5148\u5728\u8BBE\u7F6E\u4E2D\u586B\u5199 ComfyUI API \u5730\u5740");
-  }
-  if (invalidPictures && invalidPictures.length > 0) {
-    addLog(`[ComfyUIVideo] \u5FFD\u7565\u672A\u7ED1\u5B9A\u6216\u7A7A\u6587\u4EF6\u56FE\u7247\u8D44\u4EA7: ${invalidPictures.map((i) => `Picture ${i}`).join(", ")}`);
-  }
-  if (invalidAudios && invalidAudios.length > 0) {
-    addLog(`[ComfyUIVideo] \u5FFD\u7565\u672A\u7ED1\u5B9A\u6216\u7A7A\u6587\u4EF6\u97F3\u9891\u8D44\u4EA7: ${invalidAudios.map((i) => `Audio ${i}`).join(", ")}`);
-  }
-  const picKeys = Object.keys(pictures);
-  const audKeys = Object.keys(audios);
-  addLog(`[ComfyUIVideo] \u89E3\u6790\u5B8C\u6210: \u5305\u542B ${picKeys.length} \u4E2A\u6709\u6548\u56FE\u7247\u53C2\u8003 (${picKeys.map((k) => `Picture ${k}`).join(", ") || "\u65E0"}), ${audKeys.length} \u4E2A\u6709\u6548\u97F3\u9891\u53C2\u8003 (${audKeys.map((k) => `Audio ${k}`).join(", ") || "\u65E0"})`);
-  const uploadedImages = {};
-  for (const [idx, fileId] of Object.entries(pictures)) {
-    addLog(`[ComfyUIVideo] \u5904\u7406 Picture ${idx} (file_id: ${fileId})...`);
-    const uploadedName = await uploadMediaToComfyUIWithCache(fileId, "img", url);
-    if (uploadedName) {
-      uploadedImages[idx] = uploadedName;
-    }
-  }
-  if (isFirstFrameRef) {
-    addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u9996\u5E27\u53C2\u8003\u56FE\u7247\u9700\u6C42\uFF0C\u6B63\u5728\u63D0\u53D6\u89E6\u53D1\u5904\u56FE\u7247...");
-    let triggerImageSource = null;
-    const promptTag = rawPrompt || "";
-    if (promptTag) {
-      try {
-        triggerImageSource = await getItemBlob(promptTag);
-      } catch (e) {
-        console.warn("[ComfyUIVideo] getItemBlob \u83B7\u53D6\u5931\u8D25\uFF0C\u5C1D\u8BD5 getItemImg:", e);
-      }
-      if (!triggerImageSource) {
-        try {
-          const [imgData] = await getItemImg(promptTag);
-          if (imgData) {
-            triggerImageSource = imgData;
-          }
-        } catch (e2) {
-          console.warn("[ComfyUIVideo] getItemImg \u83B7\u53D6\u5931\u8D25:", e2);
-        }
-      }
-    }
-    if (triggerImageSource) {
-      const cacheKey = typeof CryptoJS !== "undefined" && CryptoJS.MD5 ? CryptoJS.MD5(promptTag || String(Date.now())).toString() : (promptTag || String(Date.now())).replace(/[^a-zA-Z0-9_-]/g, "_").substring(0, 32);
-      const uploadedFirstFrame = await uploadImageBlobToComfyUIWithCache(triggerImageSource, cacheKey, url);
-      if (uploadedFirstFrame) {
-        uploadedImages[1] = uploadedFirstFrame;
-        addLog(`[ComfyUIVideo] \u6210\u529F\u7ED1\u5B9A\u89E6\u53D1\u5904\u56FE\u7247\u4E3A Picture 1 -> ${uploadedFirstFrame}`);
-      }
-    } else {
-      addLog("[ComfyUIVideo] \u672A\u627E\u5230\u89E6\u53D1\u5904\u5DF2\u6709\u56FE\u7247\uFF0C\u5C06\u5C1D\u8BD5\u4F7F\u7528\u9884\u8BBE\u8D44\u4EA7\u6216\u7A7A\u767D\u515C\u5E95...");
-    }
-  }
-  const uploadedAudios = {};
-  for (const [idx, fileId] of Object.entries(audios)) {
-    addLog(`[ComfyUIVideo] \u5904\u7406 Audio ${idx} (file_id: ${fileId})...`);
-    const uploadedName = await uploadMediaToComfyUIWithCache(fileId, "aud", url);
-    if (uploadedName) {
-      uploadedAudios[idx] = uploadedName;
-    }
-  }
-  if (Object.keys(uploadedImages).length === 0) {
-    addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u65E0\u56FE\u7247\u53C2\u8003\u8D44\u4EA7\uFF0C\u6B63\u5728\u751F\u6210\u7A7A\u767D PNG \u4F5C\u4E3A\u7B2C\u4E00\u5F20\u56FE\u7247 (Picture 1) \u515C\u5E95...");
-    const blankFileName = await uploadBlankPngToComfyUIWithCache(url);
-    if (blankFileName) {
-      uploadedImages[1] = blankFileName;
-      addLog(`[ComfyUIVideo] \u7A7A\u767D\u56FE\u7247\u515C\u5E95\u5DF2\u5C31\u7EEA: Picture 1 -> ${blankFileName}`);
-    }
-  }
-  if (Object.keys(uploadedAudios).length === 0) {
-    addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u65E0\u97F3\u9891\u53C2\u8003\u8D44\u4EA7\uFF0C\u6B63\u5728\u751F\u6210\u7A7A\u767D WAV \u4F5C\u4E3A\u7B2C\u4E00\u6BB5\u97F3\u9891 (Audio 1) \u515C\u5E95...");
-    const blankAudFileName = await uploadBlankAudioToComfyUIWithCache(url);
-    if (blankAudFileName) {
-      uploadedAudios[1] = blankAudFileName;
-      addLog(`[ComfyUIVideo] \u7A7A\u767D\u97F3\u9891\u515C\u5E95\u5DF2\u5C31\u7EEA: Audio 1 -> ${blankAudFileName}`);
-    }
-  }
-  let blankImgPlaceholder = uploadedImages[1] || "";
-  if (!blankImgPlaceholder) {
-    blankImgPlaceholder = await uploadBlankPngToComfyUIWithCache(url);
-  }
-  let blankAudPlaceholder = uploadedAudios[1] || "";
-  if (!blankAudPlaceholder) {
-    blankAudPlaceholder = await uploadBlankAudioToComfyUIWithCache(url);
-  }
-  const workerCategoryName = isImg2Vid ? "\u56FE\u751F\u89C6\u9891\u5DE5\u4F5C\u6D41" : "\u53C2\u8003\u751F\u89C6\u9891\u5DE5\u4F5C\u6D41";
-  const targetWorkerId = isImg2Vid ? settings4.comfyui_img2vid_workerid || "" : settings4.comfyui_ref2vid_workerid || "";
-  let targetWorkerJson = targetWorkerId && settings4.comfyui_video_workers?.[targetWorkerId] || (isImg2Vid ? settings4.comfyui_img2vid_worker : settings4.comfyui_ref2vid_worker) || settings4.worker || runninghubDefaultJson;
-  addLog(`[ComfyUIVideo] \u4F7F\u7528\u3010${workerCategoryName}\u3011\u9884\u8BBE: "${targetWorkerId || "\u9ED8\u8BA4"}"`);
-  const genSettings = {
-    seed: settings4.comfyui_val_seed,
-    steps: settings4.comfyui_val_steps,
-    megapixels: settings4.comfyui_val_megapixels,
-    duration: settings4.comfyui_val_duration,
-    defaultImg: settings4.comfyui_val_default_img,
-    defaultAud: settings4.comfyui_val_default_aud,
-    blankImg: blankImgPlaceholder,
-    blankAud: blankAudPlaceholder,
-    modelName: settings4.MODEL_NAME
-  };
-  const cleanPromptText = await stripChineseAnnotations(promptText);
-  let { promptObj, seedUsed } = buildComfyUIRefVideoWorkflow(
-    targetWorkerJson,
-    cleanPromptText,
-    uploadedImages,
-    uploadedAudios,
-    genSettings
-  );
-  const skippedCount = Object.values(promptObj).filter((n) => n && n._skip).length;
-  if (skippedCount > 0) {
-    addLog(`[ComfyUIVideo] \u68C0\u6D4B\u5230 ${skippedCount} \u4E2A\u8DF3\u8FC7\u7684\u8282\u70B9\uFF0C\u6B63\u5728\u5904\u7406\u8FDE\u63A5\u91CD\u6620\u5C04...`);
-    const objectInfo = await getComfyuiCache("objectinfo") || {};
-    promptObj = processSkippedNodes(promptObj, objectInfo);
-  }
-  const _comfy_gen_params = buildGenParams("ComfyUI-Video", {
-    model: settings4.MODEL_NAME || "ComfyUI-Video",
-    yushe: workerCategoryName,
-    resolvedPrompt: cleanPromptText,
-    seed: seedUsed,
-    steps: settings4.comfyui_val_steps,
-    duration: settings4.comfyui_val_duration
-  });
-  while (!window.xiancheng) {
-    if (!taskQueue.isTaskInQueue(taskId)) {
-      addLog("[ComfyUIVideo] \u4EFB\u52A1\u5DF2\u88AB\u7528\u6237\u53D6\u6D88");
-      throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
-    }
-    await sleep(1e3);
-  }
+  const abortController = new AbortController();
+  registerActiveComfyUIVideoTask(taskId, { abortController, url, promptId: null });
   let lockAcquired = false;
   try {
-    if (!taskQueue.isTaskInQueue(taskId)) {
+    if (!url) {
+      throw new Error("\u8BF7\u5148\u5728\u8BBE\u7F6E\u4E2D\u586B\u5199 ComfyUI API \u5730\u5740");
+    }
+    if (invalidPictures && invalidPictures.length > 0) {
+      addLog(`[ComfyUIVideo] \u5FFD\u7565\u672A\u7ED1\u5B9A\u6216\u7A7A\u6587\u4EF6\u56FE\u7247\u8D44\u4EA7: ${invalidPictures.map((i) => `Picture ${i}`).join(", ")}`);
+    }
+    if (invalidAudios && invalidAudios.length > 0) {
+      addLog(`[ComfyUIVideo] \u5FFD\u7565\u672A\u7ED1\u5B9A\u6216\u7A7A\u6587\u4EF6\u97F3\u9891\u8D44\u4EA7: ${invalidAudios.map((i) => `Audio ${i}`).join(", ")}`);
+    }
+    const picKeys = Object.keys(pictures);
+    const audKeys = Object.keys(audios);
+    addLog(`[ComfyUIVideo] \u89E3\u6790\u5B8C\u6210: \u5305\u542B ${picKeys.length} \u4E2A\u6709\u6548\u56FE\u7247\u53C2\u8003 (${picKeys.map((k) => `Picture ${k}`).join(", ") || "\u65E0"}), ${audKeys.length} \u4E2A\u6709\u6548\u97F3\u9891\u53C2\u8003 (${audKeys.map((k) => `Audio ${k}`).join(", ") || "\u65E0"})`);
+    const uploadedImages = {};
+    for (const [idx, fileId] of Object.entries(pictures)) {
+      addLog(`[ComfyUIVideo] \u5904\u7406 Picture ${idx} (file_id: ${fileId})...`);
+      const uploadedName = await uploadMediaToComfyUIWithCache(fileId, "img", url);
+      if (uploadedName) {
+        uploadedImages[idx] = uploadedName;
+      }
+    }
+    if (isFirstFrameRef) {
+      addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u9996\u5E27\u53C2\u8003\u56FE\u7247\u9700\u6C42\uFF0C\u6B63\u5728\u63D0\u53D6\u89E6\u53D1\u5904\u56FE\u7247...");
+      let triggerImageSource = null;
+      const promptTag = rawPrompt || "";
+      if (promptTag) {
+        try {
+          triggerImageSource = await getItemBlob(promptTag);
+        } catch (e) {
+          console.warn("[ComfyUIVideo] getItemBlob \u83B7\u53D6\u5931\u8D25\uFF0C\u5C1D\u8BD5 getItemImg:", e);
+        }
+        if (!triggerImageSource) {
+          try {
+            const [imgData] = await getItemImg(promptTag);
+            if (imgData) {
+              triggerImageSource = imgData;
+            }
+          } catch (e2) {
+            console.warn("[ComfyUIVideo] getItemImg \u83B7\u53D6\u5931\u8D25:", e2);
+          }
+        }
+      }
+      if (triggerImageSource) {
+        const cacheKey = typeof CryptoJS !== "undefined" && CryptoJS.MD5 ? CryptoJS.MD5(promptTag || String(Date.now())).toString() : (promptTag || String(Date.now())).replace(/[^a-zA-Z0-9_-]/g, "_").substring(0, 32);
+        const uploadedFirstFrame = await uploadImageBlobToComfyUIWithCache(triggerImageSource, cacheKey, url);
+        if (uploadedFirstFrame) {
+          uploadedImages[1] = uploadedFirstFrame;
+          addLog(`[ComfyUIVideo] \u6210\u529F\u7ED1\u5B9A\u89E6\u53D1\u5904\u56FE\u7247\u4E3A Picture 1 -> ${uploadedFirstFrame}`);
+        }
+      } else {
+        addLog("[ComfyUIVideo] \u672A\u627E\u5230\u89E6\u53D1\u5904\u5DF2\u6709\u56FE\u7247\uFF0C\u5C06\u5C1D\u8BD5\u4F7F\u7528\u9884\u8BBE\u8D44\u4EA7\u6216\u7A7A\u767D\u515C\u5E95...");
+      }
+    }
+    const uploadedAudios = {};
+    for (const [idx, fileId] of Object.entries(audios)) {
+      addLog(`[ComfyUIVideo] \u5904\u7406 Audio ${idx} (file_id: ${fileId})...`);
+      const uploadedName = await uploadMediaToComfyUIWithCache(fileId, "aud", url);
+      if (uploadedName) {
+        uploadedAudios[idx] = uploadedName;
+      }
+    }
+    if (Object.keys(uploadedImages).length === 0) {
+      addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u65E0\u56FE\u7247\u53C2\u8003\u8D44\u4EA7\uFF0C\u6B63\u5728\u751F\u6210\u7A7A\u767D PNG \u4F5C\u4E3A\u7B2C\u4E00\u5F20\u56FE\u7247 (Picture 1) \u515C\u5E95...");
+      const blankFileName = await uploadBlankPngToComfyUIWithCache(url);
+      if (blankFileName) {
+        uploadedImages[1] = blankFileName;
+        addLog(`[ComfyUIVideo] \u7A7A\u767D\u56FE\u7247\u515C\u5E95\u5DF2\u5C31\u7EEA: Picture 1 -> ${blankFileName}`);
+      }
+    }
+    if (Object.keys(uploadedAudios).length === 0) {
+      addLog("[ComfyUIVideo] \u68C0\u6D4B\u5230\u65E0\u97F3\u9891\u53C2\u8003\u8D44\u4EA7\uFF0C\u6B63\u5728\u751F\u6210\u7A7A\u767D WAV \u4F5C\u4E3A\u7B2C\u4E00\u6BB5\u97F3\u9891 (Audio 1) \u515C\u5E95...");
+      const blankAudFileName = await uploadBlankAudioToComfyUIWithCache(url);
+      if (blankAudFileName) {
+        uploadedAudios[1] = blankAudFileName;
+        addLog(`[ComfyUIVideo] \u7A7A\u767D\u97F3\u9891\u515C\u5E95\u5DF2\u5C31\u7EEA: Audio 1 -> ${blankAudFileName}`);
+      }
+    }
+    let blankImgPlaceholder = uploadedImages[1] || "";
+    if (!blankImgPlaceholder) {
+      blankImgPlaceholder = await uploadBlankPngToComfyUIWithCache(url);
+    }
+    let blankAudPlaceholder = uploadedAudios[1] || "";
+    if (!blankAudPlaceholder) {
+      blankAudPlaceholder = await uploadBlankAudioToComfyUIWithCache(url);
+    }
+    const workerCategoryName = isImg2Vid ? "\u56FE\u751F\u89C6\u9891\u5DE5\u4F5C\u6D41" : "\u53C2\u8003\u751F\u89C6\u9891\u5DE5\u4F5C\u6D41";
+    const targetWorkerId = isImg2Vid ? settings4.comfyui_img2vid_workerid || "" : settings4.comfyui_ref2vid_workerid || "";
+    let targetWorkerJson = targetWorkerId && settings4.comfyui_video_workers?.[targetWorkerId] || (isImg2Vid ? settings4.comfyui_img2vid_worker : settings4.comfyui_ref2vid_worker) || settings4.worker || runninghubDefaultJson;
+    addLog(`[ComfyUIVideo] \u4F7F\u7528\u3010${workerCategoryName}\u3011\u9884\u8BBE: "${targetWorkerId || "\u9ED8\u8BA4"}"`);
+    const genSettings = {
+      seed: settings4.comfyui_val_seed,
+      steps: settings4.comfyui_val_steps,
+      megapixels: settings4.comfyui_val_megapixels,
+      duration: settings4.comfyui_val_duration,
+      defaultImg: settings4.comfyui_val_default_img,
+      defaultAud: settings4.comfyui_val_default_aud,
+      blankImg: blankImgPlaceholder,
+      blankAud: blankAudPlaceholder,
+      modelName: settings4.MODEL_NAME
+    };
+    const cleanPromptText = await stripChineseAnnotations(promptText);
+    let { promptObj, seedUsed } = buildComfyUIRefVideoWorkflow(
+      targetWorkerJson,
+      cleanPromptText,
+      uploadedImages,
+      uploadedAudios,
+      genSettings
+    );
+    const skippedCount = Object.values(promptObj).filter((n) => n && n._skip).length;
+    if (skippedCount > 0) {
+      addLog(`[ComfyUIVideo] \u68C0\u6D4B\u5230 ${skippedCount} \u4E2A\u8DF3\u8FC7\u7684\u8282\u70B9\uFF0C\u6B63\u5728\u5904\u7406\u8FDE\u63A5\u91CD\u6620\u5C04...`);
+      const objectInfo = await getComfyuiCache("objectinfo") || {};
+      promptObj = processSkippedNodes(promptObj, objectInfo);
+    }
+    const _comfy_gen_params = buildGenParams("ComfyUI-Video", {
+      model: settings4.MODEL_NAME || "ComfyUI-Video",
+      yushe: workerCategoryName,
+      resolvedPrompt: cleanPromptText,
+      seed: seedUsed,
+      steps: settings4.comfyui_val_steps,
+      duration: settings4.comfyui_val_duration
+    });
+    while (!window.xiancheng) {
+      if (!taskQueue.isTaskInQueue(taskId) || abortController.signal.aborted) {
+        addLog("[ComfyUIVideo] \u4EFB\u52A1\u5DF2\u88AB\u7528\u6237\u53D6\u6D88");
+        throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
+      }
+      await sleep(1e3);
+    }
+    if (!taskQueue.isTaskInQueue(taskId) || abortController.signal.aborted) {
       throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
     }
     window.xiancheng = false;
@@ -47584,14 +47540,24 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
     const submitRes = await fetch(`${url}/prompt`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: promptPayload
+      body: promptPayload,
+      signal: abortController.signal
     });
     if (!submitRes.ok) {
-      const errText = await submitRes.text();
-      throw new Error(`ComfyUI \u63D0\u4EA4\u5931\u8D25: ${submitRes.status} - ${errText}`);
+      let errJson = null;
+      try {
+        errJson = await submitRes.json();
+      } catch (_) {
+      }
+      const errText = errJson ? formatComfyUIApiError(errJson) : await submitRes.text();
+      throw new Error(`ComfyUI \u63D0\u4EA4\u5931\u8D25 (${submitRes.status}): ${errText}`);
     }
     const submitData = await submitRes.json();
     const runPromptId = submitData.prompt_id;
+    const currentActiveCtx = activeComfyUIVideoTasks.get(taskId);
+    if (currentActiveCtx) {
+      currentActiveCtx.promptId = runPromptId;
+    }
     addLog(`[ComfyUIVideo] \u4EFB\u52A1\u5DF2\u63D0\u4EA4\uFF0CPrompt ID: ${runPromptId}\uFF0C\u8FDB\u5165\u8F6E\u8BE2\u7B49\u5F85...`);
     let attempts = 0;
     let finalMediaData = null;
@@ -47600,7 +47566,7 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
     let outputUrl = null;
     while (true) {
       await sleep(1e3);
-      if (!taskQueue.isTaskInQueue(taskId)) {
+      if (!taskQueue.isTaskInQueue(taskId) || abortController.signal.aborted) {
         addLog("[ComfyUIVideo] \u4EFB\u52A1\u5DF2\u88AB\u53D6\u6D88\uFF0C\u53D1\u9001\u4E2D\u65AD\u8BF7\u6C42...");
         try {
           await fetch(`${url}/api/interrupt`, { method: "POST" });
@@ -47608,7 +47574,11 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
         }
         throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
       }
-      const histRes = await fetch(`${url}/history/${runPromptId}`);
+      attempts++;
+      if (attempts % 5 === 0) {
+        addLog(`[ComfyUIVideo] \u4EFB\u52A1\u8FD0\u884C\u4E2D\uFF0C\u5DF2\u7B49\u5F85\u7EA6 ${attempts} \u79D2...`);
+      }
+      const histRes = await fetch(`${url}/history/${runPromptId}`, { signal: abortController.signal });
       if (!histRes.ok) {
         addLog(`[ComfyUIVideo] \u8F6E\u8BE2\u5386\u53F2\u8BB0\u5F55\u5F02\u5E38: ${histRes.status}`);
         continue;
@@ -47617,8 +47587,7 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
       if (histData.hasOwnProperty(runPromptId)) {
         const promptHistory = histData[runPromptId];
         if (promptHistory.status && promptHistory.status.status_str === "error") {
-          const errInfo = promptHistory.status;
-          let errMsg = errInfo.exception_message || "ComfyUI \u4EFB\u52A1\u6267\u884C\u51FA\u9519";
+          const errMsg = formatComfyUIApiError(promptHistory.status, "ComfyUI \u4EFB\u52A1\u6267\u884C\u51FA\u9519");
           addLog(`[ComfyUIVideo \u9519\u8BEF] ${errMsg}`);
           throw new Error(errMsg);
         }
@@ -47650,7 +47619,7 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
         if (foundFile) {
           addLog(`[ComfyUIVideo] \u4EFB\u52A1\u5B8C\u6210\uFF0C\u6B63\u5728\u83B7\u53D6\u751F\u6210\u6587\u4EF6: ${foundFile.filename}...`);
           outputUrl = `${url}/view?filename=${encodeURIComponent(foundFile.filename)}&subfolder=${encodeURIComponent(foundFile.subfolder)}&type=output`;
-          const viewRes = await fetch(outputUrl);
+          const viewRes = await fetch(outputUrl, { signal: abortController.signal });
           if (!viewRes.ok) {
             throw new Error(`\u83B7\u53D6\u6587\u4EF6\u5931\u8D25: ${viewRes.status}`);
           }
@@ -47677,7 +47646,6 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
           break;
         }
       }
-      attempts++;
       if (attempts > 1200) {
         throw new Error("ComfyUI \u89C6\u9891\u751F\u6210\u8D85\u65F6 (20\u5206\u949F)");
       }
@@ -47698,15 +47666,22 @@ async function generateComfyUIRefVideo({ prompt: rawPrompt, width: Xwidth, heigh
     if (lockAcquired) {
       window.xiancheng = true;
     }
+    const isAborted = err.message === "\u4EFB\u52A1\u5DF2\u53D6\u6D88" || abortController.signal.aborted || !taskQueue.isTaskInQueue(taskId);
     const rawMessage = err instanceof Error ? err.message : String(err);
-    if (rawMessage !== "\u4EFB\u52A1\u5DF2\u53D6\u6D88") {
+    if (isAborted) {
+      taskQueue.cancelTask(taskId);
+      addLog(`[ComfyUIVideo] \u4EFB\u52A1\u5DF2\u88AB\u7528\u6237\u53D6\u6D88: ${taskId}`);
+      toastr.info(`\u5DF2\u53D6\u6D88 ${taskTypeName}`);
+    } else {
       taskQueue.completeTask(taskId, false);
       recordImageGeneration("comfyui", false);
+      addLog(`[ComfyUIVideo \u9519\u8BEF] ${rawMessage}`);
+      console.error("[ComfyUIVideo \u9519\u8BEF]", err);
+      toastr.error(`${taskTypeName}\u5931\u8D25: ${rawMessage}`);
     }
-    addLog(`[ComfyUIVideo \u9519\u8BEF] ${rawMessage}`);
-    console.error("[ComfyUIVideo \u9519\u8BEF]", err);
     throw err;
   } finally {
+    unregisterActiveComfyUIVideoTask(taskId);
     if (lockAcquired) {
       setTimeout(() => {
         window.xiancheng = true;
@@ -47768,8 +47743,13 @@ async function executeComfyUIVideoDirectTest({
     signal: abortSignal
   });
   if (!submitRes.ok) {
-    const errText = await submitRes.text();
-    throw new Error(`ComfyUI \u63D0\u4EA4\u5931\u8D25: ${submitRes.status} - ${errText}`);
+    let errJson = null;
+    try {
+      errJson = await submitRes.json();
+    } catch (_) {
+    }
+    const errText = errJson ? formatComfyUIApiError(errJson) : await submitRes.text();
+    throw new Error(`ComfyUI \u63D0\u4EA4\u5931\u8D25 (${submitRes.status}): ${errText}`);
   }
   const submitData = await submitRes.json();
   const runPromptId = submitData.prompt_id;
@@ -47779,6 +47759,7 @@ async function executeComfyUIVideoDirectTest({
   let mediaFormat = "video/mp4";
   let outputUrl = null;
   let foundFileName = "";
+  let consecutiveFetchErrors = 0;
   while (true) {
     if (abortSignal?.aborted) {
       try {
@@ -47796,7 +47777,21 @@ async function executeComfyUIVideoDirectTest({
       throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
     }
     attempts++;
-    const histRes = await fetch(`${url}/history/${runPromptId}`, { signal: abortSignal });
+    if (attempts % 5 === 0) {
+      notify(`ComfyUI \u89C6\u9891\u751F\u6210\u4E2D\uFF0C\u5DF2\u8017\u65F6\u7EA6 ${attempts} \u79D2...`);
+    }
+    let histRes;
+    try {
+      histRes = await fetch(`${url}/history/${runPromptId}`, { signal: abortSignal });
+      consecutiveFetchErrors = 0;
+    } catch (fetchErr) {
+      if (abortSignal?.aborted) throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
+      consecutiveFetchErrors++;
+      if (consecutiveFetchErrors > 15) {
+        throw new Error(`\u65E0\u6CD5\u8FDE\u63A5\u5230 ComfyUI \u670D\u52A1\u6216\u8FDE\u63A5\u65AD\u5F00: ${fetchErr.message}`);
+      }
+      continue;
+    }
     if (!histRes.ok) {
       continue;
     }
@@ -47804,8 +47799,7 @@ async function executeComfyUIVideoDirectTest({
     if (histData && histData.hasOwnProperty(runPromptId)) {
       const promptHistory = histData[runPromptId];
       if (promptHistory.status && promptHistory.status.status_str === "error") {
-        const errInfo = promptHistory.status;
-        let errMsg = errInfo.exception_message || "ComfyUI \u4EFB\u52A1\u6267\u884C\u51FA\u9519";
+        const errMsg = formatComfyUIApiError(promptHistory.status, "ComfyUI \u4EFB\u52A1\u6267\u884C\u51FA\u9519");
         throw new Error(errMsg);
       }
       const outputs = promptHistory.outputs || {};
@@ -47867,9 +47861,12 @@ async function executeComfyUIVideoDirectTest({
         };
       }
     }
+    if (attempts > 900) {
+      throw new Error("ComfyUI \u89C6\u9891\u751F\u6210\u8D85\u65F6 (\u5DF2\u7B49\u5F8515\u5206\u949F)");
+    }
   }
 }
-var UPLOAD_CACHE_EXPIRY_MS2, generateComfyUIVideo;
+var UPLOAD_CACHE_EXPIRY_MS2, activeComfyUIVideoTasks, handleComfyUIVideoCancel, generateComfyUIVideo;
 var init_comfyuiVideo = __esm({
   "utils/comfyuiVideo.js"() {
     init_utils();
@@ -47882,6 +47879,16 @@ var init_comfyuiVideo = __esm({
     init_workers();
     init_worker();
     UPLOAD_CACHE_EXPIRY_MS2 = 24 * 60 * 60 * 1e3;
+    activeComfyUIVideoTasks = /* @__PURE__ */ new Map();
+    handleComfyUIVideoCancel = ({ taskId } = {}) => {
+      if (taskId && activeComfyUIVideoTasks.has(taskId)) {
+        abortComfyUIVideoTask(taskId);
+      }
+    };
+    if (typeof eventSource24 !== "undefined" && eventSource24?.on) {
+      eventSource24.on("st_chatu8_cancel_task", handleComfyUIVideoCancel);
+      eventSource24.on("st_chatu8_cancel_comfyui_task", handleComfyUIVideoCancel);
+    }
     generateComfyUIVideo = generateComfyUIRefVideo;
   }
 });
@@ -47890,25 +47897,7 @@ var init_comfyuiVideo = __esm({
 
 
 async function _dataUrlToBlob(dataUrl) {
-  const commaIdx = dataUrl.indexOf(",");
-  const meta = dataUrl.slice(0, commaIdx);
-  const mimeType = meta.slice(5, meta.indexOf(";"));
-  const base64 = dataUrl.slice(commaIdx + 1);
-  const CHUNK = 512 * 1024;
-  const parts = [];
-  for (let i = 0; i < base64.length; i += CHUNK) {
-    const chunk = base64.slice(i, i + CHUNK);
-    const binaryStr = atob(chunk);
-    const bytes = new Uint8Array(binaryStr.length);
-    for (let j = 0; j < binaryStr.length; j++) {
-      bytes[j] = binaryStr.charCodeAt(j);
-    }
-    parts.push(bytes);
-    if (parts.length % 5 === 0) {
-      await new Promise((r) => setTimeout(r, 0));
-    }
-  }
-  return new Blob(parts, { type: mimeType });
+  return safeDataUrlToBlob(dataUrl);
 }
 function setShowImagePreview(fn) {
   _showImagePreview = fn;
@@ -47924,7 +47913,14 @@ function createAndShowImage(container, imageUrl, alt, button, change, isVideo = 
     media.controls = false;
     media.loop = true;
     media.muted = false;
+    media.defaultMuted = false;
+    media.removeAttribute("muted");
     media.playsInline = true;
+    media.setAttribute("playsinline", "");
+    media.setAttribute("webkit-playsinline", "true");
+    media.setAttribute("x5-playsinline", "true");
+    media.setAttribute("x5-video-player-type", "h5-page");
+    media.setAttribute("controlslist", "nodownload");
     media.dataset.isVideo = "true";
     media.autoplay = false;
     media.preload = "metadata";
@@ -47932,20 +47928,29 @@ function createAndShowImage(container, imageUrl, alt, button, change, isVideo = 
     const loadVideoMediaSource = () => {
       if (isSourceLoaded) return;
       isSourceLoaded = true;
-      if (imageUrl.startsWith("data:")) {
-        _dataUrlToBlob(imageUrl).then((rawBlob) => fixMp4Faststart(rawBlob)).then((blob) => {
-          const blobUrl = URL.createObjectURL(blob);
-          if (media.dataset.blobUrl) {
-            try {
-              URL.revokeObjectURL(media.dataset.blobUrl);
-            } catch (_) {
-            }
+      const applyBlob = (blob) => {
+        const blobUrl = (doc.defaultView?.URL || window.URL || URL).createObjectURL(blob);
+        if (media.dataset.blobUrl) {
+          try {
+            (doc.defaultView?.URL || window.URL || URL).revokeObjectURL(media.dataset.blobUrl);
+          } catch (_) {
           }
-          media.dataset.blobUrl = blobUrl;
-          media.src = blobUrl;
-        }).catch((e) => {
-          console.warn("[video] Blob URL \u521B\u5EFA\u5931\u8D25\uFF0C\u56DE\u9000\u4F7F\u7528 data URL:", e);
-          media.src = imageUrl;
+        }
+        media.dataset.blobUrl = blobUrl;
+        media.src = blobUrl;
+      };
+      if (imageUrl.startsWith("data:")) {
+        _dataUrlToBlob(imageUrl).then((rawBlob) => fixMp4Faststart(rawBlob)).then((blob) => applyBlob(blob)).catch((e) => {
+          console.warn("[video] DataURL \u8F6C Blob \u5931\u8D25\uFF0C\u56DE\u9000\u76F4\u63A5\u8D4B\u503C:", e);
+          media.src = originalUrl || imageUrl;
+        });
+      } else if (imageUrl.startsWith("http://") || imageUrl.startsWith("https://") || imageUrl.startsWith("/") || imageUrl.startsWith(".")) {
+        fetch(imageUrl).then((res) => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.blob();
+        }).then((rawBlob) => fixMp4Faststart(rawBlob)).then((blob) => applyBlob(blob)).catch((e) => {
+          console.warn("[video] \u7F51\u7EDC URL faststart \u9884\u62C9\u53D6\u5931\u8D25\uFF0C\u76F4\u63A5\u8D4B\u503C:", e);
+          media.src = originalUrl || imageUrl;
         });
       } else {
         media.src = imageUrl;
@@ -47968,15 +47973,28 @@ function createAndShowImage(container, imageUrl, alt, button, change, isVideo = 
         threshold: 0
       });
       observer.observe(div);
+      setTimeout(() => {
+        if (!isSourceLoaded) {
+          loadVideoMediaSource();
+        }
+      }, 500);
     } else {
       loadVideoMediaSource();
     }
     media.onerror = function() {
+      if (!this.src || this.src === "about:blank" || this.src === location.href) return;
       const errCode = this.error?.code;
       console.error(`[iframe] Video onerror: code=${errCode}, msg=${this.error?.message}`);
       if (originalUrl && this.src !== originalUrl) {
-        console.log("[iframe] \u5C1D\u8BD5\u4F7F\u7528\u539F\u59CB URL \u5099\u7528\u64AD\u653E:", originalUrl);
+        console.log("[iframe] \u5C1D\u8BD5\u4F7F\u7528\u539F\u59CB URL \u5907\u7528\u64AD\u653E:", originalUrl);
         this.src = originalUrl;
+        try {
+          this.load();
+        } catch (_) {
+        }
+        return;
+      }
+      if (media.parentNode && media.parentNode.querySelector(".st-chatu8-video-notice")) {
         return;
       }
       const notice = doc.createElement("div");
@@ -48199,7 +48217,8 @@ function createAndShowImage(container, imageUrl, alt, button, change, isVideo = 
     const rightControls = doc2.createElement("div");
     rightControls.style.cssText = "display: flex; align-items: center; gap: 8px;";
     const muteBtn = doc2.createElement("div");
-    muteBtn.innerHTML = "\u{1F50A}";
+    muteBtn.innerHTML = media2.muted ? "\u{1F507}" : "\u{1F50A}";
+    muteBtn.title = media2.muted ? "\u5F00\u542F\u58F0\u97F3" : "\u9759\u97F3";
     muteBtn.style.cssText = `
         cursor: pointer;
         width: 28px;
@@ -48429,7 +48448,14 @@ function createAndShowImage(container, imageUrl, alt, button, change, isVideo = 
     muteBtn.onclick = (e) => {
       e.stopPropagation();
       media2.muted = !media2.muted;
+      if (!media2.muted) {
+        media2.defaultMuted = false;
+        media2.removeAttribute("muted");
+      } else {
+        media2.setAttribute("muted", "");
+      }
       muteBtn.innerHTML = media2.muted ? "\u{1F507}" : "\u{1F50A}";
+      muteBtn.title = media2.muted ? "\u5F00\u542F\u58F0\u97F3" : "\u9759\u97F3";
     };
     progressContainer.onclick = (e) => {
       e.stopPropagation();
@@ -48764,7 +48790,7 @@ var init_generation = __esm({
       const requestId = button.dataset.requestId;
       const isVideoMode = activeMode === "video";
       const isAssetManifest = /asset_manifest\s*:/i.test(link || "") || /asset_manifest\s*:/i.test(video || "") || /asset_manifest\s*:/i.test(change || "");
-      const currentTargetText = ((isVideoMode || isAssetManifest ? video || button.dataset.videoPrompt || (link && (link.includes("id:") || link.includes("Overview") || /asset_manifest\s*:/i.test(link)) ? link : "") : change || link) || "").trim();
+      const currentTargetText = ((isVideoMode || isAssetManifest ? video || button.dataset.videoPrompt || (/asset_manifest\s*:/i.test(link) ? link : "") : change || link) || "").trim();
       if (/^\s*asset_manifest\s*:/im.test(currentTargetText) || /asset_manifest\s*:\s*\{/i.test(currentTargetText)) {
         const channel = extension_settings52[extensionName]?.videoChannel || "runninghub";
         const isRh = channel === "runninghub";
@@ -48813,7 +48839,7 @@ var init_generation = __esm({
                   }
                 });
               });
-              eventSource24.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+              eventSource25.emit(EventType.GENERATE_IMAGE_RESPONSE, {
                 id: requestId,
                 success: true,
                 imageData: result.mediaData,
@@ -48837,7 +48863,7 @@ var init_generation = __esm({
                   btn.textContent = "\u751F\u6210\u89C6\u9891";
                 });
               });
-              eventSource24.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+              eventSource25.emit(EventType.GENERATE_IMAGE_RESPONSE, {
                 id: requestId,
                 success: false,
                 error: err.message,
@@ -48865,46 +48891,6 @@ var init_generation = __esm({
           return;
         }
       }
-      if (activeMode === "video") {
-        const videoText = video || button.dataset.videoPrompt || "";
-        if (videoText && (videoText.split("\n")[0].includes("id:") || videoText.split("\n")[0].includes("Overview"))) {
-          button.setAttribute("data-loading", "true");
-          button.textContent = "\u89E3\u6790\u7D20\u6750\u4E2D...";
-          Promise.resolve().then(() => (init_overviewVideoProcessor(), overviewVideoProcessor_exports)).then(({ processOverviewVideoGen: processOverviewVideoGen2 }) => {
-            processOverviewVideoGen2(videoText, button, null).then(async (finalResult) => {
-              if (finalResult && finalResult.trim() !== "") {
-                button.dataset.video = finalResult;
-                button.dataset.activeMode = "video";
-                button.textContent = "\u89C6\u9891\u751F\u6210\u4E2D...";
-                if (button.dataset.link) {
-                  const { updateItemImgVideo: updateItemImgVideo2, updateItemImgActiveMode: updateItemImgActiveMode2 } = await Promise.resolve().then(() => (init_database(), database_exports));
-                  await updateItemImgVideo2(button.dataset.link, finalResult);
-                  await updateItemImgActiveMode2(button.dataset.link, "video");
-                }
-                toastr.success("\u89C6\u9891\u7D20\u6750\u914D\u7F6E\u5DF2\u751F\u6210");
-                button.removeAttribute("data-loading");
-                console.log("[OverviewVideoGen] \u89C6\u9891\u914D\u7F6E\u5904\u7406\u5B8C\u6210\uFF0C\u81EA\u52A8\u53D1\u8D77\u89C6\u9891\u751F\u6210");
-                setTimeout(() => {
-                  triggerGeneration(button);
-                }, 50);
-              } else {
-                button.removeAttribute("data-loading");
-                button.textContent = "\u751F\u6210\u89C6\u9891";
-              }
-            }).catch((err) => {
-              console.error("[OverviewVideoGen]", err);
-              toastr.error("\u5904\u7406\u5931\u8D25: " + err.message);
-              button.removeAttribute("data-loading");
-              button.textContent = "\u751F\u6210\u89C6\u9891";
-            });
-          }).catch((err) => {
-            console.error("\u5BFC\u5165 overviewVideoProcessor \u5931\u8D25", err);
-            button.removeAttribute("data-loading");
-            button.textContent = "\u751F\u6210\u89C6\u9891";
-          });
-          return;
-        }
-      }
       const startGenerationProcess = () => {
         console.log("Triggering generation for button:", button);
         const alreadyGenerating = isGenerating(link);
@@ -48916,7 +48902,7 @@ var init_generation = __esm({
         const imageResponseHandler = (responseData) => {
           if (responseData.id !== requestId) return;
           console.log("Image response:", responseData);
-          eventSource24.removeListener(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
+          eventSource25.removeListener(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
           addLog(`\u56FE\u50CF\u54CD\u5E94\u76D1\u542C\u5668\u5DF2\u9500\u6BC1 (ID: ${requestId})`);
           const { success, imageData, error, prompt: prompt2, change: change2, isVideo, originalUrl, video: video2, activeMode: activeMode2 } = responseData;
           if (prompt2) stopGenerating(prompt2);
@@ -48953,13 +48939,13 @@ var init_generation = __esm({
             });
           });
         };
-        eventSource24.on(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
+        eventSource25.on(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
         addLog(`\u56FE\u50CF\u54CD\u5E94\u76D1\u542C\u5668\u5DF2\u521B\u5EFA (ID: ${requestId})`);
         if (!alreadyGenerating) {
           button.setAttribute("data-loading", "true");
           button.textContent = isVideoMode ? "\u89C6\u9891\u751F\u6210\u4E2D..." : "\u52A0\u8F7D\u4E2D...";
           startGenerating(link);
-          const buttonChange = isVideoMode ? video || button.dataset.videoPrompt || (link && (link.includes("id:") || link.includes("Overview") || /asset_manifest\s*:/i.test(link)) ? link : "") : change || link;
+          const buttonChange = isVideoMode ? video || button.dataset.videoPrompt || (/asset_manifest\s*:/i.test(link) ? link : "") : change || link;
           let requestPrompt = link;
           let requestChange = buttonChange;
           let finalWidth = button.dataset.width || null;
@@ -49006,7 +48992,7 @@ var init_generation = __esm({
               button.dataset.change = button.dataset.change?.replaceAll("{\u89C6\u9891}", "");
             }
           }
-          eventSource24.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
+          eventSource25.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
           addLog(`\u53D1\u51FA${isVideoMode ? "\u89C6\u9891" : "\u56FE\u50CF"}\u751F\u6210\u8BF7\u6C42 (ID: ${requestData.id})`);
         }
       };
@@ -49042,7 +49028,7 @@ var init_generation = __esm({
                 }
               }
             }
-            eventSource24.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+            eventSource25.emit(EventType.GENERATE_IMAGE_RESPONSE, {
               id: requestId,
               success: true,
               imageData: imageUrl,
@@ -49374,7 +49360,7 @@ async function createButtonAtPosition(insertPosition, tag, nodeInfos, doc, rootE
   if (video) {
     button.dataset.video = video;
   }
-  const resolvedMode = activeMode || (video && !change ? "video" : link && (link.includes("id:") || link.includes("Overview") || /asset_manifest\s*:/i.test(link)) ? "video" : "image");
+  const resolvedMode = activeMode || (video && !change ? "video" : link && /asset_manifest\s*:/i.test(link) ? "video" : "image");
   button.dataset.activeMode = resolvedMode;
   if (!button.hasAttribute("data-loading")) {
     button.textContent = resolvedMode === "video" ? "\u751F\u6210\u89C6\u9891" : "\u751F\u6210\u56FE\u7247";
@@ -49392,6 +49378,14 @@ async function createButtonAtPosition(insertPosition, tag, nodeInfos, doc, rootE
 }
 function isButtonEligibleForAutoClick(button) {
   if (!button) return false;
+  const isPermanent = extension_settings53[extensionName]?.zidongdianji2 === "true";
+  if (!window.zidongdianji && !isPermanent) {
+    return false;
+  }
+  const reqId = button.dataset.requestId;
+  if (reqId && handledAutoClickRequestIds.has(reqId)) {
+    return false;
+  }
   if (button.dataset.autoClickHandled === "true" || button.hasAttribute("data-loading")) {
     return false;
   }
@@ -49399,17 +49393,35 @@ function isButtonEligibleForAutoClick(button) {
     return false;
   }
   const root = button.closest(".mes_text") || button.parentElement;
-  const reqId = button.dataset.requestId;
   if (root && reqId) {
     const span = root.querySelector(`span[data-request-id="${reqId}"]`);
     if (span && span.querySelector("img, video, .st-chatu8-video-fallback")) {
       return false;
     }
   }
+  const link = button.dataset.link;
+  if (link && isGenerating(link)) {
+    return false;
+  }
+  const mesContainer = button.closest?.(".mes[mesid]");
+  if (mesContainer) {
+    const allMes = document.querySelectorAll("#chat .mes[mesid]");
+    if (allMes.length > 0) {
+      const mesIndex = Array.prototype.indexOf.call(allMes, mesContainer);
+      if (mesIndex !== -1 && mesIndex < allMes.length - 2) {
+        return false;
+      }
+    }
+  }
   const createdAt = Number(button.dataset.createdAt || 0);
   const triggerStartTime = Number(window.zidongdianjiStartTime || 0);
   const now = Date.now();
-  if (!createdAt || now - createdAt > 3e3) {
+  if (!isPermanent) {
+    if (triggerStartTime > 0 && now - triggerStartTime > 1800) {
+      return false;
+    }
+  }
+  if (!createdAt || now - createdAt > 2e3) {
     return false;
   }
   if (triggerStartTime > 0 && createdAt < triggerStartTime - 600) {
@@ -49432,7 +49444,7 @@ async function tryMountImageFromDB(button, span, settings4, imageAlt = "Generate
     if (video) {
       button.dataset.video = video;
     }
-    const resolvedMode = activeMode || (video && !change ? "video" : link && (link.includes("id:") || link.includes("Overview") || /asset_manifest\s*:/i.test(link)) ? "video" : "image");
+    const resolvedMode = activeMode || (video && !change ? "video" : link && /asset_manifest\s*:/i.test(link) ? "video" : "image");
     button.dataset.activeMode = resolvedMode;
     if (!button.hasAttribute("data-loading")) {
       button.textContent = resolvedMode === "video" ? "\u751F\u6210\u89C6\u9891" : "\u751F\u6210\u56FE\u7247";
@@ -49455,7 +49467,7 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
   }
   const notifyAutoClick = (success = true) => {
     if (window.autoClickTaskId) {
-      eventSource25.emit("st_chatu8_auto_click_complete", {
+      eventSource26.emit("st_chatu8_auto_click_complete", {
         taskId: window.autoClickTaskId,
         success
       });
@@ -49463,14 +49475,15 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
     }
   };
   const settings4 = extension_settings53[extensionName];
-  const shouldAutoClickBatch = settings4?.zidongdianji === "true" && window.zidongdianji;
+  let isEditedContentReprocess = false;
   if (rootElement.dataset && rootElement.dataset.chatu8Processed === "true") {
     const currentLength = rootElement.textContent?.length || 0;
     const storedLength = parseInt(rootElement.dataset.chatu8ContentLength || "0", 10);
     if (currentLength !== storedLength) {
-      console.log("[iframe] Content length changed, re-processing:", { stored: storedLength, current: currentLength });
+      console.log("[iframe] Content length changed, re-processing (editing immunity active):", { stored: storedLength, current: currentLength });
       delete rootElement.dataset.chatu8Processed;
       delete rootElement.dataset.chatu8ContentLength;
+      isEditedContentReprocess = true;
     } else {
       const anyButton = rootElement.querySelector("button.image-tag-button");
       if (anyButton) {
@@ -49486,7 +49499,8 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
         if (mountPromises.length > 0) {
           await Promise.all(mountPromises);
         }
-        if (shouldAutoClickBatch) {
+        const shouldAutoClickExisting = !isEditedContentReprocess && settings4?.zidongdianji === "true" && window.zidongdianji;
+        if (shouldAutoClickExisting) {
           const eligibleButtons = allButtons.filter((btn) => {
             if (!isButtonEligibleForAutoClick(btn)) return false;
             const reqId = btn.dataset.requestId;
@@ -49500,7 +49514,15 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
             console.log("[iframe] \u81EA\u52A8\u70B9\u51FB\u5BF9\u5143\u7D20\u4E2D\u65B0\u6309\u94AE\u9519\u5CF0\u89E6\u53D1\u751F\u6210\uFF0C\u6570\u91CF:", eligibleButtons.length);
             (async () => {
               for (let i = 0; i < eligibleButtons.length; i++) {
+                if (extension_settings53[extensionName]?.zidongdianji2 !== "true" && !window.zidongdianji) {
+                  console.log("[iframe] \u81EA\u52A8\u70B9\u51FB\u7A97\u53E3\u5DF2\u5173\u95ED\uFF0C\u505C\u6B62\u7EE7\u7EED\u89E6\u53D1");
+                  break;
+                }
                 const btn = eligibleButtons[i];
+                const reqId = btn.dataset.requestId;
+                if (reqId) {
+                  handledAutoClickRequestIds.add(reqId);
+                }
                 btn.dataset.autoClickHandled = "true";
                 triggerGeneration(btn);
                 if (i < eligibleButtons.length - 1) {
@@ -49624,6 +49646,7 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
     notifyAutoClick(true);
     return;
   }
+  const shouldAutoClickBatch = !isEditedContentReprocess && settings4?.zidongdianji === "true" && window.zidongdianji;
   const clickPromises = [];
   const buttonsToAutoClick = [];
   const sortedSavedMatches = [...savedMatches].sort((a, b) => b.insertPosition - a.insertPosition);
@@ -49761,7 +49784,7 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
       if (video) {
         button.dataset.video = video;
       }
-      const resolvedMode = activeMode || (video && !change ? "video" : link && (link.includes("id:") || link.includes("Overview") || /asset_manifest\s*:/i.test(link)) ? "video" : "image");
+      const resolvedMode = activeMode || (video && !change ? "video" : link && /asset_manifest\s*:/i.test(link) ? "video" : "image");
       button.dataset.activeMode = resolvedMode;
       if (!button.hasAttribute("data-loading")) {
         button.textContent = resolvedMode === "video" ? "\u751F\u6210\u89C6\u9891" : "\u751F\u6210\u56FE\u7247";
@@ -49771,11 +49794,11 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
         if (extension_settings53[extensionName].dbclike === "true") {
           button.style.setProperty("display", "none", "important");
         }
-      } else if (shouldAutoClickBatch) {
-        buttonsToAutoClick.unshift(button);
       } else if (isGenerating(link)) {
         console.log("[iframe] \u56FE\u50CF\u6B63\u5728\u9884\u751F\u6210\u4E2D\uFF0C\u81EA\u52A8\u6302\u8F7D\u76D1\u542C\u5668:", button);
         triggerGeneration(button);
+      } else if (shouldAutoClickBatch) {
+        buttonsToAutoClick.unshift(button);
       }
     })();
     clickPromises.push(promise);
@@ -49783,19 +49806,32 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
   Promise.all(clickPromises).then(async () => {
     if (shouldAutoClickBatch) {
       const buttonsInOrder = Array.from(rootElement.querySelectorAll("button.image-tag-button")).filter(isButtonEligibleForAutoClick);
-      console.log("[iframe] \u6309 DOM \u81EA\u7136\u6B63\u5E8F\uFF08\u4ECE\u4E0A\u5230\u4E0B\uFF09\u9519\u5CF0\u89E6\u53D1\u81EA\u52A8\u751F\u6210\uFF0C\u6309\u94AE\u6570\u91CF:", buttonsInOrder.length);
-      for (let i = 0; i < buttonsInOrder.length; i++) {
-        const btn = buttonsInOrder[i];
-        console.log(`[iframe] \u81EA\u52A8\u70B9\u51FB\u89E6\u53D1\u751F\u6210 #${i + 1} (\u6B63\u5E8F):`, btn);
-        btn.dataset.autoClickHandled = "true";
-        triggerGeneration(btn);
-        if (i < buttonsInOrder.length - 1) {
-          await sleep(600);
+      if (buttonsInOrder.length > 0) {
+        console.log("[iframe] \u6309 DOM \u81EA\u7136\u6B63\u5E8F\uFF08\u4ECE\u4E0A\u5230\u4E0B\uFF09\u9519\u5CF0\u89E6\u53D1\u81EA\u52A8\u751F\u6210\uFF0C\u6309\u94AE\u6570\u91CF:", buttonsInOrder.length);
+        for (let i = 0; i < buttonsInOrder.length; i++) {
+          if (extension_settings53[extensionName]?.zidongdianji2 !== "true" && !window.zidongdianji) {
+            console.log("[iframe] \u81EA\u52A8\u70B9\u51FB\u7A97\u53E3\u5DF2\u5173\u95ED\uFF0C\u505C\u6B62\u7EE7\u7EED\u89E6\u53D1");
+            break;
+          }
+          const btn = buttonsInOrder[i];
+          const reqId = btn.dataset.requestId;
+          if (reqId) {
+            handledAutoClickRequestIds.add(reqId);
+          }
+          console.log(`[iframe] \u81EA\u52A8\u70B9\u51FB\u89E6\u53D1\u751F\u6210 #${i + 1} (\u6B63\u5E8F):`, btn);
+          btn.dataset.autoClickHandled = "true";
+          triggerGeneration(btn);
+          if (i < buttonsInOrder.length - 1) {
+            await sleep(600);
+          }
         }
+      }
+      if (extension_settings53[extensionName]?.zidongdianji2 !== "true") {
+        deactivateAutoClickWindow();
       }
     }
     if (window.autoClickTaskId) {
-      eventSource25.emit("st_chatu8_auto_click_complete", {
+      eventSource26.emit("st_chatu8_auto_click_complete", {
         taskId: window.autoClickTaskId,
         success: true
       });
@@ -49804,7 +49840,7 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
   }).catch((err) => {
     console.error("[iframe] \u5904\u7406\u5360\u4F4D\u7B26\u6309\u94AE\u51FA\u73B0\u9519\u8BEF:", err);
     if (window.autoClickTaskId) {
-      eventSource25.emit("st_chatu8_auto_click_complete", {
+      eventSource26.emit("st_chatu8_auto_click_complete", {
         taskId: window.autoClickTaskId,
         success: false
       });
@@ -49816,6 +49852,7 @@ async function findAndReplaceInElement(rootElement, imageAlt = "Generated Image"
     rootElement.dataset.chatu8ContentLength = String(rootElement.textContent?.length || 0);
   }
 }
+var handledAutoClickRequestIds;
 var init_placeholder = __esm({
   "utils/iframe/placeholder.js"() {
     init_config();
@@ -49827,6 +49864,8 @@ var init_placeholder = __esm({
     init_dialogs();
     init_generation_status();
     init_utils();
+    init_iframe();
+    handledAutoClickRequestIds = /* @__PURE__ */ new Set();
   }
 });
 
@@ -49838,8 +49877,11 @@ function processMesTextElements() {
     return;
   }
   const elements = document.getElementsByClassName("mes_text");
-  for (const element of elements) {
-    if (!isElementVisible(element, 0)) {
+  const total = elements.length;
+  for (let i = 0; i < total; i++) {
+    const element = elements[i];
+    const isLatestMessage = i >= total - 2;
+    if (!isLatestMessage && !isElementVisible(element, 0)) {
       continue;
     }
     findAndReplaceInElement(element);
@@ -49992,25 +50034,15 @@ var init_chatProcessor = __esm({
 // utils/iframe/imagePreview.js
 async function applyVideoSrc(videoEl2, dataUrl, originalUrl = "") {
   if (videoEl2.src && videoEl2.src.startsWith("blob:")) {
-    URL.revokeObjectURL(videoEl2.src);
+    try {
+      (window.top?.URL || URL).revokeObjectURL(videoEl2.src);
+    } catch (_) {
+    }
   }
   try {
-    const commaIdx = dataUrl.indexOf(",");
-    const mimeType = dataUrl.slice(5, dataUrl.indexOf(";"));
-    const base64 = dataUrl.slice(commaIdx + 1);
-    const CHUNK = 512 * 1024;
-    const parts = [];
-    for (let i = 0; i < base64.length; i += CHUNK) {
-      const chunk = base64.slice(i, i + CHUNK);
-      const binaryStr = atob(chunk);
-      const bytes = new Uint8Array(binaryStr.length);
-      for (let j = 0; j < binaryStr.length; j++) bytes[j] = binaryStr.charCodeAt(j);
-      parts.push(bytes);
-      if (parts.length % 5 === 0) await new Promise((r) => setTimeout(r, 0));
-    }
-    const rawBlob = new Blob(parts, { type: mimeType });
+    const rawBlob = await safeDataUrlToBlob(dataUrl);
     const blob = await fixMp4Faststart(rawBlob);
-    const blobUrl = URL.createObjectURL(blob);
+    const blobUrl = (window.top?.URL || URL).createObjectURL(blob);
     videoEl2.dataset.blobUrl = blobUrl;
     videoEl2.src = blobUrl;
     if (originalUrl) {
@@ -50019,6 +50051,10 @@ async function applyVideoSrc(videoEl2, dataUrl, originalUrl = "") {
         if (originalUrl && videoEl2.src !== originalUrl) {
           console.log("[imagePreview] BlobURL \u5931\u8D25\uFF0C\u56DE\u9000\u5230\u539F\u59CB URL:", originalUrl);
           videoEl2.src = originalUrl;
+          try {
+            videoEl2.load();
+          } catch (_) {
+          }
         }
       };
       videoEl2.addEventListener("error", onErr);
@@ -50345,6 +50381,9 @@ function showImagePreview(img, button, autoFullscreen = false) {
         if (largeMedia.getAttribute("preload") === "none") {
           largeMedia.setAttribute("preload", "metadata");
         }
+        largeMedia.muted = false;
+        largeMedia.defaultMuted = false;
+        largeMedia.removeAttribute("muted");
       }
       const thumbnails = thumbnailContainer.querySelectorAll(".st-chatu8-preview-thumbnail");
       thumbnails.forEach((t, i) => t.classList.toggle("active", i === currentIndex));
@@ -51036,6 +51075,15 @@ function showImagePreview(img, button, autoFullscreen = false) {
       el.loop = true;
       el.autoplay = false;
       el.playsInline = true;
+      if (!isCurrent) {
+        el.muted = true;
+        el.defaultMuted = true;
+        el.setAttribute("muted", "");
+      } else {
+        el.muted = false;
+        el.defaultMuted = false;
+        el.removeAttribute("muted");
+      }
       el.setAttribute("controlslist", "nodownload");
       el.setAttribute("playsinline", "");
       el.setAttribute("webkit-playsinline", "true");
@@ -51047,10 +51095,8 @@ function showImagePreview(img, button, autoFullscreen = false) {
         el.dataset.blobUrl = info.verifiedSrc;
       } else {
         getItemImg(currentTag, index).then(([dataUrl, , , , origUrl]) => {
-          if (dataUrl && dataUrl.startsWith("data:")) {
+          if (dataUrl) {
             applyVideoSrc(el, dataUrl, origUrl || info.originalUrl || "");
-          } else if (dataUrl) {
-            el.src = dataUrl;
           } else if (blobUrl) {
             el.src = blobUrl;
           }
@@ -51060,6 +51106,7 @@ function showImagePreview(img, button, autoFullscreen = false) {
         });
       }
       el.onerror = function() {
+        if (!el.src || el.src === "about:blank" || el.src === location.href) return;
         const errCode = el.error ? el.error.code : "unknown";
         const errMsg = el.error ? el.error.message : "";
         console.warn(`[iframe] \u9884\u89C8\u89C6\u9891 (${el.src}) \u52A0\u8F7D\u5931\u8D25: code=${errCode}, msg=${errMsg}`);
@@ -51115,6 +51162,49 @@ function showImagePreview(img, button, autoFullscreen = false) {
         `;
     el.dataset.index = String(index);
     slot.appendChild(el);
+    if (isVideo) {
+      const soundBtn = doc.createElement("button");
+      soundBtn.className = "st-chatu8-video-sound-toggle";
+      soundBtn.style.cssText = `
+                position: absolute;
+                bottom: 24px;
+                right: 24px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: rgba(0, 0, 0, 0.65);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                color: #fff;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                z-index: 30;
+                backdrop-filter: blur(8px);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+                transition: transform 0.2s ease, background 0.2s ease;
+            `;
+      const updateSoundBtn = () => {
+        soundBtn.innerHTML = el.muted ? "\u{1F507}" : "\u{1F50A}";
+        soundBtn.title = el.muted ? "\u70B9\u51FB\u5F00\u542F\u58F0\u97F3" : "\u70B9\u51FB\u9759\u97F3";
+      };
+      updateSoundBtn();
+      soundBtn.onclick = (e) => {
+        e.stopPropagation();
+        el.muted = !el.muted;
+        if (!el.muted) {
+          el.removeAttribute("muted");
+          if (el.paused) el.play().catch(() => {
+          });
+        } else {
+          el.setAttribute("muted", "");
+        }
+        updateSoundBtn();
+      };
+      el.addEventListener("volumechange", updateSoundBtn);
+      slot.appendChild(soundBtn);
+    }
     return slot;
   }
   function revokeTrackBlobUrls() {
@@ -51308,6 +51398,8 @@ var init_imagePreview = __esm({
 // utils/iframe/index.js
 var iframe_exports = {};
 __export(iframe_exports, {
+  activateAutoClickWindow: () => activateAutoClickWindow,
+  deactivateAutoClickWindow: () => deactivateAutoClickWindow,
   initializeImageProcessing: () => initializeImageProcessing,
   processAllImagePlaceholders: () => processAllImagePlaceholders,
   processImagePlaceholdersForElement: () => processImagePlaceholdersForElement
@@ -51315,7 +51407,19 @@ __export(iframe_exports, {
 
 
 
+function deactivateAutoClickWindow() {
+  if (autoClickTimer) {
+    clearTimeout(autoClickTimer);
+    autoClickTimer = null;
+  }
+  window.zidongdianji = false;
+  window.zidongdianjiStartTime = 0;
+}
 function activateAutoClickWindow() {
+  if (extension_settings55[extensionName]?.zidongdianji !== "true") {
+    deactivateAutoClickWindow();
+    return;
+  }
   window.zidongdianji = true;
   window.zidongdianjiStartTime = Date.now();
   if (autoClickTimer) {
@@ -51323,9 +51427,7 @@ function activateAutoClickWindow() {
   }
   if (extension_settings55[extensionName]?.zidongdianji2 !== "true") {
     autoClickTimer = setTimeout(() => {
-      window.zidongdianji = false;
-      window.zidongdianjiStartTime = 0;
-      autoClickTimer = null;
+      deactivateAutoClickWindow();
     }, 1800);
   }
 }
@@ -51469,6 +51571,14 @@ function initializeMainDocumentObserver() {
     startObserving();
   }
 }
+function processLatestMessagesNow() {
+  processMesTextElements();
+  const mesElements = document.getElementsByClassName("mes_text");
+  if (mesElements.length > 0) {
+    findAndReplaceInElement(mesElements[mesElements.length - 1]);
+  }
+  processIframes();
+}
 function processAllImagePlaceholders() {
   processMesTextElements();
   processIframes();
@@ -51518,14 +51628,28 @@ var init_iframe = __esm({
       processMesTextElements();
       processIframes();
     }, 200);
-    eventSource27.on(event_types4.GENERATION_ENDED, async (data) => {
+    eventSource28.on(event_types4.GENERATION_ENDED, async (data) => {
       activateAutoClickWindow();
+      processLatestMessagesNow();
+      setTimeout(processLatestMessagesNow, 80);
     });
-    eventSource27.on(event_types4.MESSAGE_SWIPED, async (data) => {
+    eventSource28.on(event_types4.MESSAGE_SWIPED, async (data) => {
       activateAutoClickWindow();
+      processLatestMessagesNow();
+      setTimeout(processLatestMessagesNow, 80);
     });
-    eventSource27.on("js_generation_ended", async (data) => {
+    eventSource28.on("js_generation_ended", async (data) => {
       activateAutoClickWindow();
+      processLatestMessagesNow();
+      setTimeout(processLatestMessagesNow, 80);
+    });
+    eventSource28.on(event_types4.MESSAGE_EDITED, async (data) => {
+      if (extension_settings55[extensionName]?.zidongdianji2 !== "true") {
+        deactivateAutoClickWindow();
+      }
+    });
+    eventSource28.on(event_types4.CHAT_CHANGED, async (data) => {
+      deactivateAutoClickWindow();
     });
   }
 });
@@ -53411,7 +53535,7 @@ function initSendData(settingsModal) {
   settingsModal.find("#ch-send-data-disable-new-entries").off("click").on("click", handleDisableNewEntries);
   settingsModal.find("#ch-send-data-refresh-worlds").off("click").on("click", handleRefreshWorlds);
   settingsModal.find("#ch-send-data-test-trigger").off("click").on("click", handleTestTrigger);
-  eventSource34.on(event_types5.GENERATION_STARTED, loadAndRenderWorlds);
+  eventSource35.on(event_types5.GENERATION_STARTED, loadAndRenderWorlds);
   const intervalId = setInterval(async () => {
     let conet = getContext17();
     const settings4 = extension_settings84[extensionName];
@@ -53423,7 +53547,7 @@ function initSendData(settingsModal) {
       clearInterval(intervalId);
     }
   }, 2e3);
-  eventSource34.on(event_types5.CHAT_CHANGED, async () => {
+  eventSource35.on(event_types5.CHAT_CHANGED, async () => {
     try {
       currentCharWorldName = await getcharWorld();
       recalculateEffectiveWorldBooks();
@@ -54012,19 +54136,19 @@ function processTextThroughRegex2(text) {
     }
     const requestId = `floorMsg-${Date.now()}-${Math.random().toString(36).slice(2)}`;
     const timeoutId = setTimeout(() => {
-      eventSource35.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
+      eventSource36.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
       console.warn("[FloorMessage] \u6B63\u5219\u5904\u7406\u8D85\u65F6\uFF0C\u4F7F\u7528\u539F\u59CB\u6587\u672C");
       resolve(text);
     }, 5e3);
     const listener = (data) => {
       if (data.id === requestId) {
         clearTimeout(timeoutId);
-        eventSource35.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
+        eventSource36.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
         resolve(data.message);
       }
     };
-    eventSource35.on(eventNames.REGEX_RESULT_MESSAGE, listener);
-    eventSource35.emit(eventNames.REGEX_TEST_MESSAGE, { message: text, id: requestId });
+    eventSource36.on(eventNames.REGEX_RESULT_MESSAGE, listener);
+    eventSource36.emit(eventNames.REGEX_TEST_MESSAGE, { message: text, id: requestId });
   });
 }
 async function buildFloorContext() {
@@ -54952,7 +55076,7 @@ function LLM_PERSONA_GEN(prompt2, options = {}) {
     let timeoutTimer = null;
     console.log(`[PersonaGen] Executing LLM request (ID: ${requestId})`);
     const cleanup = () => {
-      eventSource36.removeListener(eventNames.LLM_PERSONA_GEN_RESPONSE, handler);
+      eventSource37.removeListener(eventNames.LLM_PERSONA_GEN_RESPONSE, handler);
       if (timeoutTimer) {
         clearTimeout(timeoutTimer);
         timeoutTimer = null;
@@ -54967,8 +55091,8 @@ function LLM_PERSONA_GEN(prompt2, options = {}) {
         reject(new Error(responseData.result || "LLM \u8BF7\u6C42\u5931\u8D25"));
       }
     };
-    eventSource36.on(eventNames.LLM_PERSONA_GEN_RESPONSE, handler);
-    eventSource36.emit(eventNames.LLM_PERSONA_GEN_REQUEST, { prompt: prompt2, id: requestId });
+    eventSource37.on(eventNames.LLM_PERSONA_GEN_RESPONSE, handler);
+    eventSource37.emit(eventNames.LLM_PERSONA_GEN_REQUEST, { prompt: prompt2, id: requestId });
     timeoutTimer = setTimeout(() => {
       cleanup();
       reject(new Error("\u4EBA\u8BBE\u751F\u6210 LLM \u8BF7\u6C42\u8D85\u65F6"));
@@ -54982,7 +55106,7 @@ function LLM_USER_PERSONA_GEN(prompt2, options = {}) {
     let timeoutTimer = null;
     console.log(`[PersonaGen] Executing User LLM request (ID: ${requestId})`);
     const cleanup = () => {
-      eventSource36.removeListener(eventNames.LLM_USER_PERSONA_GEN_RESPONSE, handler);
+      eventSource37.removeListener(eventNames.LLM_USER_PERSONA_GEN_RESPONSE, handler);
       if (timeoutTimer) {
         clearTimeout(timeoutTimer);
         timeoutTimer = null;
@@ -54997,8 +55121,8 @@ function LLM_USER_PERSONA_GEN(prompt2, options = {}) {
         reject(new Error(responseData.result || "User \u4EBA\u8BBE\u751F\u6210 LLM \u8BF7\u6C42\u5931\u8D25"));
       }
     };
-    eventSource36.on(eventNames.LLM_USER_PERSONA_GEN_RESPONSE, handler);
-    eventSource36.emit(eventNames.LLM_USER_PERSONA_GEN_REQUEST, { prompt: prompt2, id: requestId });
+    eventSource37.on(eventNames.LLM_USER_PERSONA_GEN_RESPONSE, handler);
+    eventSource37.emit(eventNames.LLM_USER_PERSONA_GEN_REQUEST, { prompt: prompt2, id: requestId });
     timeoutTimer = setTimeout(() => {
       cleanup();
       reject(new Error("User \u4EBA\u8BBE\u751F\u6210 LLM \u8BF7\u6C42\u8D85\u65F6"));
@@ -57713,7 +57837,7 @@ function stopAll() {
 }
 function setState(s) {
   state = s;
-  eventSource38.emit(eventNames.TTS_STATE_CHANGED, {
+  eventSource39.emit(eventNames.TTS_STATE_CHANGED, {
     state: s,
     requestId: currentRequestId2 || void 0
   });
@@ -57723,7 +57847,7 @@ function setState(s) {
   }
 }
 function emitResponse(id, data) {
-  eventSource38.emit(eventNames.TTS_RESPONSE, {
+  eventSource39.emit(eventNames.TTS_RESPONSE, {
     id,
     ...data
   });
@@ -57748,8 +57872,8 @@ function onTTSStop(data) {
   }
 }
 function initializeTTS() {
-  eventSource38.on(eventNames.TTS_REQUEST, onTTSRequest);
-  eventSource38.on(eventNames.TTS_STOP, onTTSStop);
+  eventSource39.on(eventNames.TTS_REQUEST, onTTSRequest);
+  eventSource39.on(eventNames.TTS_STOP, onTTSStop);
   const loaded = loadEdgePingFromSettings();
   if (loaded) {
     log("\u{1F4C2} \u5DF2\u6062\u590D\u4E0A\u6B21 Edge ping \u7ED3\u679C\uFF0C\u65E0\u9700\u91CD\u65B0\u68C0\u6D4B");
@@ -58029,7 +58153,7 @@ async function ensureMic() {
   if (typeof window !== "undefined" && window.isSecureContext === false) {
     log2("\u274C \u975E\u5B89\u5168\u4E0A\u4E0B\u6587\uFF08\u9700\u8981 HTTPS\uFF09\uFF0C\u65E0\u6CD5\u4F7F\u7528\u9EA6\u514B\u98CE");
     showMobileToast("\u9700\u8981 HTTPS \u624D\u80FD\u4F7F\u7528\u9EA6\u514B\u98CE\uFF0C\u8BF7\u786E\u4FDD\u901A\u8FC7 HTTPS \u8BBF\u95EE");
-    eventSource39.emit(eventNames.ASR_ERROR, {
+    eventSource40.emit(eventNames.ASR_ERROR, {
       message: "\u9700\u8981 HTTPS \u624D\u80FD\u4F7F\u7528\u9EA6\u514B\u98CE\uFF0C\u8BF7\u786E\u4FDD\u901A\u8FC7 HTTPS \u8BBF\u95EE",
       code: "INSECURE_CONTEXT"
     });
@@ -58038,7 +58162,7 @@ async function ensureMic() {
   if (!navigator.mediaDevices || typeof navigator.mediaDevices.getUserMedia !== "function") {
     log2("\u274C \u6D4F\u89C8\u5668\u4E0D\u652F\u6301 mediaDevices.getUserMedia\uFF08\u53EF\u80FD\u4E3A\u975E\u5B89\u5168\u4E0A\u4E0B\u6587\u6216\u65E7\u7248\u6D4F\u89C8\u5668\uFF09");
     showMobileToast("\u5F53\u524D\u6D4F\u89C8\u5668\u6216\u73AF\u5883\u4E0D\u652F\u6301\u9EA6\u514B\u98CE\uFF0C\u8BF7\u4F7F\u7528 HTTPS \u8BBF\u95EE");
-    eventSource39.emit(eventNames.ASR_ERROR, {
+    eventSource40.emit(eventNames.ASR_ERROR, {
       message: "\u5F53\u524D\u6D4F\u89C8\u5668\u4E0D\u652F\u6301\u9EA6\u514B\u98CE\u529F\u80FD\uFF0C\u8BF7\u786E\u8BA4\u4F7F\u7528 HTTPS \u8BBF\u95EE\u4E14\u6D4F\u89C8\u5668\u7248\u672C\u652F\u6301",
       code: "NOT_SUPPORTED"
     });
@@ -58062,7 +58186,7 @@ async function ensureMic() {
   } catch (e) {
     log2("\u274C \u9EA6\u514B\u98CE\u6743\u9650\u88AB\u62D2: " + e.message);
     showMobileToast("\u9EA6\u514B\u98CE\u6743\u9650\u88AB\u62D2\u7EDD\uFF0C\u8BF7\u5728\u6D4F\u89C8\u5668\u8BBE\u7F6E\u4E2D\u5141\u8BB8");
-    eventSource39.emit(eventNames.ASR_ERROR, {
+    eventSource40.emit(eventNames.ASR_ERROR, {
       message: "\u9EA6\u514B\u98CE\u6743\u9650\u88AB\u62D2\u7EDD\uFF0C\u8BF7\u5141\u8BB8\u540E\u91CD\u8BD5",
       code: "MIC_DENIED"
     });
@@ -58283,7 +58407,7 @@ async function processAudio(blob, duration) {
       buffer = await audioCtx.decodeAudioData(arrBuf);
     } catch (e) {
       log2("\u26A0\uFE0F \u97F3\u9891\u89E3\u7801\u5931\u8D25: " + e.message);
-      eventSource39.emit(eventNames.ASR_ERROR, { message: "\u97F3\u9891\u89E3\u7801\u5931\u8D25", code: "DECODE_ERROR" });
+      eventSource40.emit(eventNames.ASR_ERROR, { message: "\u97F3\u9891\u89E3\u7801\u5931\u8D25", code: "DECODE_ERROR" });
       setState2("idle");
       return;
     }
@@ -58314,7 +58438,7 @@ async function processAudio(blob, duration) {
     if (text && isValidASRResult(text)) {
       log2(`\u{1F524} \u8BC6\u522B\u7ED3\u679C: "${text}"`);
       const target = currentTargetInput || "#send_textarea";
-      eventSource39.emit(eventNames.ASR_RESULT, {
+      eventSource40.emit(eventNames.ASR_RESULT, {
         text,
         target,
         success: true,
@@ -58332,7 +58456,7 @@ async function processAudio(blob, duration) {
       currentTargetInput = null;
     } else {
       log2("\u26A0\uFE0F ASR \u54CD\u5E94\u7ED3\u6784\u4E0D\u5B8C\u6574\u6216\u672A\u8FD4\u56DE\u6709\u6548\u7ED3\u679C\uFF0C\u4E0D\u586B\u5165\u6587\u5B57");
-      eventSource39.emit(eventNames.ASR_RESULT, {
+      eventSource40.emit(eventNames.ASR_RESULT, {
         text: "",
         target: currentTargetInput || "#send_textarea",
         success: false,
@@ -58352,7 +58476,7 @@ async function processAudio(blob, duration) {
     setState2("idle");
   } catch (e) {
     log2("\u274C \u97F3\u9891\u5904\u7406\u5931\u8D25: " + e.message);
-    eventSource39.emit(eventNames.ASR_ERROR, { message: e.message, code: "PROCESS_ERROR" });
+    eventSource40.emit(eventNames.ASR_ERROR, { message: e.message, code: "PROCESS_ERROR" });
     setState2("idle");
     const shouldRestart = conversationModeActive ? !conversationMuted : currentMode === "vad";
     if (shouldRestart) {
@@ -58525,7 +58649,7 @@ async function runASR(file) {
     throw new Error("ASR \u54CD\u5E94\u7ED3\u6784\u4E0D\u5B8C\u6574\uFF1A\u672A\u8FD4\u56DE\u6709\u6548\u8BC6\u522B\u6587\u672C");
   } catch (e) {
     log2("\u26A0\uFE0F ASR \u5931\u8D25: " + e.message);
-    eventSource39.emit(eventNames.ASR_ERROR, {
+    eventSource40.emit(eventNames.ASR_ERROR, {
       message: "ASR \u8BC6\u522B\u5931\u8D25: " + e.message,
       code: "ASR_FAILED"
     });
@@ -58553,7 +58677,7 @@ function fillTextToInput(text, target = "#send_textarea") {
 }
 function setState2(s) {
   state2 = s;
-  eventSource39.emit(eventNames.ASR_STATE_CHANGED, {
+  eventSource40.emit(eventNames.ASR_STATE_CHANGED, {
     state: s,
     mode: currentMode
   });
@@ -58788,15 +58912,15 @@ function toggleAdvancedSettings(show) {
   }
 }
 function initializeASR() {
-  eventSource39.on(eventNames.ASR_START, (data) => {
+  eventSource40.on(eventNames.ASR_START, (data) => {
     if (data?.mode) currentMode = data.mode;
     if (data?.targetInput) currentTargetInput = data.targetInput;
     startRecording();
   });
-  eventSource39.on(eventNames.ASR_STOP, () => {
+  eventSource40.on(eventNames.ASR_STOP, () => {
     if (state2 === "recording") stopRecording();
   });
-  eventSource39.on(eventNames.TTS_STATE_CHANGED, (data) => {
+  eventSource40.on(eventNames.TTS_STATE_CHANGED, (data) => {
     if (!conversationModeActive) return;
     const ttsState = data?.state;
     if (ttsState === "active") {
@@ -68563,7 +68687,7 @@ async function requestImageGeneration(prompt2, negative_prompt = "", options = {
   });
   const completionPromise = new Promise((resolve, reject) => {
     const timeout = setTimeout(() => {
-      eventSource40.removeListener(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
+      eventSource41.removeListener(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
       imageGenerationQueue.delete(generationId);
       reject(new Error("\u751F\u56FE\u8BF7\u6C42\u8D85\u65F6\uFF085\u5206\u949F\uFF09"));
     }, 5 * 60 * 1e3);
@@ -68571,7 +68695,7 @@ async function requestImageGeneration(prompt2, negative_prompt = "", options = {
       if (responseData.id !== generationId) return;
       console.log("[AI Image Generation] \u6536\u5230\u54CD\u5E94:", responseData);
       clearTimeout(timeout);
-      eventSource40.removeListener(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
+      eventSource41.removeListener(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
       const record = imageGenerationQueue.get(generationId);
       if (!record) {
         console.warn("[AI Image Generation] \u672A\u627E\u5230\u751F\u56FE\u8BB0\u5F55:", generationId);
@@ -68594,7 +68718,7 @@ async function requestImageGeneration(prompt2, negative_prompt = "", options = {
         reject(new Error(`\u751F\u56FE\u5931\u8D25: ${record.error}`));
       }
     };
-    eventSource40.on(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
+    eventSource41.on(EventType.GENERATE_IMAGE_RESPONSE, responseHandler);
     console.log("[AI Image Generation] \u5DF2\u6CE8\u518C\u54CD\u5E94\u76D1\u542C\u5668:", generationId);
   });
   const requestData = {
@@ -68607,7 +68731,7 @@ async function requestImageGeneration(prompt2, negative_prompt = "", options = {
     requestData.negative_prompt = negative_prompt;
   }
   console.log("[AI Image Generation] \u53D1\u9001\u751F\u56FE\u8BF7\u6C42:", requestData);
-  eventSource40.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
+  eventSource41.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
   try {
     const result = await completionPromise;
     return result;
@@ -69595,10 +69719,10 @@ function getEdgeTTSParams() {
 function speakNotification(text) {
   const aiConfig = extension_settings102[extensionName]?.chatu8_ai_assistant || {};
   if (!aiConfig.tts_enabled || !text) return;
-  eventSource41.emit(eventNames.TTS_STOP);
+  eventSource42.emit(eventNames.TTS_STOP);
   const reqId = "tts-notify-" + Date.now();
   const edgeParams = getEdgeTTSParams();
-  eventSource41.emit(eventNames.TTS_REQUEST, { id: reqId, text, ...edgeParams });
+  eventSource42.emit(eventNames.TTS_REQUEST, { id: reqId, text, ...edgeParams });
 }
 function injectTTSStyleInstruction(systemPromptStr) {
   const aiConfig = extension_settings102[extensionName]?.chatu8_ai_assistant || {};
@@ -69696,9 +69820,9 @@ function playCachedAudio(blobUrls, messageIndex) {
     }
     cleanup();
   };
-  eventSource41.on(eventNames.TTS_STOP, onStop);
+  eventSource42.on(eventNames.TTS_STOP, onStop);
   function cleanup() {
-    eventSource41.removeListener(eventNames.TTS_STOP, onStop);
+    eventSource42.removeListener(eventNames.TTS_STOP, onStop);
     setTtsActiveMessageIndex(-1);
     setTtsButtonState("idle");
     setTtsCurrentRequestId("");
@@ -69753,7 +69877,7 @@ function tryPlayTTS(accumulatedReply, messageIndex = -1) {
   const result = extractDialogueForTTS(accumulatedReply, scope);
   if (!result || !result.text) return;
   console.log("[AI Assistant TTS] \u63D0\u53D6\u5230\u5BF9\u8BDD\u6587\u672C\uFF0C\u51C6\u5907\u6717\u8BFB:", result.text.substring(0, 100));
-  eventSource41.emit(eventNames.TTS_STOP);
+  eventSource42.emit(eventNames.TTS_STOP);
   const reqId = "tts-auto-" + Date.now();
   const edgeParams = getEdgeTTSParams();
   if (messageIndex >= 0) {
@@ -69766,21 +69890,21 @@ function tryPlayTTS(accumulatedReply, messageIndex = -1) {
   }
   const hasPerSegmentStyle = result.segments.some((s) => s.style);
   if (hasPerSegmentStyle && aiConfig.tts_engine === "edge") {
-    eventSource41.emit(eventNames.TTS_REQUEST, {
+    eventSource42.emit(eventNames.TTS_REQUEST, {
       id: reqId,
       text: result.text,
       segments: result.segments,
       ...edgeParams
     });
   } else {
-    eventSource41.emit(eventNames.TTS_REQUEST, { id: reqId, text: result.text, ...edgeParams });
+    eventSource42.emit(eventNames.TTS_REQUEST, { id: reqId, text: result.text, ...edgeParams });
   }
 }
 function handleTTSButtonClick(messageIndex) {
   if (!activeChat || !activeChat.messages[messageIndex]) return;
   if (ttsActiveMessageIndex === messageIndex && ttsButtonState !== "idle") {
     console.log("[AI Assistant TTS] \u505C\u6B62\u5F53\u524D\u6D88\u606F\u7684 TTS");
-    eventSource41.emit(eventNames.TTS_STOP);
+    eventSource42.emit(eventNames.TTS_STOP);
     setTtsActiveMessageIndex(-1);
     setTtsButtonState("idle");
     setTtsCurrentRequestId("");
@@ -69789,7 +69913,7 @@ function handleTTSButtonClick(messageIndex) {
   }
   if (ttsActiveMessageIndex >= 0 && ttsButtonState !== "idle") {
     const prevIndex = ttsActiveMessageIndex;
-    eventSource41.emit(eventNames.TTS_STOP);
+    eventSource42.emit(eventNames.TTS_STOP);
     updateTTSButtonIcon(prevIndex, "idle");
   }
   const msgContent = activeChat.messages[messageIndex].content;
@@ -69807,7 +69931,7 @@ function handleTTSButtonClick(messageIndex) {
     const isComplete = !cached.totalSegments || cached.blobUrls.length >= cached.totalSegments;
     if (isComplete) {
       console.log(`[AI Assistant TTS] \u7F13\u5B58\u547D\u4E2D\uFF08${cached.blobUrls.length}/${cached.totalSegments || "?"} \u6BB5\uFF09\uFF0C\u76F4\u63A5\u64AD\u653E`);
-      eventSource41.emit(eventNames.TTS_STOP);
+      eventSource42.emit(eventNames.TTS_STOP);
       playCachedAudio(cached.blobUrls, messageIndex);
       return;
     } else {
@@ -69826,7 +69950,7 @@ function handleTTSButtonClick(messageIndex) {
   const hasPerSegmentStyle = result.segments.some((s) => s.style);
   if (hasPerSegmentStyle && aiConfig.tts_engine === "edge" && scope === "dialogue") {
     console.log("[AI Assistant TTS] \u624B\u52A8\u6717\u8BFB(\u9010\u53E5\u98CE\u683C):", result.text.substring(0, 100), "reqId:", reqId);
-    eventSource41.emit(eventNames.TTS_REQUEST, {
+    eventSource42.emit(eventNames.TTS_REQUEST, {
       id: reqId,
       text: result.text,
       segments: result.segments,
@@ -69834,11 +69958,11 @@ function handleTTSButtonClick(messageIndex) {
     });
   } else {
     console.log("[AI Assistant TTS] \u624B\u52A8\u6717\u8BFB:", result.text.substring(0, 100), "reqId:", reqId);
-    eventSource41.emit(eventNames.TTS_REQUEST, { id: reqId, text: result.text, ...edgeParams });
+    eventSource42.emit(eventNames.TTS_REQUEST, { id: reqId, text: result.text, ...edgeParams });
   }
 }
 function setupTTSEventListeners() {
-  eventSource41.on(eventNames.TTS_STATE_CHANGED, (data) => {
+  eventSource42.on(eventNames.TTS_STATE_CHANGED, (data) => {
     const { state: ttsState } = data;
     if (ttsState === "idle") {
       if (ttsActiveMessageIndex >= 0) {
@@ -69876,7 +70000,7 @@ function setupTTSEventListeners() {
     } else if (ttsState === "active") {
     }
   });
-  eventSource41.on(eventNames.TTS_RESPONSE, (data) => {
+  eventSource42.on(eventNames.TTS_RESPONSE, (data) => {
     const { status, blobUrl, totalSegments, segIndex } = data;
     if (totalSegments > 0 && ttsActiveMessageIndex >= 0) {
       setTtsCollectingTotalSegments(totalSegments);
@@ -70118,7 +70242,7 @@ async function loadMoreMessages(messages, appendMessage2) {
 function scrollToBottom(smooth = true) {
   if (!dom.chatBody || !dom.chatBody[0]) return;
   if (smooth) {
-    dom.chatBody.animate({
+    dom.chatBody.stop(true).animate({
       scrollTop: dom.chatBody[0].scrollHeight
     }, 300);
   } else {
@@ -70126,6 +70250,23 @@ function scrollToBottom(smooth = true) {
   }
   scrollState.unreadCount = 0;
   updateUnreadBadge(0);
+}
+function scrollToMessageHead(messageElem, smooth = true, topOffset = 10) {
+  if (!dom.chatBody || !dom.chatBody[0] || !messageElem) return;
+  const $elem = $(messageElem);
+  if (!$elem.length) return;
+  const chatBodyEl = dom.chatBody[0];
+  const elemEl = $elem[0];
+  const chatBodyRect = chatBodyEl.getBoundingClientRect();
+  const elemRect = elemEl.getBoundingClientRect();
+  const targetScrollTop = Math.max(0, chatBodyEl.scrollTop + (elemRect.top - chatBodyRect.top) - topOffset);
+  if (smooth) {
+    dom.chatBody.stop(true).animate({
+      scrollTop: targetScrollTop
+    }, 300);
+  } else {
+    chatBodyEl.scrollTop = targetScrollTop;
+  }
 }
 function isNearBottom(threshold = 100) {
   if (!dom.chatBody || !dom.chatBody[0]) return true;
@@ -70157,7 +70298,7 @@ function initScrollToBottomButton() {
     return;
   }
   const $button = $(`
-        <button id="st-chatu8-ai-scroll-to-bottom" class="st-chatu8-ai-scroll-to-bottom" style="display: none;">
+        <button id="st-chatu8-ai-scroll-to-bottom" class="st-chatu8-ai-scroll-to-bottom" title="\u56DE\u5230\u5E95\u90E8">
             <i class="fa-solid fa-arrow-down"></i>
             <span class="unread-badge" style="display: none;">0</span>
         </button>
@@ -70173,10 +70314,10 @@ function updateScrollToBottomButton(distanceFromBottom) {
   if (!$button.length) return;
   const avgMessageHeight = 80;
   const messagesFromBottom = Math.floor(distanceFromBottom / avgMessageHeight);
-  if (messagesFromBottom > 6) {
-    $button.fadeIn(200);
+  if (messagesFromBottom > 4) {
+    $button.addClass("visible");
   } else {
-    $button.fadeOut(200);
+    $button.removeClass("visible");
   }
 }
 function updateUnreadBadge(count) {
@@ -70195,29 +70336,40 @@ function incrementUnreadCount() {
   }
 }
 function initScrollListener(appendMessage2) {
-  if (!dom.chatBody) {
+  if (!dom.chatBody || !dom.chatBody[0]) {
     console.warn("[ScrollManager] dom.chatBody \u4E0D\u5B58\u5728\uFF0C\u65E0\u6CD5\u521D\u59CB\u5316\u6EDA\u52A8\u76D1\u542C");
     return;
   }
-  let scrollTimeout;
-  dom.chatBody.off("scroll.scrollManager");
-  dom.chatBody.on("scroll.scrollManager", function() {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(() => {
-      if (!activeChat || !activeChat.messages) return;
-      const scrollTop = dom.chatBody[0].scrollTop;
-      const scrollHeight = dom.chatBody[0].scrollHeight;
-      const clientHeight = dom.chatBody[0].clientHeight;
+  cleanupScrollListener();
+  let rAFPending = false;
+  _nativeScrollHandler = function() {
+    if (rAFPending) return;
+    rAFPending = true;
+    requestAnimationFrame(() => {
+      rAFPending = false;
+      if (!activeChat || !activeChat.messages || !dom.chatBody || !dom.chatBody[0]) return;
+      const chatEl = dom.chatBody[0];
+      const scrollTop = chatEl.scrollTop;
+      const scrollHeight = chatEl.scrollHeight;
+      const clientHeight = chatEl.clientHeight;
       if (scrollTop < 200 && scrollState.hasMore && !scrollState.isLoading) {
         loadMoreMessages(activeChat.messages, appendMessage2);
       }
       const distanceFromBottom = scrollHeight - scrollTop - clientHeight;
       updateScrollToBottomButton(distanceFromBottom);
-    }, 100);
-  });
-  console.log("[ScrollManager] \u6EDA\u52A8\u76D1\u542C\u5668\u5DF2\u521D\u59CB\u5316");
+    });
+  };
+  dom.chatBody[0].addEventListener("scroll", _nativeScrollHandler, { passive: true });
+  console.log("[ScrollManager] \u9AD8\u6027\u80FD\u539F\u751F\u6EDA\u52A8\u76D1\u542C\u5668\u5DF2\u542F\u7528 (passive: true)");
 }
-var scrollState;
+function cleanupScrollListener() {
+  if (dom.chatBody && dom.chatBody[0] && _nativeScrollHandler) {
+    dom.chatBody[0].removeEventListener("scroll", _nativeScrollHandler);
+    _nativeScrollHandler = null;
+  }
+  dom.chatBody?.off("scroll.scrollManager");
+}
+var scrollState, _nativeScrollHandler;
 var init_assistantScrollManager = __esm({
   "utils/assistant/assistantScrollManager.js"() {
     init_assistantContext();
@@ -70240,6 +70392,7 @@ var init_assistantScrollManager = __esm({
       unreadCount: 0
       // 未读消息数（用户不在底部时）
     };
+    _nativeScrollHandler = null;
   }
 });
 
@@ -70494,6 +70647,7 @@ function finalizeAssistantMessage(messageIndex, handleRegenerateMessage2) {
   currentSystemMsgElement.find(".st-chatu8-ai-msg-tts").on("click", function() {
     handleTTSButtonClick(messageIndex);
   });
+  scrollToMessageHead(currentSystemMsgElement, true);
 }
 function showImageFullscreen(imageUrl) {
   const overlay2 = $(`
@@ -70698,7 +70852,11 @@ async function appendMessage(role, text, images = null, messageIndex = null, ski
     if (callbacks.handleSend) callbacks.handleSend();
   });
   if (!skipScroll) {
-    dom.chatBody.scrollTop(dom.chatBody[0].scrollHeight);
+    if (role === "assistant" || role === "system") {
+      scrollToMessageHead($msgElement, true);
+    } else {
+      dom.chatBody.scrollTop(dom.chatBody[0].scrollHeight);
+    }
   } else {
     if ((role === "assistant" || role === "system") && !isNearBottom()) {
       incrementUnreadCount();
@@ -70966,7 +71124,11 @@ function createThrottledUIUpdater(handleSendFn) {
         if (handleSendFn) handleSendFn();
       });
     }
-    throttledScrollToBottom();
+    if (currentSystemMsgElement && currentSystemMsgElement.length) {
+      scrollToMessageHead(currentSystemMsgElement, true);
+    } else {
+      throttledScrollToBottom();
+    }
   }
   function getReply() {
     return removeDisclaimerBlocks(accumulatedReply);
@@ -71128,10 +71290,10 @@ async function switchChat(chatId, appendMessage2) {
     targetChat = await getChatData(chatId);
   } catch (err) {
     console.error(`[AI Assistant] \u52A0\u8F7D\u4F1A\u8BDD ${chatId} \u5931\u8D25:`, err);
-    return;
   }
   if (!targetChat) {
-    console.warn(`[AI Assistant] \u4F1A\u8BDD ${chatId} \u6570\u636E\u4E0D\u5B58\u5728`);
+    console.warn(`[AI Assistant] \u4F1A\u8BDD ${chatId} \u6570\u636E\u6682\u4E0D\u53EF\u7528`);
+    toastr?.warning(`\u65E0\u6CD5\u52A0\u8F7D\u4F1A\u8BDD\u300C${targetEntry.title || "\u672A\u547D\u540D"}\u300D\u7684\u6D88\u606F\u6570\u636E\uFF0C\u53EF\u80FD\u6570\u636E\u5C1A\u672A\u540C\u6B65\u6216\u5DF2\u88AB\u6E05\u7406\u3002`);
     return;
   }
   setActiveChat(targetChat);
@@ -71195,10 +71357,12 @@ async function initChatSession(appendMessage2) {
       setChatIndex(existingIndex);
       setV2Ready(true);
       console.log("[AI Assistant] V2 \u7D22\u5F15\u52A0\u8F7D\u6210\u529F\uFF0C\u5171", existingIndex.chatList.length, "\u4E2A\u4F1A\u8BDD");
-      if (existingIndex.activeChatId) {
+      const targetChatId = existingIndex.activeChatId || (existingIndex.chatList && existingIndex.chatList.length > 0 ? existingIndex.chatList[0].id : null);
+      if (targetChatId) {
         try {
-          const chatData = await getChatData(existingIndex.activeChatId);
+          const chatData = await getChatData(targetChatId);
           if (chatData) {
+            existingIndex.activeChatId = targetChatId;
             setActiveChat(chatData);
             restore(chatData.taskData || null);
             resetSummaryManager(chatData.id);
@@ -71207,11 +71371,10 @@ async function initChatSession(appendMessage2) {
               if (initMgr) initMgr.importData(chatData.summaryData);
             }
           } else {
-            existingIndex.activeChatId = null;
+            console.warn(`[AI Assistant] \u4F1A\u8BDD ${targetChatId} \u6682\u65F6\u65E0\u6CD5\u76F4\u63A5\u52A0\u8F7D\uFF0C\u4FDD\u7559\u7D22\u5F15\u8BB0\u5F55`);
           }
         } catch (err) {
           console.error("[AI Assistant] \u52A0\u8F7D\u6D3B\u52A8\u4F1A\u8BDD\u5931\u8D25:", err);
-          existingIndex.activeChatId = null;
         }
       }
     } else {
@@ -74782,13 +74945,13 @@ function initDialogEvents() {
     } else {
       const $btn = $(this);
       if ($btn.hasClass("asr-recording")) {
-        eventSource42.emit(eventNames.ASR_STOP);
+        eventSource43.emit(eventNames.ASR_STOP);
       } else {
-        eventSource42.emit(eventNames.ASR_START, { mode: "vad", targetInput: "#st-chatu8-ai-input" });
+        eventSource43.emit(eventNames.ASR_START, { mode: "vad", targetInput: "#st-chatu8-ai-input" });
       }
     }
   });
-  eventSource42.on(eventNames.ASR_STATE_CHANGED, (data) => {
+  eventSource43.on(eventNames.ASR_STATE_CHANGED, (data) => {
     const $icon = asrMicBtn.find("i");
     const inConvMode = isConversationMode();
     const asrCfg = getASRConfig();
@@ -75546,7 +75709,7 @@ async function generateSDImage({ prompt: link, width: Xwidth, height: Xheight, c
     if (extension_settingss.client === "jiuguan") {
       if (!taskQueue.isTaskInQueue(taskId)) {
         addLog("\u4EFB\u52A1\u5DF2\u88AB\u7528\u6237\u53D6\u6D88\u3002");
-        eventSource28.emit("sd_stop_generation");
+        eventSource29.emit("sd_stop_generation");
         throw new Error("\u4EFB\u52A1\u5DF2\u53D6\u6D88");
       }
       window.xiancheng = false;
@@ -75663,7 +75826,7 @@ async function sdGenerate(requestData) {
         addLog(`\u7F13\u5B58\u8BBE\u7F6E\u4E3A\u4E0D\u5B58\u5165\u6570\u636E\u5E93`);
       }
       recordImageGeneration("sd", true);
-      eventSource28.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: true,
         imageData: imageUrl,
@@ -75678,7 +75841,7 @@ async function sdGenerate(requestData) {
       addLog(`\u9519\u8BEF: ${errorMsg}`);
       console.error("Error generating ComfyUI inpaint image:", error);
       recordImageGeneration("sd", false);
-      eventSource28.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: false,
         error: error.message,
@@ -75697,7 +75860,7 @@ async function sdGenerate(requestData) {
       addLog(`\u7F13\u5B58\u8BBE\u7F6E\u4E3A\u4E0D\u5B58\u5165\u6570\u636E\u5E93`);
     }
     recordImageGeneration("sd", true);
-    eventSource28.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+    eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
       id,
       success: true,
       imageData: imageUrl,
@@ -75710,7 +75873,7 @@ async function sdGenerate(requestData) {
     addLog(`\u9519\u8BEF: ${errorMsg}`);
     console.error("Error generating SD image:", error);
     recordImageGeneration("sd", false);
-    eventSource28.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+    eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
       id,
       success: false,
       error: error.message,
@@ -75720,7 +75883,7 @@ async function sdGenerate(requestData) {
   }
 }
 function initializeSDListener() {
-  eventSource28.on(EventType.GENERATE_IMAGE_REQUEST, sdGenerate);
+  eventSource29.on(EventType.GENERATE_IMAGE_REQUEST, sdGenerate);
   addLog("SD \u751F\u56FE\u4E8B\u4EF6\u76D1\u542C\u5668\u5DF2\u521D\u59CB\u5316\u3002");
 }
 async function replaceWithSd() {
@@ -75732,7 +75895,7 @@ async function replaceWithSd() {
     initializeImageProcessing();
   } else {
     if (window.initializeSDListener) {
-      eventSource28.removeListener(EventType.GENERATE_IMAGE_REQUEST, sdGenerate);
+      eventSource29.removeListener(EventType.GENERATE_IMAGE_REQUEST, sdGenerate);
       window.initializeSDListener = false;
       addLog("SD \u751F\u56FE\u4E8B\u4EF6\u76D1\u542C\u5668\u5DF2\u5173\u95ED\u3002");
     }
@@ -80368,7 +80531,7 @@ async function novelaigenerate(requestData) {
         addLog(`\u8B66\u544A: \u65E0\u6CD5\u5C06\u56FE\u50CF\u5B58\u5165\u7F13\u5B58\u6570\u636E\u5E93 (ID: ${id}): ${dbError.message}`);
       }
       recordImageGeneration("novelai", true);
-      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: true,
         imageData: imageUrl,
@@ -80381,7 +80544,7 @@ async function novelaigenerate(requestData) {
     } catch (error) {
       addLog(`[ComfyUI\u8F6C\u53D1] \u9519\u8BEF: ${error.message}`);
       recordImageGeneration("novelai", false);
-      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, { id, success: false, error: error.message, prompt: prompt2 });
+      eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, { id, success: false, error: error.message, prompt: prompt2 });
     }
     return;
   }
@@ -80402,7 +80565,7 @@ async function novelaigenerate(requestData) {
         console.warn("Could not save image to DB cache:", dbError);
       }
       recordImageGeneration("novelai", true);
-      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: true,
         imageData: imageUrl,
@@ -80416,7 +80579,7 @@ async function novelaigenerate(requestData) {
       if (isAborted) {
         addLog(`\u4EFB\u52A1\u5DF2\u53D6\u6D88 (ID: ${id})`);
         recordImageGeneration("novelai", false);
-        eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+        eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
           id,
           success: false,
           cancelled: true,
@@ -80428,7 +80591,7 @@ async function novelaigenerate(requestData) {
         addLog(`\u9519\u8BEF: ${errorMsg}`);
         console.error("Error generating image:", error);
         recordImageGeneration("novelai", false);
-        eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+        eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
           id,
           success: false,
           error: error.message,
@@ -80454,7 +80617,7 @@ async function novelaigenerate(requestData) {
       console.warn("Could not save image to DB cache:", dbError);
     }
     recordImageGeneration("novelai", true);
-    eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+    eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
       id,
       success: true,
       imageData: imageUrl,
@@ -80468,7 +80631,7 @@ async function novelaigenerate(requestData) {
     if (isAborted) {
       addLog(`\u4EFB\u52A1\u5DF2\u53D6\u6D88 (ID: ${id})`);
       recordImageGeneration("novelai", false);
-      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: false,
         cancelled: true,
@@ -80480,7 +80643,7 @@ async function novelaigenerate(requestData) {
       addLog(`\u9519\u8BEF: ${errorMsg}`);
       console.error("Error generating image:", error);
       recordImageGeneration("novelai", false);
-      eventSource29.emit(EventType.GENERATE_IMAGE_RESPONSE, {
+      eventSource30.emit(EventType.GENERATE_IMAGE_RESPONSE, {
         id,
         success: false,
         error: error.message,
@@ -80491,8 +80654,8 @@ async function novelaigenerate(requestData) {
   }
 }
 function initializeNovelAIListener() {
-  eventSource29.on(EventType.GENERATE_IMAGE_REQUEST, novelaigenerate);
-  eventSource29.on("st_chatu8_cancel_novelai_task", ({ taskId }) => {
+  eventSource30.on(EventType.GENERATE_IMAGE_REQUEST, novelaigenerate);
+  eventSource30.on("st_chatu8_cancel_novelai_task", ({ taskId }) => {
     if (currentTaskId5 === taskId && currentAbortController2) {
       addLog(`\u6536\u5230\u53D6\u6D88\u8BF7\u6C42\uFF0C\u6B63\u5728\u4E2D\u65AD NovelAI \u4EFB\u52A1: ${taskId}`);
       currentAbortController2.abort();
@@ -80511,7 +80674,7 @@ async function replaceWithnovelai() {
     initializeImageProcessing();
   } else {
     if (window.initializeNovelAIListener) {
-      eventSource29.removeListener(EventType.GENERATE_IMAGE_REQUEST, novelaigenerate);
+      eventSource30.removeListener(EventType.GENERATE_IMAGE_REQUEST, novelaigenerate);
       window.initializeNovelAIListener = false;
       addLog("NovelAI \u751F\u56FE\u4E8B\u4EF6\u76D1\u542C\u5668\u5DF2\u5173\u95ED\u3002");
     }
@@ -81666,23 +81829,27 @@ function handleCancelTask(taskId) {
       window.zidongdianji = false;
       console.log("[TaskManager] \u5DF2\u505C\u6B62\u81EA\u52A8\u70B9\u51FB\u4EFB\u52A1");
     } else if (task.type === TaskType.LLM) {
-      eventSource30.emit("st_chatu8_cancel_llm_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_llm_task", { taskId });
       console.log("[TaskManager] \u5DF2\u89E6\u53D1 LLM \u53D6\u6D88\u4E8B\u4EF6");
     } else if (task.type === TaskType.NOVELAI) {
-      eventSource30.emit("st_chatu8_cancel_novelai_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_novelai_task", { taskId });
       console.log("[TaskManager] \u5DF2\u89E6\u53D1 NovelAI \u53D6\u6D88\u4E8B\u4EF6");
     } else if (task.type === TaskType.BANANA) {
-      eventSource30.emit("st_chatu8_cancel_banana_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_banana_task", { taskId });
       console.log("[TaskManager] \u5DF2\u89E6\u53D1 Banana \u53D6\u6D88\u4E8B\u4EF6");
     } else if (task.type === TaskType.RUNNINGHUB || task.type === TaskType.RUNNINGHUB_IMG || task.type === TaskType.RUNNINGHUB_IMG2VID || task.type === TaskType.RUNNINGHUB_REF2VID) {
-      eventSource30.emit("st_chatu8_cancel_runninghub_task", { taskId });
-      eventSource30.emit("st_chatu8_cancel_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_runninghub_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_task", { taskId });
       console.log("[TaskManager] \u5DF2\u89E6\u53D1 RunningHub \u53D6\u6D88\u4E8B\u4EF6");
+    } else if (task.type === TaskType.COMFYUI || task.type === TaskType.COMFYUI_IMG || task.type === TaskType.COMFYUI_IMG2VID || task.type === TaskType.COMFYUI_REF2VID) {
+      eventSource31.emit("st_chatu8_cancel_comfyui_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_task", { taskId });
+      console.log("[TaskManager] \u5DF2\u89E6\u53D1 ComfyUI \u53D6\u6D88\u4E8B\u4EF6");
     } else if (extension_settings63[extensionName]?.client === "jiuguan") {
-      eventSource30.emit("sd_stop_generation");
+      eventSource31.emit("sd_stop_generation");
       console.log("[TaskManager] \u5DF2\u901A\u77E5\u9152\u9986\u53D6\u6D88\u4EFB\u52A1");
     } else {
-      eventSource30.emit("st_chatu8_cancel_task", { taskId });
+      eventSource31.emit("st_chatu8_cancel_task", { taskId });
       console.log("[TaskManager] \u5DF2\u89E6\u53D1\u76F4\u8FDE\u53D6\u6D88\u4E8B\u4EF6");
     }
   }
@@ -83694,7 +83861,7 @@ function initPromptSettings(settingsModal, settings4) {
     settingsModal.find(`#st_chatu8_tishici_save_style${suffix}`).on("click", () => st_chatu8_tishici_save(mode, settings4));
     settingsModal.find(`#st_chatu8_tishici_update_style${suffix}`).on("click", () => st_chatu8_tishici_update(mode, settings4));
     settingsModal.find(`#st_chatu8_tishici_delete_style${suffix}`).on("click", () => st_chatu8_tishici_delete(mode, settings4));
-    settingsModal.find(`#st_chatu8_tishici_export_current${suffix}`).on("click", () => st_chatu8_tishici_export_current(settings4));
+    settingsModal.find(`#st_chatu8_tishici_export_current${suffix}`).on("click", () => st_chatu8_tishici_export_current(mode, settings4));
     settingsModal.find(`#st_chatu8_tishici_export_all${suffix}`).on("click", () => st_chatu8_tishici_export_all(settings4));
     settingsModal.find(`#st_chatu8_tishici_import${suffix}`).on("click", () => st_chatu8_tishici_import(settings4));
     settingsModal.find(`#st_chatu8_tishici_visual_select${suffix}`).on("click", () => {
@@ -83929,12 +84096,28 @@ function st_chatu8_tishici_delete(mode, settings4) {
     }
   });
 }
-async function st_chatu8_tishici_export_current(settings4) {
-  const activeTabId = document.querySelector(".st-chatu8-tab-content.active").id.replace("ch-tab-", "");
-  const suffix = getSuffix(activeTabId);
-  const yusheIdKey = `yusheid${activeTabId === "sd" ? "_sd" : suffix}`;
-  const selectedId = settings4[yusheIdKey];
-  if (!selectedId || !settings4.yushe[selectedId]) {
+async function st_chatu8_tishici_export_current(mode, settings4) {
+  if (typeof mode === "object" && !settings4) {
+    settings4 = mode;
+    mode = null;
+  }
+  if (!settings4) {
+    settings4 = extension_settings66[extensionName];
+  }
+  if (!mode) {
+    const activeTabEl = document.querySelector(".st-chatu8-tab-content.active") || document.querySelector(".st-chatu8-nav-link.active");
+    if (activeTabEl) {
+      mode = activeTabEl.getAttribute("data-tab-id") || activeTabEl.getAttribute("data-tab") || activeTabEl.id.replace(/^st-chatu8-tab-/, "").replace(/^ch-tab-/, "");
+    }
+    if (!mode || !generationTabs2.includes(mode)) {
+      mode = "sd";
+    }
+  }
+  const suffix = getSuffix(mode);
+  const selectElement = document.getElementById("yusheid" + suffix);
+  const yusheIdKey = `yusheid${mode === "sd" ? "_sd" : suffix}`;
+  const selectedId = selectElement?.value || settings4[yusheIdKey];
+  if (!selectedId || !settings4.yushe || !settings4.yushe[selectedId]) {
     alert("\u6CA1\u6709\u9009\u4E2D\u7684\u9884\u8BBE\u53EF\u5BFC\u51FA\u3002");
     return;
   }
@@ -85134,8 +85317,14 @@ function showCacheImagePreview(initialUUID) {
           largeMedia.src = blobUrl;
           largeMedia.controls = true;
           largeMedia.loop = true;
-          largeMedia.muted = true;
+          largeMedia.muted = false;
+          largeMedia.defaultMuted = false;
+          largeMedia.removeAttribute("muted");
           largeMedia.playsInline = true;
+          largeMedia.setAttribute("playsinline", "");
+          largeMedia.setAttribute("webkit-playsinline", "true");
+          largeMedia.setAttribute("x5-playsinline", "true");
+          largeMedia.setAttribute("x5-video-player-type", "h5");
           largeMedia.autoplay = true;
           largeMedia.style.cssText = `
                         max-width: 100%;
@@ -92204,8 +92393,8 @@ function initRunningHubUI(settingsModal) {
     $consumptionContainer.show().html(html);
   }
   renderRunningHubKeyConsumptionSummary();
-  if (eventSource31 && typeof eventSource31.on === "function") {
-    eventSource31.on("rh_consumption_updated", () => {
+  if (eventSource32 && typeof eventSource32.on === "function") {
+    eventSource32.on("rh_consumption_updated", () => {
       renderRunningHubKeyConsumptionSummary();
     });
   }
@@ -92602,8 +92791,8 @@ function initRunningHubUI(settingsModal) {
       }
     }
   };
-  eventSource31.on("st_chatu8_cancel_task", handleTaskMgrCancel);
-  eventSource31.on("st_chatu8_cancel_runninghub_task", handleTaskMgrCancel);
+  eventSource32.on("st_chatu8_cancel_task", handleTaskMgrCancel);
+  eventSource32.on("st_chatu8_cancel_runninghub_task", handleTaskMgrCancel);
   async function compressImageSource(source, maxDim = 768, quality = 0.8) {
     if (!source) return null;
     let imgSrc = "";
@@ -93963,14 +94152,24 @@ function initComfyUIVideoUI() {
       currentTestAbortController.abort();
     }
   });
-  eventSource32.on("st_chatu8_cancel_task", ({ taskId } = {}) => {
+  const handleTaskMgrCancel = async ({ taskId } = {}) => {
     if (taskId && taskId === currentTestTaskId) {
       console.log("[ComfyUIVideoUI] \u63A5\u6536\u5230\u4EFB\u52A1\u7BA1\u7406\u53D6\u6D88\u4E8B\u4EF6:", taskId);
       if (currentTestAbortController) {
         currentTestAbortController.abort();
       }
+      const settings5 = extension_settings80[extensionName];
+      const url = (settings5?.comfyuiUrl || "http://localhost:8188").trim();
+      if (url) {
+        try {
+          await fetch(`${url}/api/interrupt`, { method: "POST" });
+        } catch (_) {
+        }
+      }
     }
-  });
+  };
+  eventSource33.on("st_chatu8_cancel_task", handleTaskMgrCancel);
+  eventSource33.on("st_chatu8_cancel_comfyui_task", handleTaskMgrCancel);
   async function compressImageSource(source, maxDim = 768, quality = 0.8) {
     if (!source) return null;
     let imgSrc = "";
@@ -97788,18 +97987,18 @@ function processTextThroughRegex(text) {
     }
     const requestId = `vag-body-${Date.now()}-${Math.random().toString(36).slice(2)}`;
     const timeoutId = setTimeout(() => {
-      eventSource33.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
+      eventSource34.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
       resolve(text);
     }, 3e3);
     const listener = (data) => {
       if (data.id === requestId) {
         clearTimeout(timeoutId);
-        eventSource33.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
+        eventSource34.removeListener(eventNames.REGEX_RESULT_MESSAGE, listener);
         resolve(data.message);
       }
     };
-    eventSource33.on(eventNames.REGEX_RESULT_MESSAGE, listener);
-    eventSource33.emit(eventNames.REGEX_TEST_MESSAGE, { message: text, id: requestId });
+    eventSource34.on(eventNames.REGEX_RESULT_MESSAGE, listener);
+    eventSource34.emit(eventNames.REGEX_TEST_MESSAGE, { message: text, id: requestId });
   });
 }
 async function collectAndSetBodyText(targetElement = null) {
@@ -98146,7 +98345,7 @@ function cancelImageGeneration() {
   if (!isGeneratingImage) return;
   if (activeImageRequestId && activeImageListener) {
     try {
-      eventSource33.removeListener(EventType.GENERATE_IMAGE_RESPONSE, activeImageListener);
+      eventSource34.removeListener(EventType.GENERATE_IMAGE_RESPONSE, activeImageListener);
     } catch (e) {
       console.warn("[VideoAssetGen] \u79FB\u9664\u751F\u56FE\u76D1\u542C\u5668\u5931\u8D25:", e);
     }
@@ -98301,7 +98500,7 @@ async function executeImageGeneration() {
       return;
     }
     try {
-      eventSource33.removeListener(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
+      eventSource34.removeListener(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
     } catch (e) {
       console.warn("[VideoAssetGen] \u79FB\u9664\u76D1\u542C\u5668\u5F02\u5E38:", e);
     }
@@ -98322,15 +98521,15 @@ async function executeImageGeneration() {
     }
   };
   activeImageListener = handleImageResponse2;
-  eventSource33.on(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
+  eventSource34.on(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
   try {
-    eventSource33.emit(EventType.GENERATE_IMAGE_REQUEST, {
+    eventSource34.emit(EventType.GENERATE_IMAGE_REQUEST, {
       id: requestId,
       prompt: promptToUse
     });
   } catch (emitErr) {
     console.error("[VideoAssetGen] \u53D1\u9001\u751F\u56FE\u8BF7\u6C42\u5931\u8D25:", emitErr);
-    eventSource33.removeListener(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
+    eventSource34.removeListener(EventType.GENERATE_IMAGE_RESPONSE, handleImageResponse2);
     isGeneratingImage = false;
     activeImageRequestId = null;
     activeImageListener = null;
@@ -101664,7 +101863,7 @@ ${final_text}`);
         \u662F\u81EA\u52A8\u8C03\u7528: isAutomatedCall,
         \u6D4B\u8BD5\u6A21\u5F0F: isTestMode
       });
-      eventSource37.emit(eventNames.REGEX_RESULT_MESSAGE, {
+      eventSource38.emit(eventNames.REGEX_RESULT_MESSAGE, {
         message: final_text,
         removedRanges: finalRemovedRanges,
         // Include the ranges
@@ -101970,7 +102169,7 @@ function initRegexSettings() {
   loadDemandProfiles();
   $("#ch-gesture-1-button").on("click", () => onRecordGestureClick("gesture1"));
   $("#ch-gesture-2-button").on("click", () => onRecordGestureClick("gesture2"));
-  eventSource37.on(eventNames.REGEX_TEST_MESSAGE, (data) => {
+  eventSource38.on(eventNames.REGEX_TEST_MESSAGE, (data) => {
     const { message, id, keepImageTag } = data;
     if (originalText && message) {
       clearLog();
@@ -105035,8 +105234,7 @@ init_debugLogger();
 
 
 
-var autoLLMClickTimer = null;
-window.autoLLMClick = false;
+var processedAutoLLMMessageIds = /* @__PURE__ */ new Set();
 var generationStartChatLength = 0;
 var generationStartSwipesLength = 0;
 function isPluginEnabled2() {
@@ -105065,16 +105263,22 @@ function isAutoLLMEnabled() {
 }
 async function findElement(messageId) {
   const timer = debugTimer("autoLLMClick.findElement", "\u67E5\u627E\u76EE\u6807\u5143\u7D20");
-  await new Promise((resolve) => setTimeout(resolve, 1e3));
-  const realMesText = document.querySelector(`div.mes[mesid="${messageId}"] .mes_text`);
-  if (realMesText) {
-    console.log("[st-chatu8] Found real mes_text element for messageId:", messageId);
-    debugBranch("autoLLMClick.findElement", "\u627E\u5230\u771F\u5B9EDOM\u5143\u7D20", true, {
-      messageId
-    });
-    debugElement("autoLLMClick.findElement", "\u771F\u5B9Emes_text\u5143\u7D20", realMesText);
-    timer.end("\u627E\u5230\u771F\u5B9E\u5143\u7D20");
-    return realMesText;
+  const maxWaitMs = 1e3;
+  const intervalMs = 50;
+  const startTime = Date.now();
+  while (Date.now() - startTime < maxWaitMs) {
+    const realMesText = document.querySelector(`div.mes[mesid="${messageId}"] .mes_text`);
+    if (realMesText) {
+      console.log("[st-chatu8] Found real mes_text element for messageId:", messageId, "in", Date.now() - startTime, "ms");
+      debugBranch("autoLLMClick.findElement", "\u627E\u5230\u771F\u5B9EDOM\u5143\u7D20", true, {
+        messageId,
+        \u8017\u65F6: Date.now() - startTime
+      });
+      debugElement("autoLLMClick.findElement", "\u771F\u5B9Emes_text\u5143\u7D20", realMesText);
+      timer.end("\u627E\u5230\u771F\u5B9E\u5143\u7D20");
+      return realMesText;
+    }
+    await new Promise((resolve) => setTimeout(resolve, intervalMs));
   }
   console.log("[st-chatu8] Real mes_text not found for messageId:", messageId);
   debugBranch("autoLLMClick.findElement", "\u672A\u627E\u5230DOM\u5143\u7D20", false, {
@@ -105083,26 +105287,7 @@ async function findElement(messageId) {
   timer.end("\u672A\u627E\u5230\u5143\u7D20");
   return null;
 }
-function activateAutoLLMClick() {
-  debugLog("autoLLMClick.activateAutoLLMClick", "\u5C1D\u8BD5\u6FC0\u6D3B\u81EA\u52A8LLM\u70B9\u51FB\u72B6\u6001");
-  if (!isAutoLLMEnabled()) {
-    debugBranch("autoLLMClick.activateAutoLLMClick", "\u81EA\u52A8LLM\u672A\u542F\u7528-\u8DF3\u8FC7\u6FC0\u6D3B", true);
-    return;
-  }
-  window.autoLLMClick = true;
-  debugLog("autoLLMClick.activateAutoLLMClick", "\u5DF2\u8BBE\u7F6E window.autoLLMClick = true");
-  if (autoLLMClickTimer) {
-    clearTimeout(autoLLMClickTimer);
-    debugLog("autoLLMClick.activateAutoLLMClick", "\u6E05\u9664\u4E4B\u524D\u7684\u5B9A\u65F6\u5668");
-  }
-  autoLLMClickTimer = setTimeout(() => {
-    window.autoLLMClick = false;
-    autoLLMClickTimer = null;
-    debugLog("autoLLMClick.activateAutoLLMClick", "5\u79D2\u8D85\u65F6 - \u81EA\u52A8\u5173\u95ED autoLLMClick");
-  }, 8e3);
-  debugMilestone("autoLLMClick.activateAutoLLMClick", "\u81EA\u52A8LLM\u70B9\u51FB\u72B6\u6001\u5DF2\u6FC0\u6D3B\uFF0C5\u79D2\u540E\u81EA\u52A8\u5173\u95ED");
-}
-eventSource43.on(event_types6.GENERATION_STARTED, (data) => {
+eventSource44.on(event_types6.GENERATION_STARTED, (data) => {
   console.log("[st-chatu8] GENERATION_STARTED data:", data);
   debugStartSession("\u81EA\u52A8LLM\u56FE\u7247\u751F\u6210");
   debugLog("autoLLMClick.GENERATION_STARTED", "LLM\u751F\u6210\u5F00\u59CB\u4E8B\u4EF6\u89E6\u53D1", {
@@ -105130,7 +105315,7 @@ eventSource43.on(event_types6.GENERATION_STARTED, (data) => {
     });
   }
 });
-eventSource43.on(event_types6.GENERATION_ENDED, async (data) => {
+eventSource44.on(event_types6.GENERATION_ENDED, async (data) => {
   const timer = debugTimer("autoLLMClick.GENERATION_ENDED", "\u5904\u7406LLM\u751F\u6210\u7ED3\u675F\u4E8B\u4EF6");
   console.log("[st-chatu8] GENERATION_ENDED data:", data);
   console.log("[st-chatu8] Start chat length:", generationStartChatLength, "Start swipes length:", generationStartSwipesLength);
@@ -105174,16 +105359,24 @@ eventSource43.on(event_types6.GENERATION_ENDED, async (data) => {
     timer.end("\u8DF3\u8FC7 - \u529F\u80FD\u672A\u542F\u7528");
     return;
   }
-  const messageId = data - 1;
+  let messageId = -1;
+  if (typeof data === "number" && !isNaN(data) && data > 0) {
+    messageId = data - 1;
+  } else if (chat4 && chat4.length > 0) {
+    messageId = chat4.length - 1;
+  }
   debugLog("autoLLMClick.GENERATION_ENDED", "\u8BA1\u7B97\u6D88\u606FID", {
     eventData: data,
     messageId
   });
   if (messageId >= 0) {
-    const context2 = getContext22();
-    const chat5 = context2?.chat;
-    if (chat5 && chat5[messageId]) {
-      const messageContent = chat5[messageId].mes;
+    if (processedAutoLLMMessageIds.has(messageId)) {
+      console.log("[st-chatu8] Message ID already processed for autoLLM:", messageId, "- skipping");
+      timer.end("\u8DF3\u8FC7 - \u8BE5\u6D88\u606F\u5DF2\u89E6\u53D1\u8FC7\u81EA\u52A8LLM\u751F\u56FE");
+      return;
+    }
+    if (chat4 && chat4[messageId]) {
+      const messageContent = chat4[messageId].mes;
       console.log("[st-chatu8] Message ID:", messageId);
       console.log("[st-chatu8] Message content:", messageContent);
       debugContent("autoLLMClick.GENERATION_ENDED", "\u6D88\u606F\u5185\u5BB9", messageContent, 300);
@@ -105228,8 +105421,9 @@ eventSource43.on(event_types6.GENERATION_ENDED, async (data) => {
       }
       console.log("[st-chatu8] Got element for messageId:", messageId, "isConnected:", el.isConnected);
       debugElement("autoLLMClick.GENERATION_ENDED", "\u76EE\u6807\u5143\u7D20", el);
+      processedAutoLLMMessageIds.add(messageId);
       try {
-        console.log("[st-chatu8] Triggering handlePromptRequest with gesture1");
+        console.log("[st-chatu8] Triggering handlePromptRequest with gesture1 for messageId:", messageId);
         debugMilestone("autoLLMClick.GENERATION_ENDED", "\u5F00\u59CB\u89E6\u53D1 handlePromptRequest");
         debugLog("autoLLMClick.GENERATION_ENDED", "\u8C03\u7528 handlePromptRequest", {
           gestureId: "gesture1",
@@ -105247,7 +105441,7 @@ eventSource43.on(event_types6.GENERATION_ENDED, async (data) => {
       console.log("[st-chatu8] No message found for ID:", messageId);
       debugBranch("autoLLMClick.GENERATION_ENDED", "\u6D88\u606F\u67E5\u627E", false, {
         messageId,
-        chatExists: !!chat5,
+        chatExists: !!chat4,
         \u539F\u56E0: "\u6D88\u606F\u4E0D\u5B58\u5728"
       });
     }
@@ -105257,14 +105451,10 @@ eventSource43.on(event_types6.GENERATION_ENDED, async (data) => {
       \u539F\u56E0: "messageId < 0"
     });
   }
-  activateAutoLLMClick();
   timer.end("\u5904\u7406\u5B8C\u6210");
 });
-eventSource43.on("js_generation_ended", async (data) => {
-  debugLog("autoLLMClick.js_generation_ended", "JS\u751F\u6210\u7ED3\u675F\u4E8B\u4EF6\u89E6\u53D1", {
-    eventData: data
-  });
-  activateAutoLLMClick();
+eventSource44.on(event_types6.CHAT_CHANGED, () => {
+  processedAutoLLMMessageIds.clear();
 });
 function initAutoLLMClick() {
   console.log("[st-chatu8] autoLLMClick module initialized");
@@ -106917,7 +107107,7 @@ async function triggerButtonForTask(task) {
     startGenerating(prompt2);
     const imageResponseHandler = (responseData) => {
       if (responseData.id !== requestId) return;
-      eventSource44.removeListener(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
+      eventSource45.removeListener(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
       addLog(`[Pregen] Response listener removed for ID: ${requestId}`);
       const { success, error, prompt: responsePrompt } = responseData;
       if (responsePrompt) {
@@ -106933,10 +107123,10 @@ async function triggerButtonForTask(task) {
         reject(new Error(error || "Unknown generation error"));
       }
     };
-    eventSource44.on(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
+    eventSource45.on(EventType.GENERATE_IMAGE_RESPONSE, imageResponseHandler);
     addLog(`[Pregen] Response listener created for ID: ${requestId}`);
     const requestData = { id: requestId, prompt: prompt2 };
-    eventSource44.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
+    eventSource45.emit(EventType.GENERATE_IMAGE_REQUEST, requestData);
     addLog(`[Pregen] Emitted image generation request for ID: ${requestId}`);
   });
 }
@@ -107004,11 +107194,11 @@ function parsePrompts(text) {
     return content;
   });
 }
-eventSource45.on(event_types7.generation_started, () => {
+eventSource46.on(event_types7.generation_started, () => {
   if (String(extension_settings113[extensionName].enablePregen) !== "true") return;
   pregenManager.clear();
 });
-eventSource45.on(event_types7.STREAM_TOKEN_RECEIVED, (text) => {
+eventSource46.on(event_types7.STREAM_TOKEN_RECEIVED, (text) => {
   if (String(extension_settings113[extensionName].enablePregen) !== "true" || !text) return;
   const prompts = parsePrompts(text);
   if (prompts.length > 0) {
