@@ -107268,7 +107268,7 @@ function parsePrompts(text) {
   const matches = [...text.matchAll(pattern)];
   return matches.map((match) => {
     let content = match[1].trim().replaceAll("\n", "");
-    content = content.replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":").replace(/🥒/g, "肉棒").replace(/🦪/g, "小穴").replace(/🐢/g, "龟头").replace(/👄/g, "阴唇").replace(/💎/g, "阴蒂").replace(/🍒/g, "乳头").replace(/🐄/g, "乳房").replace(/🌻/g, "肛门").replace(/🥛/g, "精液").replace(/👏/g, "做爱").replace(/🦌/g, "自慰").replace(/☀️/g, "操");
+    content = content.replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":").replace(/🥒/g, "肉棒").replace(/🦪/g, "小穴").replace(/🐢/g, "龟头").replace(/👄/g, "阴唇").replace(/💎/g, "阴蒂").replace(/🍒/g, "乳头").replace(/🐄/g, "乳房").replace(/🌻/g, "肛门").replace(/🥛/g, "精液").replace(/👏/g, "做爱").replace(/🦌/g, "自慰").replace(/☀️/g, "操").replace(/💦/g, "淫水");
     return content;
   });
 }
