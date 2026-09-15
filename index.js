@@ -9060,7 +9060,7 @@ async function safeDataUrlToBlob(dataUrl) {
 }
 function normalizePromptTag(tag) {
   if (!tag || typeof tag !== "string") return "";
-  return tag.trim().replaceAll("\r", "").replaceAll("\n", "").replaceAll("\u300A", "<").replaceAll("\u300B", ">").replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":").replace(/🥒/g, "肉棒").replace(/🦪/g, "小穴").replace(/🐢/g, "龟头").replace(/👄/g, "阴唇").replace(/💎/g, "阴蒂").replace(/🍒/g, "乳头").replace(/🐄/g, "乳房").replace(/🌻/g, "肛门").replace(/🥛/g, "精液").replace(/👏/g, "做爱").replace(/🦌/g, "自慰").replace(/☀️/g, "操");
+  return tag.trim().replaceAll("\r", "").replaceAll("\n", "").replaceAll("\u300A", "<").replaceAll("\u300B", ">").replace(/，/g, ",").replace(/；/g, ";").replace(/：/g, ":").replace(/🥒/g, "肉棒").replace(/🦪/g, "小穴").replace(/🐢/g, "龟头").replace(/👄/g, "阴唇").replace(/💎/g, "阴蒂").replace(/🍒/g, "乳头").replace(/🐇/g, "乳房").replace(/🌻/g, "肛门").replace(/🥛/g, "精液").replace(/👏/g, "做爱").replace(/🦌/g, "自慰").replace(/☀️/g, "操").replace(/💦/g, "淫水");
 }
 var REFERENCE_PIXEL_COUNT, SIGMA_MAGIC_NUMBER, SIGMA_MAGIC_NUMBER_V4_5, LOG_RETENTION_MS, MAX_PERSISTED_LOG_SESSIONS, logPersistenceStatePromise, logWriteQueue, _logInitialized, _pendingLogBuffer, _persistDebounceTimer, LOG_PERSIST_DEBOUNCE_MS;
 var init_utils = __esm({
