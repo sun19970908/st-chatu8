@@ -6126,10 +6126,6 @@ async function createStegoImage() {
   }
 }
 async function updateStegoImage() {
-  updateStegoImage.__queue = (updateStegoImage.__queue || Promise.resolve()).then(__doUpdateStegoImage, __doUpdateStegoImage);
-  return updateStegoImage.__queue;
-}
-async function __doUpdateStegoImage() {
   const stego = new ImageSteganography();
   try {
     const currentData = extension_settings[extensionName].jiuguanStorage || {};
