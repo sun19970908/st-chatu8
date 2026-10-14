@@ -7013,6 +7013,11 @@ async function createStegoImage() {
   }
 }
 async function updateStegoImage(options = {}) {
+  const run = () => __doUpdateStegoImage(options);
+  updateStegoImage.__queue = (updateStegoImage.__queue || Promise.resolve()).then(run, run);
+  return updateStegoImage.__queue;
+}
+async function __doUpdateStegoImage(options = {}) {
   const stego = new ImageSteganography();
   try {
     const currentData = extension_settings[extensionName].jiuguanStorage || {};
