@@ -38929,9 +38929,6 @@ async function handleVisualMatPrepRequest(el, gestureId, options = {}) {
 }
 function extractVideosXmlContent(text) {
   if (!text || typeof text !== "string") return "";
-  const lastIdx = text.lastIndexOf("<videos");
-  const sliceIdx = lastIdx !== -1 ? lastIdx : text.lastIndexOf("<video");
-  if (sliceIdx !== -1) text = text.slice(sliceIdx);
   let targetText = "";
   const videosContainerMatch = text.match(/<videos\b[^>]*>([\s\S]*?)<\/videos>/i);
   if (videosContainerMatch && videosContainerMatch[1]) {
