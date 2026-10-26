@@ -3940,12 +3940,11 @@ var init_settingsSaveScheduler = __esm({
           });
         }
         if (typeof window.addEventListener === "function") {
-          window.addEventListener("pagehide", () => {
-            lifecycleFlushSettingsSave();
-          });
-          window.addEventListener("beforeunload", () => {
-            lifecycleFlushSettingsSave();
-          });
+          // [PATCH-20261026] 移除 pagehide / beforeunload 的强制全量设置保存。
+          // 原因：lifecycleFlushSettingsSave 走 flushSettingsSave({force:true})，会绕过 _isDirty 判断，
+          // 即使没有任何改动也在每次刷新/切窗口时丢一笔整包 settings 保存；且 saveSettingsDebounced
+          // 立即返回 undefined，本文件里的"在飞合并"实际失效，唯一节流只剩 300ms。
+          // chatu8 的数据就在 extension_settings 里，TT 自身的保存与 lifecycle flush 会覆盖，不会丢。
         }
       } catch (err) {
         console.warn("[SettingsScheduler] \u751F\u547D\u5468\u671F\u76D1\u542C\u6CE8\u518C\u5931\u8D25:", err);
