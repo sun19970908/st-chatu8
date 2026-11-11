@@ -25420,13 +25420,17 @@ function bindUIEvents() {
     triggerProfileAutoSave();
   });
   historyDepthSlider.on("input", () => {
-    historyDepthValue.val(historyDepthSlider.val());
-    extension_settings18[extensionName].llm_history_depth = parseInt(historyDepthSlider.val(), 10);
+    const val = Math.min(5, Math.max(0, parseInt(historyDepthSlider.val(), 10) || 0));
+    historyDepthSlider.val(val);
+    historyDepthValue.val(val);
+    extension_settings18[extensionName].llm_history_depth = val;
     saveSettingsDebounced10();
   });
   historyDepthValue.on("input", () => {
-    historyDepthSlider.val(historyDepthValue.val());
-    extension_settings18[extensionName].llm_history_depth = parseInt(historyDepthValue.val(), 10);
+    const val = Math.min(5, Math.max(0, parseInt(historyDepthValue.val(), 10) || 0));
+    historyDepthSlider.val(val);
+    historyDepthValue.val(val);
+    extension_settings18[extensionName].llm_history_depth = val;
     saveSettingsDebounced10();
   });
   retryCountSlider.on("input", () => {
@@ -25490,7 +25494,9 @@ function loadInitialData() {
   loadTestContextProfiles();
   loadRequestTypeProfiles(true);
   loadGlobalToolAndTailSettingsToUI();
-  const historyDepth = extension_settings18[extensionName].llm_history_depth ?? 0;
+  const rawHistoryDepth = extension_settings18[extensionName].llm_history_depth ?? 0;
+  const historyDepth = Math.min(5, Math.max(0, parseInt(rawHistoryDepth, 10) || 0));
+  extension_settings18[extensionName].llm_history_depth = historyDepth;
   historyDepthSlider.val(historyDepth);
   historyDepthValue.val(historyDepth);
   const tagthinkEcho = String(extension_settings18[extensionName].tagthinkEcho) === "true";
@@ -45972,7 +45978,7 @@ var init_runninghubScheduler = __esm({
                   continue;
                 }
                 if (zeroBalanceCount > 0 && zeroBalanceCount + pausedCount === keys.length) {
-                  this.finishWaiter(w, new Error("\u914D\u7F6E\u7684\u5168\u90E8\u53EF\u7528 RunningHub API Key \u4F59\u989D\u5747\u5C0F\u4E8E\u7B49\u4E8E0\uFF0C\u8BF7\u5145\u503C\u540E\u91CD\u8BD5\uFF01"));
+                  this.finishWaiter(w, new Error("\u914D\u7F6E\u7684\u5168\u90E8\u53EF\u7528 RunningHub API Key \u989D\u5EA6\uFF08\u79EF\u5206\u3001RH\u5E01\u3001\u94B1\u5305\u4F59\u989D\uFF09\u5747\u5C0F\u4E8E\u7B49\u4E8E0\uFF0C\u8BF7\u5145\u503C\u540E\u91CD\u8BD5\uFF01"));
                   continue;
                 }
               }
@@ -45998,6 +46004,7 @@ var init_runninghubScheduler = __esm({
           cancelled: false,
           queueInfo: s.info?.queue,
           remainCoins: s.info?.balance?.remainCoins,
+          remainPoint: s.info?.balance?.remainPoint,
           isCancelled: () => lease.cancelled,
           // 晚绑定与孤儿终止，防止网络间隙期取消导致云端任务泄漏
           setRemoteTaskId: (rId) => {
@@ -46339,12 +46346,14 @@ async function checkKeyHasBalance(apiKey, forceRefresh = false) {
   try {
     const data = await fetchRunningHubAccountStatus(apiKey);
     if (data && data.code === 0 && data.data) {
+      const remainPoint = parseFloat(data.data.remainPoint ?? 0);
       const remainCoins = parseFloat(data.data.remainCoins ?? 0);
       const remainMoney = parseFloat(data.data.remainMoney ?? 0);
-      const hasBalance = remainCoins > 0 || remainMoney > 0;
+      const hasBalance = remainPoint > 0 || remainCoins > 0 || remainMoney > 0;
       const result = {
         isValid: true,
         hasBalance,
+        remainPoint,
         remainCoins,
         remainMoney,
         raw: data.data,
@@ -46356,6 +46365,7 @@ async function checkKeyHasBalance(apiKey, forceRefresh = false) {
       const result = {
         isValid: false,
         hasBalance: false,
+        remainPoint: 0,
         remainCoins: 0,
         remainMoney: 0,
         raw: data,
@@ -46370,6 +46380,7 @@ async function checkKeyHasBalance(apiKey, forceRefresh = false) {
     return {
       isValid: false,
       hasBalance: false,
+      remainPoint: 0,
       remainCoins: 0,
       remainMoney: 0,
       errorCode: -1,
@@ -92608,6 +92619,121 @@ function updateNovelaiScheduleVisibility(targetModel = null) {
     scheduleField.style.display = "flex";
   }
 }
+function formatRefillDuration(seconds) {
+  if (!seconds || seconds <= 0) return "0\u79D2";
+  const d = Math.floor(seconds / 86400);
+  const h = Math.floor(seconds % 86400 / 3600);
+  const m = Math.floor(seconds % 3600 / 60);
+  const s = seconds % 60;
+  let res = "";
+  if (d > 0) res += `${d}\u5929`;
+  if (h > 0) res += `${h}\u5C0F\u65F6`;
+  if (m > 0) res += `${m}\u5206`;
+  if (s > 0 && d === 0) res += `${s}\u79D2`;
+  return res || `${s}\u79D2`;
+}
+async function queryNovelaiQuota(settingsModal) {
+  const apiInput = settingsModal.find("#novelaiApi");
+  const apiKey = (apiInput.val() || "").trim();
+  if (!apiKey) {
+    if (typeof toastr !== "undefined") {
+      toastr.warning("\u8BF7\u5148\u8F93\u5165 NovelAI API Key");
+    }
+    apiInput.focus();
+    return;
+  }
+  const checkBtn = settingsModal.find("#novelaiCheckQuotaBtn");
+  const btnText = checkBtn.find("span");
+  const quotaPanel = settingsModal.find("#novelaiQuotaPanel");
+  let baseUrl = "https://image.novelai.net";
+  const siteSelect = settingsModal.find("#novelaisite").val();
+  if (siteSelect && siteSelect !== "\u5B98\u7F51") {
+    const otherSite = (settingsModal.find("#novelaiOtherSite").val() || "").trim();
+    if (otherSite) {
+      baseUrl = otherSite.replace(/\/+$/, "");
+    }
+  }
+  checkBtn.addClass("is-loading").prop("disabled", true);
+  btnText.text("\u67E5\u8BE2\u4E2D...");
+  try {
+    const resp = await fetch(`${baseUrl}/user/subscription`, {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${apiKey}`,
+        "Accept": "application/json"
+      }
+    });
+    if (!resp.ok) {
+      if (resp.status === 401) {
+        throw new Error("API Key \u65E0\u6548\u6216\u672A\u6388\u6743 (401)");
+      } else {
+        throw new Error(`\u72B6\u6001\u7801: ${resp.status}`);
+      }
+    }
+    const data = await resp.json();
+    const tierMap = {
+      0: "\u514D\u8D39\u7528\u6237 (Free)",
+      1: "Tablet \u4F1A\u5458",
+      2: "Scroll \u4F1A\u5458",
+      3: "Opus \u4F1A\u5458"
+    };
+    const tierName = tierMap[data.tier] || `\u4F1A\u5458 (Tier ${data.tier})`;
+    settingsModal.find("#novelaiQuotaTierName").text(tierName);
+    const badge = settingsModal.find("#novelaiQuotaStatusBadge");
+    if (data.active) {
+      badge.removeClass("expired").text("\u6709\u6548");
+    } else {
+      badge.addClass("expired").text("\u5DF2\u8FC7\u671F");
+    }
+    const now = /* @__PURE__ */ new Date();
+    const timeStr = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}:${String(now.getSeconds()).padStart(2, "0")}`;
+    settingsModal.find("#novelaiQuotaRefreshTime").text(`${timeStr} \u67E5\u8BE2`);
+    const usage = data.usage || {};
+    const percent = typeof usage.percent === "number" ? usage.percent : data.tier === 3 ? 100 : 0;
+    const timeUntilNext = usage.timeUntilNextPercent || 0;
+    const isNegative = !!usage.isNegative;
+    settingsModal.find("#novelaiV5PercentNum").text(percent);
+    let refillText = "";
+    if (isNegative) {
+      refillText = "(\u989D\u5EA6\u900F\u652F)";
+    } else if (timeUntilNext > 0) {
+      const timeDesc = formatRefillDuration(timeUntilNext);
+      refillText = `(\u5145\u80FD\u4E2D: \u7EA6${timeDesc} +1%)`;
+    } else if (percent >= 100) {
+      refillText = "(\u989D\u5EA6\u5145\u76C8)";
+    } else {
+      refillText = "(\u6062\u590D\u5DF2\u6682\u505C)";
+    }
+    settingsModal.find("#novelaiV5RefillInfo").text(refillText);
+    const progressBar = settingsModal.find("#novelaiV5ProgressBar");
+    progressBar.removeClass("low warning");
+    if (percent <= 20) {
+      progressBar.addClass("low");
+    } else if (percent <= 50) {
+      progressBar.addClass("warning");
+    }
+    progressBar.css("width", `${Math.min(100, Math.max(0, percent))}%`);
+    const trainingSteps = data.trainingStepsLeft || {};
+    const fixedAnlas = Number(trainingSteps.fixedTrainingStepsLeft || 0);
+    const purchasedAnlas = Number(trainingSteps.purchasedTrainingSteps || 0);
+    const totalAnlas = fixedAnlas + purchasedAnlas;
+    settingsModal.find("#novelaiAnlasTotal").text(totalAnlas.toLocaleString());
+    settingsModal.find("#novelaiAnlasFixed").text(`\u5957\u9910: ${fixedAnlas.toLocaleString()}`);
+    settingsModal.find("#novelaiAnlasPurchased").text(`\u5145\u503C: ${purchasedAnlas.toLocaleString()}`);
+    quotaPanel.slideDown(250);
+    if (typeof toastr !== "undefined") {
+      toastr.success(`\u67E5\u8BE2\u6210\u529F\uFF1A${tierName}\uFF0CAnlas ${totalAnlas.toLocaleString()}`);
+    }
+  } catch (err) {
+    console.error("[st-chatu8] \u67E5\u8BE2 NovelAI \u989D\u5EA6\u5931\u8D25:", err);
+    if (typeof toastr !== "undefined") {
+      toastr.error(`\u67E5\u8BE2\u5931\u8D25: ${err.message}`);
+    }
+  } finally {
+    checkBtn.removeClass("is-loading").prop("disabled", false);
+    btnText.text("\u67E5\u8BE2\u989D\u5EA6");
+  }
+}
 function initNovelaiUI(settingsModal) {
   const settings3 = extension_settings75[extensionName];
   const novelaiModeSelect = document.getElementById("novelaimode");
@@ -92660,6 +92786,15 @@ function initNovelaiUI(settingsModal) {
   });
   settingsModal.find("#novelaiOtherSite").on("change input", function() {
     clearNovelAIUrlCache();
+  });
+  settingsModal.find("#novelaiCheckQuotaBtn").on("click", function() {
+    queryNovelaiQuota(settingsModal);
+  });
+  settingsModal.find("#novelaiApi").on("keydown", function(e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      queryNovelaiQuota(settingsModal);
+    }
   });
   settingsModal.find("#novelaiApiToggle").on("click", function() {
     const input = settingsModal.find("#novelaiApi")[0];
@@ -98689,6 +98824,7 @@ function initRunningHubUI(settingsModal) {
         const maskedKey = res.key.length > 12 ? `${res.key.slice(0, 6)}...${res.key.slice(-4)}` : res.key;
         if (res.accountOk || res.queueOk) {
           successCount++;
+          const remainPoint = res.accountData.remainPoint ?? 0;
           const remainCoins = res.accountData.remainCoins ?? "0";
           const remainMoney = res.accountData.remainMoney ?? "0.00";
           const currency = res.accountData.currency || "CNY";
@@ -98738,6 +98874,9 @@ function initRunningHubUI(settingsModal) {
                                         </span>
                                         <span class="st-chatu8-rh-badge" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.25);">
                                             \u26A1 \u8FDC\u7AEF\u4EFB\u52A1: <strong>\u8FD0\u884C\u4E2D ${running} / \u6392\u961F ${queued}</strong>
+                                        </span>
+                                        <span class="st-chatu8-rh-badge" style="background: rgba(14, 165, 233, 0.15); color: #38bdf8; border-color: rgba(14, 165, 233, 0.25);">
+                                            \u{1F3AF} \u79EF\u5206: <strong>${remainPoint}</strong>
                                         </span>
                                         <span class="st-chatu8-rh-badge" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24; border-color: rgba(245, 158, 11, 0.25);">
                                             \u{1FA99} RH\u5E01: <strong>${remainCoins}</strong>
